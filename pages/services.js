@@ -3,14 +3,14 @@
 import React from 'react';
 import Navigation from '../components/navigation';
 
-const ContactUs = () => {
+const Service = () => {
     return (
         <div>
             <Navigation />
-            <h1>ContactUs Page</h1>
+            <h1>Service Page</h1>
 
         </div>
     );
 };
 
-export default ContactUs;
+export default Service;
