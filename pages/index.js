@@ -42,11 +42,7 @@ const Home = () => {
                 </div>
               </h1>
             </div>
-            <p
-              className="text-center text-primary text-xl xxxl:text-3xl xxm:text-base mt-2 xxxl:p-4"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
+            <p className="text-center text-primary p-3 text-xl xxxl:text-3xl xxm:text-base mt-2 xxxl:p-4">
               Tell us what project you are planning and we will let you know
               what you might need.
             </p>
