@@ -23,7 +23,7 @@ const Navigation = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="lg:flex lg:justify-between lg:items-center container bg-white px-4 py-2 rounded-md mt-2 xxl:max-w-9xl lg:max-w-7xl md:max-w-5xl z-10">
+      <div className="lg:flex fixed lg:justify-between lg:items-center container bg-white px-4 py-2 rounded-md mt-2 xxl:max-w-7xl xxxl:max-w-[100rem] lg:max-w-4xl md:max-w-2xl xl:max-w-6xl z-10">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 mr-4" data-aos="fade-right">
             <Link href="/">
@@ -49,7 +49,7 @@ const Navigation = () => {
             <li className="text-base text-secondary uppercase font-semibold">
               <Link href="/">Home</Link>
             </li>
-            <li className="text-base text-secondary uppercase font-semibold relative">
+            <li className="text-base text-secondary uppercase font-semibold px-2 relative">
               <Link
                 href="/services"
                 onMouseEnter={handleSubMenuToggle}
@@ -64,60 +64,60 @@ const Navigation = () => {
                   <i className="fa-solid fa-chevron-down"></i>
                 </span>
                 {subMenuOpen && (
-                  <ul className="absolute bg-white py-2 rounded-md shadow-lg">
-                    <li className="text-base text-secondary uppercase font-semibold">
+                  <ul className="absolute top-11 bg-white py-2  shadow-lg px-4">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/breeam">BREEAM</Link>
                     </li>
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/buildingLifeCycle">
                         Building Life Cycle
                       </Link>
                     </li>
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/thermalModelling">
                         Thermal Modelling{" "}
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/partLEPC_SAP">Part L/EPC SAP</Link>
                     </li>{" "}
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/partLEPC_SBEM">
                         Part L/EPC SBEM
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/airTightnessTesting">
                         Airtightness Testing{" "}
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/waterCalculations">
                         Water Calculations
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/energyStrategy">
                         Energy Strategy
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/indoorAirQuality">
                         Indoor Air Quality
                       </Link>
                     </li>
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/dayLightining">Daylighting </Link>
                     </li>
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/acoustics">Acoustics</Link>
                     </li>
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/thermographics">
                         Thermographics
                       </Link>
                     </li>
-                    <li className="text-base text-secondary uppercase font-semibold">
+                    <li className="text-base text-secondary uppercase font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/floodRisk">Flood Risk</Link>
                     </li>
                   </ul>

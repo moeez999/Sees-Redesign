@@ -27,7 +27,7 @@ const BoxWrapper = () => {
   ];
 
   return (
-    <div className="box-wrapper">
+    <div className="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       {boxes.map((box, index) => (
         <figure className="shape-box shape-box_half" key={index}>
           <img src={box.imgSrc} alt="" />

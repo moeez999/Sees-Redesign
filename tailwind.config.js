@@ -17,6 +17,7 @@ module.exports = {
       lg: { min: "1024px" },
       xl: { min: "1280px" },
       xxl: { min: "1536px" },
+      xxxl: { min: "2000px" },
     },
     extend: {
       colors: {
