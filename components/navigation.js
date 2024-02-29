@@ -46,10 +46,10 @@ const Navigation = () => {
           }`}
         >
           <ul className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4">
-            <li className="text-base text-secondary capitalize font-semibold">
+            <li className="text-base text-primary capitalize font-semibold">
               <Link href="/">Home</Link>
             </li>
-            <li className="text-base text-secondary capitalize font-semibold relative">
+            <li className="text-base text-primary capitalize font-semibold relative">
               <Link
                 href="/services"
                 onMouseEnter={handleSubMenuToggle}
@@ -65,62 +65,62 @@ const Navigation = () => {
                 </span>
                 {subMenuOpen && (
                   <ul className="absolute top-11 bg-white py-2  shadow-lg px-4">
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/breeam">BREEAM</Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/buildingLifeCycle">
                         Building Life Cycle
                       </Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/thermalModelling">
                         Thermal Modelling{" "}
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/partLEPC_SAP">Part L/EPC SAP</Link>
                     </li>{" "}
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/partLEPC_SBEM">
                         Part L/EPC SBEM
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/airTightnessTesting">
                         Airtightness Testing{" "}
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/waterCalculations">
                         Water Calculations
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/energyStrategy">
                         Energy Strategy
                       </Link>
                     </li>{" "}
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/indoorAirQuality">
                         Indoor Air Quality
                       </Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/dayLightining">Daylighting </Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/acoustics">Acoustics</Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/thermographics">
                         Thermographics
                       </Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/floodRisk">Flood Risk</Link>
                     </li>
-                    <li className="text-base text-secondary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
+                    <li className="text-base text-primary capitalize font-semibold px-2 hover:bg-secondary hover:text-white py-1">
                       <Link href="/services/buildingUserGuide">
                         Building User Guide/O&M Manual
                       </Link>
@@ -129,16 +129,16 @@ const Navigation = () => {
                 )}
               </Link>
             </li>
-            <li className="text-base text-secondary capitalize font-semibold">
+            <li className="text-base text-primary capitalize font-semibold">
               <Link href="/projects">Projects</Link>
             </li>
-            <li className="text-base text-secondary capitalize font-semibold">
+            <li className="text-base text-primary capitalize font-semibold">
               <Link href="/faqs">FAQs</Link>
             </li>
-            <li className="text-base text-secondary capitalize font-semibold">
+            <li className="text-base text-primary capitalize font-semibold">
               <Link href="/aboutus">About Us</Link>
             </li>
-            <li className="text-base text-secondary capitalize font-semibold">
+            <li className="text-base text-primary capitalize font-semibold">
               <Link href="/contactUs">Contact</Link>
             </li>
           </ul>

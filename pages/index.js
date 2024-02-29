@@ -11,11 +11,12 @@ import TestimonialSlider from "../components/testimonialSlider";
 import QuoteContainer from "../components/reviews";
 import quotesData from "../components/reviewsData";
 import ServicesSlider from "./../components/servicesSlider";
+import HeroSection from "../components/heroSection";
 
 const Home = () => {
   return (
     <div>
-      <div className="hero-section">
+      {/* <div className="hero-section">
         <Navigation />
 
         <div className="text-center absolute  xxm:w-[95%]  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mainhead p-6 xxm:p-2 rounded-md">
@@ -48,7 +49,8 @@ const Home = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
+      <HeroSection></HeroSection>
       <div className="flex justify-center">
         <div className="w-[80%] xsm:w-full">
           <div className="flex justify-center">
