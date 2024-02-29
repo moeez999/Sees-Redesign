@@ -29,23 +29,21 @@ const BoxWrapper = () => {
   return (
     <div className="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       {boxes.map((box, index) => (
-        <div className="card-flip">
-          <figure className="shape-box shape-box_half" key={index}>
-            <img src={box.imgSrc} alt="" />
-            <div className="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
-            <figcaption>
-              <div className="show-cont">
-                <h3 className="card-no">0{index + 1}</h3>
-                <h4 className="card-main-title">{box.title}</h4>
-              </div>
-              <p className="card-content">{box.content}</p>
-              <a href="#" className="read-more-btn">
-                {box.buttonText}
-              </a>
-            </figcaption>
-            <span className="after"></span>
-          </figure>
-        </div>
+        <figure className="shape-box shape-box_half" key={index}>
+          <img src={box.imgSrc} alt="" />
+          <div className="brk-abs-overlay z-index-0 bg-black opacity-60"></div>
+          <figcaption>
+            <div className="show-cont">
+              <h3 className="card-no">0{index + 1}</h3>
+              <h4 className="card-main-title">{box.title}</h4>
+            </div>
+            <p className="card-content">{box.content}</p>
+            <a href="#" className="read-more-btn">
+              {box.buttonText}
+            </a>
+          </figcaption>
+          <span className="after"></span>
+        </figure>
       ))}
     </div>
   );
