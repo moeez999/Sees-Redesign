@@ -15,9 +15,9 @@ const navigation = {
   ],
   company: [
     { name: "REFUND POLICY", href: "#" },
-    { name: "FAQS", href: "#" },
+    { name: "FAQS", href: "/faqs" },
     { name: "RECRUITMENT", href: "#" },
-    { name: "CONTACT US", href: "#" },
+    { name: "CONTACT US", href: "/contactUs" },
   ],
   legal: [
     { name: "Claim", href: "#" },

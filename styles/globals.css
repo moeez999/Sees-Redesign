@@ -6,7 +6,9 @@
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-size: 62.5%;
   font-family: Poppins, sans-serif;
@@ -305,7 +307,7 @@ nav ul li {
 .main h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 4rem;
+
   font-weight: bolder;
 }
 
@@ -351,21 +353,14 @@ nav ul li {
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
+  .main h1 {
     text-align: center;
     text-transform: uppercase;
-    color: #f1faee;
-    font-size: 2.125rem;
   }
 
   .roller {
     height: 2.6rem;
     line-height: 2.125rem;
-  }
-
-  #spare-time {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
   }
 
   .roller #rolltext {
@@ -386,4 +381,21 @@ nav ul li {
       top: -6.375rem;
     }
   }
+}
+.client-slider .swiper-slide {
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }

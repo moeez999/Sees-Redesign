@@ -22,7 +22,23 @@ const clients = [
   { id: 9, name: "MWP", imageSrc: "Clients/MWP.png" },
   { id: 10, name: "Persimmon Homes", imageSrc: "Clients/Persimmon Homes.png" },
 ];
-
+const breakpoints = {
+  320: {
+    slidesPerView: 1,
+  },
+  480: {
+    slidesPerView: 2,
+  },
+  640: {
+    slidesPerView: 3,
+  },
+  768: {
+    slidesPerView: 4,
+  },
+  1024: {
+    slidesPerView: 5,
+  },
+};
 const ClientSlider = () => {
   return (
     <Swiper
@@ -34,7 +50,8 @@ const ClientSlider = () => {
       }}
       speed={3500}
       spaceBetween={50}
-      slidesPerView={5}
+      breakpoints={breakpoints}
+      // slidesPerView={5}
     >
       {clients.map((client) => (
         <SwiperSlide key={client.id}>
