@@ -12,6 +12,7 @@ import QuoteContainer from "../components/reviews";
 import quotesData from "../components/reviewsData";
 import ServicesSlider from "./../components/servicesSlider";
 import HeroSection from "../components/heroSection";
+import AssociationsSlider from "../components/associations";
 
 const Home = () => {
   return (
@@ -171,7 +172,9 @@ const Home = () => {
           </a>
         </div>
       </div>
-
+      <div className="p-4 mt-4">
+        <AssociationsSlider></AssociationsSlider>
+      </div>
       <Footer />
     </div>
   );

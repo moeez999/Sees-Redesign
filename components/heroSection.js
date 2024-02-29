@@ -111,10 +111,21 @@ export default function HeroSection() {
 
             <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-4xl">
-                  THE HOME OF BUILDING REGULATION COMPLIANCE, TESTING AND
-                  CERTIFICATION
-                </h1>
+                <div class="main">
+                  <h1 className="text-primary text-3xl md:text-4xl xxl:text-5xl xxxl:text-7xl">
+                    THE HOME OF BUILDING
+                    <div class="roller">
+                      <span id="rolltext">
+                        REGULATION COMPLIANCE,
+                        <br />
+                        TESTING AND CERTIFICATION
+                        <br />
+                        Curiosity
+                        <br />
+                      </span>
+                    </div>
+                  </h1>
+                </div>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Tell us what project you are planning and we will let you know
                   what you might need.
