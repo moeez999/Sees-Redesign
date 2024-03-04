@@ -69,7 +69,7 @@ const Navigation = () => {
               className="flex items-center justify-between lg:justify-start"
               aria-label="Global"
             >
-              <a href="#" className="m-1.5 p-1.5">
+              <a href="/" className="m-1.5 p-1.5">
                 <img alt="sees" className="w-24 max-w-2xl" src="/logo.png" />
               </a>
               <button
@@ -131,7 +131,7 @@ const Navigation = () => {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <img alt="sees" className="w-24 max-w-2xl" src="/logo.png" />
               </a>
               <button
@@ -146,13 +146,39 @@ const Navigation = () => {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
+                  {navigation.map((item, index) => (
                     <a
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-primary hover:bg-gray-50"
                     >
                       {item.name}
+                      <span
+                        className="chevron-down"
+                        onMouseEnter={() => handleChevronHover(index)}
+                        onMouseLeave={handleChevronLeave}
+                      >
+                        {item.chevron}
+                      </span>
+                      {openSubMenu === index && (
+                        <div
+                          className="absolute top-2 left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden opacity-100 visible transition-opacity duration-200 z-10"
+                          onMouseEnter={handleSubMenuEnter}
+                          onMouseLeave={handleSubMenuLeave}
+                        >
+                          <div className="py-1">
+                            {item.subItems.map((subItem) => (
+                              <a
+                                key={subItem.name}
+                                href={subItem.href}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                              >
+                                {subItem.name}
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                     </a>
                   ))}
                 </div>

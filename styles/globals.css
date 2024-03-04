@@ -423,3 +423,44 @@ nav ul li {
     justify-content: center;
   }
 }
+
+.anima {
+  z-index: -1;
+  animation: animateGradient 3s linear infinite;
+  background: linear-gradient(to right, #509e2f, lightgreen);
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.service-styles--list {
+  list-style: none;
+  & li {
+    opacity: 0;
+    transform: translateX(100px);
+    --bullet-y: -150px;
+    --bullet-opacity: 0;
+    &::after {
+      content: "";
+      position: absolute;
+      background: #19325a;
+      top: 5px;
+      left: -25px;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      opacity: var(--bullet-opacity);
+      transform: translateY(var(--bullet-y));
+    }
+  }
+}
+
+.u-positionRelative {
+  position: relative;
+}

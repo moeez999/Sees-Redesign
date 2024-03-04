@@ -1,13 +1,6 @@
 import React from "react";
-import Navigation from "../components/navigation";
-import ServiceCard from "../components/serviceCards";
-import DomesticsAndCommercial from "../components/domesticAndCommerical";
-import BuildingDwelling from "../components/newBuildDwelling";
-import YouTube from "react-youtube";
 import Footer from "../components/footer";
 import ClientSlider from "../components/clients";
-import BoxWrapper from "../components/cards";
-import TestimonialSlider from "../components/testimonialSlider";
 import QuoteContainer from "../components/reviews";
 import quotesData from "../components/reviewsData";
 import ServicesSlider from "./../components/servicesSlider";
@@ -38,8 +31,14 @@ const Home = () => {
       </div>
       <div className="flex justify-center">
         <div className="w-[80%] xsm:w-full">
-          <div className="flex justify-center">
-            <h1 className="text-2xl md:text-4xl xxl:text-5xl xxxl:text-7xl text-secondary font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full">
+          <div
+            className="flex justify-center anima"
+            // style={{
+            //   background: "url(./sincerely-media-4dSXcNTyXaI-unsplash.jpg)",
+            //   backgroundSize: "cover",
+            // }}
+          >
+            <h1 className="text-2xl md:text-4xl xxl:text-5xl xxxl:text-7xl text-white font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full">
               TRUSTED BY HOME OWNERS, ARCHITECTS, HOUSING ASSOCIATIONS, COUNCILS
               AND NATIONAL HOUSE BUILDERS ALIKE.
             </h1>
@@ -51,7 +50,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-8 px-4 my-6 mx-4">
+      <div className="py-8 px-4 my-6  anima">
         <AssociationsSlider></AssociationsSlider>
       </div>
       <div className="p-4 mt-8" id="review-section">

@@ -5,11 +5,11 @@ export default function HeroSection() {
   return (
     <div className="bg-white">
       <Navigation />
-      <div className="relative bg-secondary">
+      <div className="relative bg-secondary h-screen">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
             <svg
-              className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-secondary lg:block"
+              className="absolute h-screen inset-y-0 right-8 hidden w-80 translate-x-1/2 transform fill-secondary lg:block"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
               aria-hidden="true"
