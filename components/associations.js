@@ -40,10 +40,10 @@ const AssociationsSlider = () => {
           standards.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4 p-6 my-4">
-        {associations.map((service) => (
-          <div className="w-44 p-4 associations-cards">
-            <img src={service.imageSrc} alt={service.name} />
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:xl:grid-cols-6 gap-4 p-6 my-4">
+        {associations.map((association) => (
+          <div key={association.id} className="w-44 p-4 associations-cards">
+            <img src={association.imageSrc} alt={association.name} />
           </div>
         ))}
       </div>

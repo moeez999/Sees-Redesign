@@ -51,13 +51,23 @@ const services = [
     name: "Thermal Modelling",
     imageSrc: "Service Logos/Thermal Modelling.png",
   },
+  {
+    id: 13,
+    name: "Building Life Cycle",
+    imageSrc: "Service Logos/Building Life Cycle.png",
+  },
+  {
+    id: 14,
+    name: "Building User Guide",
+    imageSrc: "Service Logos/Building User Guide.png",
+  },
 ];
 
 const ServicesSlider = () => {
   return (
-    <div className="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 p-6 my-4">
+    <div className="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 p-6 my-4">
       {services.map((service) => (
-        <div className="w-44 service-cards">
+        <div key={service.id} className="w-44 service-cards">
           <img src={service.imageSrc} alt={service.name} />
           <p className="text-center text-lg">{service.name}</p>
         </div>
