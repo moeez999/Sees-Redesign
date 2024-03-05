@@ -32,7 +32,7 @@ const AssociationsSlider = () => {
     <div className="flex lg:flex-row-reverse items-center justify-center flex-col">
       <div className="md:w-[30%] ">
         <h1 className="text-3xl font-semibold md:text-center  text-primary p-4 xxxl:text-5xl">
-          <span className="text-secondary">Our</span> associations
+          <span className="text-white">Our</span> associations
         </h1>
         <p className="text-base md:text-center">
           We know that you need complete confidence in your supply chain. That's

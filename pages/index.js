@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/footer";
 import ClientSlider from "../components/clients";
 import QuoteContainer from "../components/reviews";
@@ -6,6 +6,7 @@ import quotesData from "../components/reviewsData";
 import ServicesSlider from "./../components/servicesSlider";
 import HeroSection from "../components/heroSection";
 import AssociationsSlider from "../components/associations";
+import TypewriterComponent from "../components/typeWriter";
 
 const Home = () => {
   return (
@@ -31,17 +32,12 @@ const Home = () => {
       </div>
       <div className="flex justify-center">
         <div className="w-[80%] xsm:w-full">
-          <div
-            className="flex justify-center anima"
-            // style={{
-            //   background: "url(./sincerely-media-4dSXcNTyXaI-unsplash.jpg)",
-            //   backgroundSize: "cover",
-            // }}
-          >
-            <h1 className="text-2xl md:text-4xl xxl:text-5xl xxxl:text-7xl text-white font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full">
+          <div className="flex justify-center anima">
+            <TypewriterComponent />
+            {/* <h1 className="text-2xl; text-white md:text-4xl xxl:text-5xl xxxl:text-7xl  font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full">
               TRUSTED BY HOME OWNERS, ARCHITECTS, HOUSING ASSOCIATIONS, COUNCILS
               AND NATIONAL HOUSE BUILDERS ALIKE.
-            </h1>
+            </h1> */}
           </div>
 
           <div className="p-2 mt-8 container client-slider mx-auto flex justify-center">

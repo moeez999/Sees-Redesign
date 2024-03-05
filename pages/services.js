@@ -4,11 +4,11 @@ import ServicesCards from "../components/cards";
 
 const Service = () => {
   return (
-    <div>
+    <div className="relative">
       <div data-aos="fade-right">
         <Navigation />
       </div>
-      <div className="py-28 ">
+      <div className="py-28 absolute top-1/2 left-1/2 transform -translate-x-1/2 w-full  z-[-10]">
         <div className="flex justify-center flex-col items-center">
           <h1
             className=" text-2xl md:text-4xl xxl:text-5xl xxxl:text-7xl font-bold  p-4 xxxl:p-8"
