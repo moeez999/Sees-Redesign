@@ -22,8 +22,8 @@ export default function breeam() {
             Non-domestic Assessment
           </h3>
         </div>
-        <div class="flex justify-center">
-          <div class="flex justify-between items-center container mx-auto p-4">
+        <div className="flex justify-center">
+          <div className="flex justify-between items-center container mx-auto p-4">
             <div className="w-[45%]">
               <p className="text-lg md:text-xl xxl:text-xl xxxl:text-2xl font-bold text-secondary p-4 xxxl:p-8">
                 What we bring?

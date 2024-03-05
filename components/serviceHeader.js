@@ -13,7 +13,19 @@ export default function ServiceHeader({ data }) {
       >
         <div className="" style={{}} />
       </div>
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-2xl text-center area">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
         <h2
           className="text-4xl font-bold tracking-tight text-white sm:text-6xl"
           data-aos="flip-up"

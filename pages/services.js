@@ -4,7 +4,18 @@ import ServicesCards from "../components/cards";
 
 const Service = () => {
   return (
-    <div className="relative">
+    <div className="relative area">
+      <ul className="service-circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
       <div data-aos="fade-right">
         <Navigation />
       </div>

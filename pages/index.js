@@ -32,10 +32,22 @@ const Home = () => {
       </div>
       <div className="flex justify-center">
         <div className="w-[80%] xsm:w-full">
-          <div className="flex justify-center anima">
+          <div className="flex justify-center relative anima">
+            <ul className="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
             <h1
               data-aos="fade-right"
-              data-aos-delay="500"
+              data-aos-delay="300"
               className="text-2xl; text-white md:text-4xl xxl:text-5xl xxxl:text-7xl  font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full"
             >
               TRUSTED BY HOME OWNERS, ARCHITECTS, HOUSING ASSOCIATIONS, COUNCILS
@@ -49,7 +61,19 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-8 px-4 my-6  anima">
+      <div className="py-8 px-4 my-6  anima relative">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
         <AssociationsSlider></AssociationsSlider>
       </div>
       <div className="p-4 mt-8" id="review-section">
@@ -64,7 +88,7 @@ const Home = () => {
           View More Reviews
         </a>
       </div>
-      <div className="flex justify-center p-4  my-8">
+      <div className="flex justify-center p-4 relative my-8">
         <div className="quote flex flex-col items-center  shadow-2xl rounded-md p-4">
           <h1 className="text-3xl font-semibold text-center text-secondary p-4 xxxl:text-5xl">
             GET A QUOTE

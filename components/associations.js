@@ -29,7 +29,7 @@ const associations = [
 
 const AssociationsSlider = () => {
   return (
-    <div className="flex lg:flex-row-reverse items-center justify-center flex-col">
+    <div className="flex lg:flex-row-reverse items-center justify-center flex-col ">
       <div className="md:w-[30%] ">
         <h1 className="text-3xl font-semibold md:text-center  text-primary p-4 xxxl:text-5xl">
           <span className="text-white">Our</span> associations
