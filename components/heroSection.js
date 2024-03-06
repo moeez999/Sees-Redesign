@@ -22,7 +22,7 @@ export default function HeroSection() {
                 <div className="main">
                   <h1 className="text-primary text-3xl md:text-4xl xxl:text-5xl xxxl:text-7xl">
                     THE HOME OF BUILDING
-                    <div className="roller">
+                    <div className="roller text-white">
                       <span id="rolltext">
                         REGULATION COMPLIANCE,
                         <br />
