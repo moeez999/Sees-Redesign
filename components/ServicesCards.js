@@ -9,8 +9,8 @@ const Card = ({ color, title, image, content, nav }) => {
         </div>
         <div className="content">
           <h2>{title}</h2>
-          <p>{content}</p>
-          <a href={nav}>Read More</a>
+          <p className="text-base">{content}</p>
+          <a className="text-sm" href={nav}>Read More</a>
         </div>
       </div>
     </div>

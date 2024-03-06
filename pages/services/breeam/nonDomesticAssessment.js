@@ -7,13 +7,19 @@ import ContactForm from "../../../components/contactform";
 export default function breeam() {
   return (
     <div>
-      <div>
+      <div className="breeam-nav">
         <Navigation />
       </div>
       <div class="flex flex-col xl:flex-row justify-center gap-4 py-28 container mx-auto">
         <div className="shadow-xl">
           <div className=" Non-domestic h-64 flex items-center justify-center">
-            <h1 className="mt-2 shadow-lg text-3xl text-center font-bold tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+            <h1
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.853)",
+                padding: "0.5rem",
+              }}
+              className="mt-2 shadow-lg text-3xl text-center font-bold tracking-tight text-primary sm:text-4xl animate__animated animate__backInLeft animate__slow"
+            >
               Non-domestic Assessment
             </h1>
           </div>

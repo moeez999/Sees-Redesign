@@ -569,7 +569,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 350px;
+  width: 450px;
   max-width: 100%;
   height: 300px;
   background: #fff;
@@ -585,7 +585,7 @@ nav ul li {
 .container-cards .card .img-box {
   position: absolute;
   top: 20px;
-  width: 300px;
+  width: 350px;
   height: 220px;
   background: #333;
   border-radius: 12px;
@@ -625,7 +625,7 @@ nav ul li {
 }
 
 .container-cards .card .content h2 {
-  font-size: 1.29rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--clr);
 }
@@ -674,4 +674,8 @@ nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
+}
+
+.breeam div header {
+  background: #509e2f;
 }
