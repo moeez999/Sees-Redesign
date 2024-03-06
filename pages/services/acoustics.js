@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+
+import Navigation from "../../components/navigation";
 
 export default function acoustics() {
-    return (
-        <div>acoustics</div>
-    )
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 }

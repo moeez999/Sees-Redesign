@@ -48,7 +48,7 @@ const Home = () => {
             <h1
               data-aos="fade-right"
               data-aos-delay="300"
-              className="text-2xl; text-white md:text-4xl xxl:text-5xl xxxl:text-7xl  font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full"
+              className="text-2xl animate_animated animate__flipInX text-white md:text-4xl xxl:text-5xl xxxl:text-7xl  font-semibold text-center p-4 mt-4 md:w-[60%] xxxl:p-8 xsm:w-full"
             >
               TRUSTED BY HOME OWNERS, ARCHITECTS, HOUSING ASSOCIATIONS, COUNCILS
               AND NATIONAL HOUSE BUILDERS ALIKE.
@@ -88,6 +88,7 @@ const Home = () => {
           View More Reviews
         </a>
       </div>
+
       <div className="flex justify-center p-4 relative my-8">
         <div className="quote flex flex-col items-center  shadow-2xl rounded-md p-4">
           <h1 className="text-3xl font-semibold text-center text-secondary p-4 xxxl:text-5xl">
