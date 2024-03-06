@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-family: "Metropolis";
+  src: url("../fonts/metropolis.regular.otf") format("truetype");
 }
 html {
   scroll-behavior: smooth;
@@ -332,6 +332,7 @@ nav ul li {
 }
 
 .roller #rolltext {
+  color: white;
   position: absolute;
   top: 0;
   animation: slide 5s infinite;
@@ -561,7 +562,6 @@ nav ul li {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px 50px;
-  padding: 100px 50px;
 }
 
 .container-cards .card {
@@ -625,7 +625,7 @@ nav ul li {
 }
 
 .container-cards .card .content h2 {
-  font-size: 1.5rem;
+  font-size: 1.29rem;
   font-weight: 700;
   color: var(--clr);
 }

@@ -7,7 +7,7 @@ export default function breeam() {
   return (
     <div>
       <Navigation />
-      <div className="pt-28">
+      <div className="mt-28  container mx-auto">
         <h2 className="text-4xl font-bold text-center tracking-tight text-secondary sm:text-6xl animate__animated animate__flip animate__slow">
           BREEAM
         </h2>
