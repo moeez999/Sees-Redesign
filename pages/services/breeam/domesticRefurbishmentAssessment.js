@@ -20,7 +20,7 @@ export default function breeam() {
               }}
               className="mt-2 shadow-lg text-3xl text-center font-bold tracking-tight text-primary sm:text-4xl animate__animated animate__backInLeft animate__slow"
             >
-              Non-domestic Assessment
+           Domestic Refurbishment Assessment
             </h1>
           </div>
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

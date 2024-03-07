@@ -6,8 +6,9 @@ import Card from "../../components/ServicesCards";
 export default function breeam() {
   return (
     <div>
-      <div className="breeam">
+      <div className="breeam ">
         <Navigation />
+       
         <ul className="circles">
           <li></li>
           <li></li>
@@ -20,11 +21,17 @@ export default function breeam() {
           <li></li>
           <li></li>
         </ul>
-      </div>
+    
+       </div>
       <div className="mt-28  container mx-auto">
-        <h2 className="text-4xl font-bold text-center tracking-tight text-secondary sm:text-6xl animate__animated animate__flip animate__slow">
-          BREEAM
-        </h2>
+        <div className="flex flex-row justify-center items-center">
+          <h2 className="text-4xl font-bold text-center tracking-tight text-secondary sm:text-6xl  animate__animated animate__backInLeft animate__slow">
+            BREEAM
+          </h2>
+          <div className="w-24 animate__animated animate__backInRight animate__slow">
+            <img src="../Service Logos/BREEAM.png" />
+          </div>
+        </div>
         <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4">
           <Card
             color="#509e2f"

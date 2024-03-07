@@ -63,8 +63,8 @@ const Navigation = () => {
   return (
     <div>
       <header className="absolute inset-x-0 top-0 z-50">
-        <div className="mx-auto max-w-7xl">
-          <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
+        <div className="mx-auto max-w-7xl center-s">
+          <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0 nav-p">
             <nav
               className="flex items-center justify-between lg:justify-start"
               aria-label="Global"
@@ -86,15 +86,11 @@ const Navigation = () => {
                     <a
                       href={item.href}
                       className="text-sm font-semibold leading-6 text-primary"
+                      onMouseEnter={() => handleChevronHover(index)}
+                      onMouseLeave={handleChevronLeave}
                     >
                       {item.name}
-                      <span
-                        className="chevron-down"
-                        onMouseEnter={() => handleChevronHover(index)}
-                        onMouseLeave={handleChevronLeave}
-                      >
-                        {item.chevron}
-                      </span>
+                      <span className="chevron-down">{item.chevron}</span>
                     </a>
 
                     {openSubMenu === index && (

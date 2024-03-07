@@ -45,10 +45,17 @@ export default function ContactForm() {
 
   return (
     <form
-      className="max-w-xl mx-auto rounded p-8 shadow-xl border-secondary border"
+      className="max-w-xl mx-auto rounded p-8 shadow-xl border-secondary border bg-white"
       onSubmit={handleSubmit}
     >
-      <div><h1 className="text-xl text-secondary font-semibold py-6">Tell us about your project</h1></div>
+      <div className="w-64">
+        <img src="../../Images/best-contact-us-pages-2.png" />
+      </div>
+      <div>
+        <h1 className="text-xl text-secondary font-semibold py-6">
+          Tell us about your project
+        </h1>
+      </div>
       <div className="mb-4">
         <label
           htmlFor="firstName"
