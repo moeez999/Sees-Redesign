@@ -6,7 +6,7 @@ import Footer from "./../components/footer";
 const Service = () => {
   return (
     <div className="">
-      <div data-aos="fade-right">
+      <div data-aos="fade-right" className="service-s">
         <Navigation />
       </div>
       <div className="pt-28  absolute top-0 left-1/2 transform -translate-x-1/2 w-full  z-[-10]">

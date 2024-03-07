@@ -687,7 +687,10 @@ nav ul li {
   display: flex;
   justify-content: center;
 }
-
+.service-s div header .center-s {
+  display: flex;
+  justify-content: center;
+}
 /* .hidden-d {
   display: none;
 }
@@ -695,4 +698,3 @@ nav ul li {
 .sub-chevron-down:hover + .hidden-d {
   display: block;
 } */
-
