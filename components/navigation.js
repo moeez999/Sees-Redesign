@@ -86,11 +86,15 @@ const Navigation = () => {
                     <a
                       href={item.href}
                       className="text-sm font-semibold leading-6 text-primary"
-                      onMouseEnter={() => handleChevronHover(index)}
-                      onMouseLeave={handleChevronLeave}
                     >
                       {item.name}
-                      <span className="chevron-down">{item.chevron}</span>
+                      <span
+                        className="chevron-down"
+                        onMouseEnter={() => handleChevronHover(index)}
+                        onMouseLeave={handleChevronLeave}
+                      >
+                        {item.chevron}
+                      </span>
                     </a>
 
                     {openSubMenu === index && (
