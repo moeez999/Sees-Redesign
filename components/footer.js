@@ -172,7 +172,11 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <img className="h-7 bg-white" src="logo.png" alt="Company name" />
+            <img
+              className="h-7 bg-white"
+              src="../../logo.png"
+              alt="Company name"
+            />
             <div className="mt-8">
               <Map />
             </div>
