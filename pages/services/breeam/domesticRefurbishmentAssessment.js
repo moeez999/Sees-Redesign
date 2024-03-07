@@ -4,7 +4,7 @@ import Footer from "../../../components/footer";
 import Table from "../../../components/tables";
 import ContactForm from "../../../components/contactform";
 
-export default function breeam() {
+export default function dosmesticRefurbishmentAssessment() {
   return (
     <div className="bg-[#E8E8E8]">
       <div className="breeam-nav">
@@ -20,7 +20,7 @@ export default function breeam() {
               }}
               className="mt-2 shadow-lg text-3xl text-center font-bold tracking-tight text-primary sm:text-4xl animate__animated animate__backInLeft animate__slow"
             >
-           Domestic Refurbishment Assessment
+              Domestic Refurbishment Assessment
             </h1>
           </div>
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

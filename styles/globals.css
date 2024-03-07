@@ -670,7 +670,13 @@ nav ul li {
 }
 
 .Non-domestic {
-  background: url(../public/Images/BREEAM\ Non\ Domestic\ Assessment.png);
+  background: url(../public/Images/breeam.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.New-building {
+  background: url(../public/Images/breeam.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
@@ -690,6 +696,10 @@ nav ul li {
 .service-s div header .center-s {
   display: flex;
   justify-content: center;
+}
+
+.text {
+  text-shadow: rgb(0, 0, 0) 0px 0px 8px;
 }
 /* .hidden-d {
   display: none;

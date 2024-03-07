@@ -8,30 +8,224 @@ const chevron = <i className="fa-solid fa-chevron-down"></i>;
 const navigation = [
   { name: "Home", href: "/" },
   {
-    name: "Services ",
+    name: "Services",
     href: "/services",
     chevron: chevron,
     subItems: [
-      { name: "BREEAM", href: "/services/breeam" },
-      { name: "Building Life Cycle", href: "/services/buildingLifeCycle" },
-      { name: "Thermal Modelling", href: "/services/thermalModelling" },
-      { name: "Part L/EPC SAP", href: "/services/partLEPC_SAP" },
-      { name: "Part L/EPC SBEM", href: "/services/partLEPC_SBEM" },
-      { name: "Airtightness Testing", href: "/services/airTightnessTesting" },
-      { name: "Water Calculations", href: "/services/waterCalculations" },
-      { name: "Energy Strategy", href: "/services/energyStrategy" },
-      { name: "Indoor Air Quality", href: "/services/indoorAirQuality" },
-      { name: "Daylighting", href: "/services/dayLightining" },
-      { name: "Acoustics", href: "/services/acoustics" },
-      { name: "Thermographics", href: "/services/thermographics" },
-      { name: "Flood Risk", href: "/services/floodRisk" },
       {
-        name: "Building User Guide/O&M Manual",
+        name: "BREEAM",
+        href: "/services/breeam",
+        sublists: [
+          {
+            name: "Non-domestic Assessment",
+            href: "/services/breeam/nonDomesticAssessment",
+            subChevron: chevron,
+          },
+          {
+            name: "Domestic Refurbishment Assessment",
+            href: "/services/breeam/domesticRefurbishmentAssessment",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Building Life Cycle",
+        href: "/services/buildingLifeCycle",
+        sublists: [
+          {
+            name: "Life Cycle Assessment (LCA)",
+            href: "/services/buildingLifeCycle/lifeCycleAssessment",
+            subChevron: chevron,
+          },
+          {
+            name: "Whole Life Carbon Assessment",
+            href: "/services/buildingLifeCycle/wholeLifeCarbonAssessment",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Thermal Modelling",
+        href: "/services/thermalModelling",
+        sublists: [
+          {
+            name: "Overheating Assessment",
+            href: "/services/thermalModelling/overheatingAssessment",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Thermal Bridging",
+        href: "/services/thermalBridging",
+        sublists: [
+          {
+            name: "Thermal Bridging Calculations",
+            href: "/services/thermalBridging/thermalBridgingCalculations",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Part L/EPC SAP",
+        href: "/services/partLepcSap",
+        sublists: [
+          {
+            name: "SAP for New Builds",
+            href: "/services/partLEPC_SAP/sapForNewBuilds",
+            subChevron: chevron,
+          },
+          {
+            name: "SAP for Extensions",
+            href: "/services/partLEPC_SAP/sapForExtensions",
+            subChevron: chevron,
+          },
+          {
+            name: "SAP for Conversions",
+            href: "/services/partLEPC_SAP/sapForConversions",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Part L/EPC SBEM",
+        href: "/services/partLEPC_SBEM",
+        sublists: [
+          {
+            name: "SBEM for Commercial New Builds",
+            href: "/services/partLEPC_SBEM/sbemForCommercialNewBuilds",
+            subChevron: chevron,
+          },
+          {
+            name: "SBEM for Commercial Existing Buildings",
+            href: "/services/partLEPC_SBEM/sbemForCommercialExistingBuildings",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Airtightness Testing",
+        href: "/services/airTightnessTesting",
+        sublists: [
+          {
+            name: "Blower Door Fan Test",
+            href: "/services/blowerDoorFanTest",
+            subChevron: chevron,
+          },
+          {
+            name: "Ventilation Testing",
+            href: "/services/ventilationTesting",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Water Calculations",
+        href: "/services/waterCalculations",
+        sublists: [
+          {
+            name: "Water Usage Calculations",
+            href: "/services/waterUsageCalculations",
+            subChevron: chevron,
+          },
+          {
+            name: "Water Neutrality Report",
+            href: "/services/waterNeutralityReport",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Energy Strategy",
+        href: "/services/energyStrategy",
+        sublists: [
+          {
+            name: "Renewable Energy/Low Carbon Report",
+            href: "/services/renewableEnergyLowCarbonReport",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Indoor Air Quality",
+        href: "/services/indoorAirQuality",
+        sublists: [
+          {
+            name: "IAQ Plan & Testing",
+            href: "/services/iaqPlanTesting",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Daylighting",
+        href: "/services/dayLightining",
+        sublists: [
+          {
+            name: "Daylighting Calculations",
+            href: "/services/daylightingCalculations",
+            subChevron: chevron,
+          },
+          {
+            name: "Sunlight Analysis",
+            href: "/services/sunlightAnalysis",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Acoustics",
+        href: "/services/acoustics",
+        sublists: [
+          {
+            name: "Sound Testing",
+            href: "/services/soundTesting",
+            subChevron: chevron,
+          },
+          {
+            name: "Noise Impact Assessment",
+            href: "/services/noiseImpactAssessment",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Thermographics",
+        href: "/services/thermographics",
+        sublists: [
+          {
+            name: "Thermographic Survey",
+            href: "/services/thermographicSurvey",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "Flood Risk",
+        href: "/services/floodRisk",
+        sublists: [
+          {
+            name: "Flood Risk Assessment",
+            href: "/services/floodRiskAssessment",
+            subChevron: chevron,
+          },
+        ],
+      },
+      {
+        name: "O&M Manual",
         href: "/services/buildingUserGuide",
+        sublists: [
+          {
+            name: "Building User Guide",
+            href: "/services/buildingUserGuide",
+            subChevron: chevron,
+          },
+        ],
       },
     ],
   },
-  { name: "Faqs", href: "/faqs" },
+
+  { name: "FAQs", href: "/faqs" },
   { name: "AboutUs", href: "/aboutus" },
   { name: "Contact", href: "/contactUs" },
 ];
@@ -111,6 +305,19 @@ const Navigation = () => {
                               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                             >
                               {subItem.name}
+
+                              <div className="py-1">
+                                {item.subItems.sublists &&
+                                  item.subItems.sublists.map((subItemList) => (
+                                    <a
+                                      key={subItemList.name}
+                                      href={subItemList.href}
+                                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                    >
+                                      {subItemList.name}
+                                    </a>
+                                  ))}
+                              </div>
                             </a>
                           ))}
                         </div>
@@ -174,6 +381,14 @@ const Navigation = () => {
                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                               >
                                 {subItem.name}
+
+                                <span
+                                  className="chevron-down"
+                                  onMouseEnter={() => handleChevronHover(index)}
+                                  onMouseLeave={handleChevronLeave}
+                                >
+                                  {subItem.subChevron}
+                                </span>
                               </a>
                             ))}
                           </div>
