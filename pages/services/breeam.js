@@ -8,7 +8,7 @@ export default function breeam() {
     <div>
       <div className="breeam ">
         <Navigation />
-       
+
         <ul className="circles">
           <li></li>
           <li></li>
@@ -21,8 +21,7 @@ export default function breeam() {
           <li></li>
           <li></li>
         </ul>
-    
-       </div>
+      </div>
       <div className="mt-28  container mx-auto">
         <div className="flex flex-row justify-center items-center">
           <h2 className="text-4xl font-bold text-center tracking-tight text-secondary sm:text-6xl  animate__animated animate__backInLeft animate__slow">
@@ -45,7 +44,7 @@ export default function breeam() {
             title="Domestic Refurbishment Assessment"
             image="../Images/Domestic Air Testing.png"
             content="With over 10 years of experience and having worked across a range of schemes, we can help you achieve your target BREEAM rating  for your project, all the while recognising opportunities to reduce cost and eliminate risk. "
-            nav=""
+            nav="/services/breeam/domesticRefurbishmentAssessment"
           />
         </div>
       </div>
