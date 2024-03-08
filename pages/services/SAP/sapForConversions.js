@@ -10,14 +10,13 @@ export default function sapForConversions() {
       <div className="breeam-nav">
         <Navigation />
       </div>
-        <div className="sap-conversion h-64 flex items-center mt-24 py-14 justify-center">
-            <h1 className="mt-2  text text-3xl text-center text-shadow-black font-extrabold tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
-              SAP for Conversion
-            </h1>
-          </div>
+      <div className="sap-conversion h-64 flex items-center mt-24 py-14 justify-center">
+        <h1 className="mt-2  text text-3xl text-center text-shadow-black font-extrabold tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+          SAP for Conversion
+        </h1>
+      </div>
       <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl">
-        
           <div className="relative isolate overflow-hidden bg-white px-6 py-6 sm:py-6 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0  lg:items-start lg:gap-y-10">
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
@@ -134,7 +133,7 @@ export default function sapForConversions() {
                         </ul>
                       </div>
                       <div>
-                        <img src="../../Images/Sap-Images/grasshome.png" />
+                        <img src="../../Images/Sap/grasshome.png" />
                       </div>
                     </div>
                     <p className="mt-8 text-primary">
