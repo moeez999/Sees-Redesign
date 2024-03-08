@@ -677,19 +677,19 @@ nav ul li {
 }
 
 .New-building {
-  background: url(../public/Images/Sap-Images/IMG_1554.png);
+  background: url(../public/Images/SAP/home2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
 }
 .sap-extension {
-  background: url(../public/Images/Sap-Images/bedroom-2.png);
+  background: url(../public/Images/SAP/bedroom2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
 }
 .sap-conversion {
-  background: url(../public/Images/Sap-Images/SAP\ For\ Conversions.png);
+  background: url(../public/Images/SAP/conversions.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
