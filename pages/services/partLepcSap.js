@@ -22,9 +22,9 @@ export default function partLEPC_SAP() {
           <li></li>
         </ul>
       </div>
-      <div className="mt-24">
-        <div className="flex pt-8 flex-row justify-center items-center">
-          <h2 className="text-4xl font-bold text-center tracking-tight text-secondary sm:text-6xl  animate__animated animate__backInLeft animate__slow">
+      <div className="mt-24 light-grey">
+        <div className="flex pt-8 flex-row justify-center items-center relative bg-secondary">
+          <h2 className="text-4xl font-bold text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             SAP
           </h2>
           <div className="w-24 animate__animated animate__backInRight animate__slow">

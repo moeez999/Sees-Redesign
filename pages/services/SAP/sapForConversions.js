@@ -22,7 +22,7 @@ export default function sapForConversions() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-base font-semibold leading-7 ">
+                    <p className="text-2xl font-extrabold font-extrabold leading-7">
                       Building Regulations
                     </p>
                     <p
@@ -146,9 +146,9 @@ export default function sapForConversions() {
             </div>
           </div>
         </div>
-        {/* <div className=" ">
+        <div className="mt-4">
           <ContactForm />
-        </div> */}
+        </div>
       </div>
       <Footer />
     </div>

@@ -45,7 +45,7 @@ export default function ContactForm() {
 
   return (
     <form
-      className="max-w-xl mx-auto rounded p-8 shadow-xl border-secondary border bg-white"
+      className="max-w-xl mx-auto rounded p-8 shadow-xl border-secondary border bg-white sticky top-0"
       onSubmit={handleSubmit}
     >
       <div className="w-64">

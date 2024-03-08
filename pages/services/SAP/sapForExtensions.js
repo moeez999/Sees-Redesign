@@ -16,14 +16,14 @@ export default function sapForExtensions() {
             </h1>
           </div>
       <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
-        <div className="shadow-xl">
+        <div className="shadow-xl bg-white">
          
           <div className="relative isolate overflow-hidden bg-white px-6 py-6 sm:py-6 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0  lg:items-start lg:gap-y-10">
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-base font-semibold leading-7 ">
+                    <p className="text-2xl font-extrabold font-extrabold leading-7">
                       Building Regulations
                     </p>
                     <p
@@ -121,7 +121,7 @@ export default function sapForExtensions() {
                         </p>
                       </div>
                       <div>
-                        <img src="../../Images/Sap-Images/bedroom.png" />
+                        <img src="../../Images/Sap/bedroom.png" />
                       </div>
                     </div>
                   </div>
@@ -130,9 +130,9 @@ export default function sapForExtensions() {
             </div>
           </div>
         </div>
-        {/* <div className=" ">
+        <div className="mt-4">
           <ContactForm />
-        </div> */}
+        </div>
       </div>
       <Footer />
     </div>

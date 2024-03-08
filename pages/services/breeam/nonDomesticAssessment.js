@@ -10,20 +10,19 @@ export default function nonDomesticAssessment() {
       <div className="breeam-nav">
         <Navigation />
       </div>
-        <div className=" Non-domestic h-64 mt-24 py-14 flex items-center justify-center">
-            <h1 className="mt-2  px-4 py-2 rounded-xl  text text-3xl  text-shadow-black font-extrabold  text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
-              Non Domestic Assessment
-            </h1>
-          </div>
+      <div className=" Non-domestic h-64 mt-24 py-14 flex items-center justify-center">
+        <h1 className="mt-2  px-4 py-2 rounded-xl  text text-3xl  text-shadow-black font-extrabold  text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+          Non Domestic Assessment
+        </h1>
+      </div>
       <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl w-full">
-        
           <div className="relative isolate overflow-hidden bg-white px-6 py-4 sm:py-6 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none  lg:items-start lg:gap-y-10">
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full   lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-base font-semibold leading-7 ">
+                    <p className="text-2xl font-extrabold leading-7 ">
                       What we bring?
                     </p>
                     <p
@@ -91,7 +90,7 @@ export default function nonDomesticAssessment() {
                       </li>
                     </ul>
                     <p
-                      className="mt-6 text-xl leading-8 text-secondary"
+                      className="mt-6 text-2xl font-extrabold leading-8 text-secondary"
                       data-aos="zoom-in"
                     >
                       BREEAM Rating
@@ -225,7 +224,7 @@ export default function nonDomesticAssessment() {
                       for part of the planning condition
                     </p>
                     <h2
-                      className="mt-16 text-2xl font-bold tracking-tight text-secondary"
+                      className="mt-16 text-2xl font-extrabold tracking-tight  text-secondary"
                       data-aos="zoom-in"
                     >
                       Secondary Services:
@@ -496,9 +495,9 @@ export default function nonDomesticAssessment() {
             </div>
           </div>
         </div>
-        {/* <div className=" ">
+        <div className=" mt-4">
           <ContactForm />
-        </div> */}
+        </div>
       </div>
       <Footer />
     </div>

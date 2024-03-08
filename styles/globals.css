@@ -708,6 +708,10 @@ nav ul li {
 .services-bg {
   background-color: lightgrey;
 }
+
+.light-grey {
+  background-color: lightgrey;
+}
 .nav-p {
   padding-bottom: 1.5rem;
 }

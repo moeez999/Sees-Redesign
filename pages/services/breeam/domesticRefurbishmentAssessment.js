@@ -501,9 +501,9 @@ export default function dosmesticRefurbishmentAssessment() {
             </div>
           </div>
         </div>
-        {/* <div className=" ">
+        <div className=" ">
           <ContactForm />
-        </div> */}
+        </div>
       </div>
       <Footer />
     </div>

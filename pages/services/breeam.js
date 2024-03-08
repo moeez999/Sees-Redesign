@@ -22,16 +22,16 @@ export default function breeam() {
           <li></li>
         </ul>
       </div>
-      <div className="mt-28  container mx-auto">
-        <div className="flex flex-row justify-center items-center">
-          <h2 className="text-4xl font-bold text-center tracking-tight text-secondary sm:text-6xl  animate__animated animate__backInLeft animate__slow">
+      <div className="mt-24 light-grey">
+        <div className="flex pt-8 flex-row justify-center items-center relative bg-secondary">
+          <h2 className="text-4xl font-bold text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             BREEAM
           </h2>
           <div className="w-24 animate__animated animate__backInRight animate__slow">
             <img src="../Service Logos/BREEAM.png" />
           </div>
         </div>
-        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4">
+        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 light-grey w-full">
           <Card
             color="#509e2f"
             title="Non Domestic Assessment"
