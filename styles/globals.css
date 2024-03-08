@@ -701,7 +701,13 @@ nav ul li {
 .SAP .circles {
   background-color: lightgrey;
 }
+.breeam .circles {
+  background-color: lightgrey;
+}
 
+.services-bg {
+  background-color: lightgrey;
+}
 .nav-p {
   padding-bottom: 1.5rem;
 }
