@@ -35,7 +35,7 @@ export default function partLEPC_SAP() {
           <Card
             color="#509e2f"
             title="SAP for New Build"
-            image="../Images/SAP-Images/New Build.png"
+            image="../Images/SAP/NewBuild.png"
             content="New build homes require SAP calculations to obtain planning permission before commencement of works. "
             nav="/services/SAP/sapForNewBuild"
           />
