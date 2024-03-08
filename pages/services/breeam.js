@@ -34,7 +34,7 @@ export default function breeam() {
         <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4">
           <Card
             color="#509e2f"
-            title="Non-domestic Assessment"
+            title="Non Domestic Assessment"
             image="../Images/BREEAM Non Domestic Assessment.png"
             content="With over 10 years of experience and having worked across a range of schemes, we can help you achieve your target BREEAM rating  for your project, all the while recognising opportunities to reduce cost and eliminate risk."
             nav="/services/breeam/nonDomesticAssessment"

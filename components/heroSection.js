@@ -4,7 +4,10 @@ import Navigation from "./navigation";
 export default function HeroSection() {
   return (
     <div className="bg-white">
+      <div className="home-page">
       <Navigation />
+
+      </div>
       <div className="relative bg-secondary h-screen">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">

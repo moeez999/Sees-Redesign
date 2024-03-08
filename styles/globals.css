@@ -675,23 +675,43 @@ nav ul li {
   background-size: cover;
   background-position-y: center;
 }
+
 .New-building {
-  background: url(../public/Images/breeam.png);
+  background: url(../public/Images/Sap-Images/IMG_1554.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.sap-extension {
+  background: url(../public/Images/Sap-Images/bedroom-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.sap-conversion {
+  background: url(../public/Images/Sap-Images/SAP\ For\ Conversions.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
 }
 
-.breeam div header {
-  background: #509e2f;
+.home-page div header {
+  background: transparent;
+}
+.SAP .circles{
+  background-color:lightgrey
 }
 
-.breeam div header div .nav-p {
+.nav-p {
   padding-bottom: 1.5rem;
 }
-.breeam div header .center-s {
-  display: flex;
+.center-s{
+    display: flex;
   justify-content: center;
+}
+.home-page div header .center-s {
+  display: flex;
+  justify-content: start;
 }
 .service-s div header .center-s {
   display: flex;
@@ -701,6 +721,7 @@ nav ul li {
 .text {
   text-shadow: rgb(0, 0, 0) 0px 0px 8px;
 }
+
 /* .hidden-d {
   display: none;
 }

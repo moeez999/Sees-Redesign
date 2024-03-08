@@ -17,7 +17,7 @@ const navigation = [
         href: "/services/breeam",
         sublists: [
           {
-            name: "Non-domestic Assessment",
+            name: "Non Domestic Assessment",
             href: "/services/breeam/nonDomesticAssessment",
             subChevron: chevron,
           },
@@ -256,7 +256,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className="absolute inset-x-0 top-0 z-50 bg-secondary">
         <div className="mx-auto max-w-7xl center-s">
           <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0 nav-p">
             <nav

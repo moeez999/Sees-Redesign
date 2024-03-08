@@ -6,7 +6,6 @@ import quotesData from "../components/reviewsData";
 import ServicesSlider from "./../components/servicesSlider";
 import HeroSection from "../components/heroSection";
 import AssociationsSlider from "../components/associations";
-import TypewriterComponent from "../components/typeWriter";
 
 const Home = () => {
   return (
@@ -61,21 +60,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-8 px-4 my-6  anima relative">
-        <ul className="circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <AssociationsSlider></AssociationsSlider>
-      </div>
+  
       <div className="p-4 mt-8" id="review-section">
         <QuoteContainer quoteData={quotesData} />
       </div>
@@ -104,7 +89,21 @@ const Home = () => {
           </a>
         </div>
       </div>
-
+    <div className="py-8 px-4 my-6  anima relative">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <AssociationsSlider></AssociationsSlider>
+      </div>
       <Footer />
     </div>
   );

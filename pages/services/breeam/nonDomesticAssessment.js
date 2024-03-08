@@ -10,18 +10,19 @@ export default function nonDomesticAssessment() {
       <div className="breeam-nav">
         <Navigation />
       </div>
-      <div className="flex flex-col xl:flex-row justify-center gap-4 my-28 py-14 container mx-auto">
-        <div className="shadow-xl">
-          <div className=" Non-domestic h-64 flex items-center justify-center">
-            <h1 className="mt-2  text text-3xl text-center text-shadow-black font-extrabold tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
-              Non-domestic Assessment
+        <div className=" Non-domestic h-64 mt-24 py-14 flex items-center justify-center">
+            <h1 className="mt-2  px-4 py-2 rounded-xl  text text-3xl  text-shadow-black font-extrabold  text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+              Non Domestic Assessment
             </h1>
           </div>
-          <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-              <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+      <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
+        <div className="shadow-xl w-full">
+        
+          <div className="relative isolate overflow-hidden bg-white px-6 py-4 sm:py-6 lg:overflow-visible lg:px-0">
+            <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none  lg:items-start lg:gap-y-10">
+              <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full   lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
-                  <div className="lg:max-w-lg">
+                  <div className="">
                     <p className="text-base font-semibold leading-7 ">
                       What we bring?
                     </p>
@@ -37,12 +38,10 @@ export default function nonDomesticAssessment() {
                   </div>
                 </div>
               </div>
-              <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                <Table />
-              </div>
-              <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+
+              <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
-                  <div className="max-w-xl text-base leading-7 font-semibold text-secondary lg:max-w-lg">
+                  <div className="text-base leading-7 font-semibold text-secondary ">
                     <p data-aos="fade-up">
                       We are licensed to work across both the non-domestic
                       assessment categories
@@ -102,6 +101,9 @@ export default function nonDomesticAssessment() {
                       aggregate percentage score is calculated for the
                       assessment which is then rated as follows:
                     </p>
+                    <div className="py-4 my-4">
+                      <Table />
+                    </div>
                     <h2
                       className="mt-16 text-2xl font-bold tracking-tight text-secondary"
                       data-aos="zoom-in"
@@ -180,7 +182,7 @@ export default function nonDomesticAssessment() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="#509e2f"
-                          className="w-10 h-6"
+                          className="w-6 h-6"
                         >
                           <path d="M19.006 3.705a.75.75 0 1 0-.512-1.41L6 6.838V3a.75.75 0 0 0-.75-.75h-1.5A.75.75 0 0 0 3 3v4.93l-1.006.365a.75.75 0 0 0 .512 1.41l16.5-6Z" />
                           <path
@@ -494,9 +496,9 @@ export default function nonDomesticAssessment() {
             </div>
           </div>
         </div>
-        <div className=" ">
+        {/* <div className=" ">
           <ContactForm />
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
