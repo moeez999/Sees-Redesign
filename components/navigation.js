@@ -66,15 +66,15 @@ const navigation = [
         sublists: [
           {
             name: "SAP for New Builds",
-            href: "/services/partLEPC_SAP/sapForNewBuilds",
+            href: "/services/SAP/sapForNewBuild",
           },
           {
             name: "SAP for Extensions",
-            href: "/services/partLEPC_SAP/sapForExtensions",
+            href: "/services/SAP/sapForExtension",
           },
           {
             name: "SAP for Conversions",
-            href: "/services/partLEPC_SAP/sapForConversions",
+            href: "/services/SAP/sapForConversion",
           },
         ],
       },
@@ -84,11 +84,11 @@ const navigation = [
         sublists: [
           {
             name: "SBEM for Commercial New Builds",
-            href: "/services/partLEPC_SBEM/sbemForCommercialNewBuilds",
+            href: "/services/SapNonDomestic/sbemForCommercialNewBuilds",
           },
           {
             name: "SBEM for Commercial Existing Buildings",
-            href: "/services/partLEPC_SBEM/sbemForCommercialExistingBuildings",
+            href: "/services/SapNonDomestic/sbemForCommercialExistingBuildings",
           },
         ],
       },
@@ -98,11 +98,11 @@ const navigation = [
         sublists: [
           {
             name: "Blower Door Fan Test",
-            href: "/services/blowerDoorFanTest",
+            href: "/services/AirTightness/blowerDoorFanTest",
           },
           {
             name: "Ventilation Testing",
-            href: "/services/ventilationTesting",
+            href: "/services/AirTightness/ventilationTesting",
           },
         ],
       },
@@ -112,11 +112,11 @@ const navigation = [
         sublists: [
           {
             name: "Water Usage Calculations",
-            href: "/services/waterUsageCalculations",
+            href: "/services/WaterCalculations/waterUsageCalculations",
           },
           {
             name: "Water Neutrality Report",
-            href: "/services/waterNeutralityReport",
+            href: "/services/WaterCalculations/waterNeutralityReport",
           },
         ],
       },
@@ -136,7 +136,7 @@ const navigation = [
         sublists: [
           {
             name: "IAQ Plan & Testing",
-            href: "/services/iaqPlanTesting",
+            href: "/services/IndoorAirQuality/IAQPlan",
           },
         ],
       },
