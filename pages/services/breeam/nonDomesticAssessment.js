@@ -11,7 +11,7 @@ export default function nonDomesticAssessment() {
         <Navigation />
       </div>
       <div className=" Non-domestic h-64 mt-24 py-14 flex items-center justify-center">
-        <h1 className="mt-2  px-4 py-2 rounded-xl  text text-3xl  text-shadow-black font-extrabold  text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+        <h1 className="mt-2  px-4 py-2 rounded-xl font-semibold  text text-3xl  text-shadow-black   text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
           Non Domestic Assessment
         </h1>
       </div>
@@ -22,7 +22,7 @@ export default function nonDomesticAssessment() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full   lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-extrabold leading-7 ">
+                    <p className="text-2xl font-semibold leading-7">
                       What we bring?
                     </p>
                     <p
@@ -90,7 +90,7 @@ export default function nonDomesticAssessment() {
                       </li>
                     </ul>
                     <p
-                      className="mt-6 text-2xl font-extrabold leading-8 text-secondary"
+                      className="mt-6 text-2xl font-semibold leading-7 text-secondary"
                       data-aos="zoom-in"
                     >
                       BREEAM Rating
@@ -104,7 +104,7 @@ export default function nonDomesticAssessment() {
                       <Table />
                     </div>
                     <h2
-                      className="mt-16 text-2xl font-bold tracking-tight text-secondary"
+                      className="mt-16 text-2xl font-semibold tracking-tight text-secondary"
                       data-aos="zoom-in"
                     >
                       What types of buildings does BREEAM new construction
@@ -224,7 +224,7 @@ export default function nonDomesticAssessment() {
                       for part of the planning condition
                     </p>
                     <h2
-                      className="mt-16 text-2xl font-extrabold tracking-tight  text-secondary"
+                      className="mt-16 text-2xl  tracking-tight  text-secondary"
                       data-aos="zoom-in"
                     >
                       Secondary Services:

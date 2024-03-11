@@ -89,8 +89,20 @@ const Home = () => {
           </a>
         </div>
       </div>
-    <div className="py-8 px-4 my-6  anima relative">
-        <ul className="circles">
+            <div className="anima relative py-6">
+        <h1 className="text-4xl font-semibold md:text-center  text-white p-4 xxxl:text-5xl">
+          Our associations
+        </h1>
+        <div className="flex justify-center">
+
+              <p className="text-xl text-white md:text-center md:w-[30%]">
+          We know that you need complete confidence in your supply chain. That's
+          why we're backed by industry leading certification and quality
+          standards.
+        </p>
+        </div>
+    
+             <ul className="circles">
           <li></li>
           <li></li>
           <li></li>
@@ -102,6 +114,9 @@ const Home = () => {
           <li></li>
           <li></li>
         </ul>
+      </div>
+    <div className="py-8 px-4 my-6  ">
+   
         <AssociationsSlider></AssociationsSlider>
       </div>
       <Footer />

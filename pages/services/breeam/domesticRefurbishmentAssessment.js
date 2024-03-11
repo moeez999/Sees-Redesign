@@ -16,7 +16,7 @@ export default function dosmesticRefurbishmentAssessment() {
                 backgroundColor: "rgba(255, 255, 255, 0.853)",
                 padding: "0.5rem",
               }}
-              className="mt-2 shadow-lg text-3xl text-center font-bold tracking-tight text-primary sm:text-4xl animate__animated animate__backInLeft animate__slow"
+              className="mt-2 shadow-lg text-3xl text-center font-semibold tracking-tight text-primary sm:text-4xl animate__animated animate__backInLeft animate__slow"
             >
               Domestic Refurbishment Assessment
             </h1>

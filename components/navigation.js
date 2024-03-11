@@ -19,12 +19,10 @@ const navigation = [
           {
             name: "Non Domestic Assessment",
             href: "/services/breeam/nonDomesticAssessment",
-            subChevron: chevron,
           },
           {
             name: "Domestic Refurbishment Assessment",
             href: "/services/breeam/domesticRefurbishmentAssessment",
-            subChevron: chevron,
           },
         ],
       },
@@ -35,12 +33,10 @@ const navigation = [
           {
             name: "Life Cycle Assessment (LCA)",
             href: "/services/buildingLifeCycle/lifeCycleAssessment",
-            subChevron: chevron,
           },
           {
             name: "Whole Life Carbon Assessment",
             href: "/services/buildingLifeCycle/wholeLifeCarbonAssessment",
-            subChevron: chevron,
           },
         ],
       },
@@ -51,7 +47,6 @@ const navigation = [
           {
             name: "Overheating Assessment",
             href: "/services/thermalModelling/overheatingAssessment",
-            subChevron: chevron,
           },
         ],
       },
@@ -62,7 +57,6 @@ const navigation = [
           {
             name: "Thermal Bridging Calculations",
             href: "/services/thermalBridging/thermalBridgingCalculations",
-            subChevron: chevron,
           },
         ],
       },
@@ -73,17 +67,14 @@ const navigation = [
           {
             name: "SAP for New Builds",
             href: "/services/partLEPC_SAP/sapForNewBuilds",
-            subChevron: chevron,
           },
           {
             name: "SAP for Extensions",
             href: "/services/partLEPC_SAP/sapForExtensions",
-            subChevron: chevron,
           },
           {
             name: "SAP for Conversions",
             href: "/services/partLEPC_SAP/sapForConversions",
-            subChevron: chevron,
           },
         ],
       },
@@ -94,12 +85,10 @@ const navigation = [
           {
             name: "SBEM for Commercial New Builds",
             href: "/services/partLEPC_SBEM/sbemForCommercialNewBuilds",
-            subChevron: chevron,
           },
           {
             name: "SBEM for Commercial Existing Buildings",
             href: "/services/partLEPC_SBEM/sbemForCommercialExistingBuildings",
-            subChevron: chevron,
           },
         ],
       },
@@ -110,12 +99,10 @@ const navigation = [
           {
             name: "Blower Door Fan Test",
             href: "/services/blowerDoorFanTest",
-            subChevron: chevron,
           },
           {
             name: "Ventilation Testing",
             href: "/services/ventilationTesting",
-            subChevron: chevron,
           },
         ],
       },
@@ -126,12 +113,10 @@ const navigation = [
           {
             name: "Water Usage Calculations",
             href: "/services/waterUsageCalculations",
-            subChevron: chevron,
           },
           {
             name: "Water Neutrality Report",
             href: "/services/waterNeutralityReport",
-            subChevron: chevron,
           },
         ],
       },
@@ -142,7 +127,6 @@ const navigation = [
           {
             name: "Renewable Energy/Low Carbon Report",
             href: "/services/renewableEnergyLowCarbonReport",
-            subChevron: chevron,
           },
         ],
       },
@@ -153,7 +137,6 @@ const navigation = [
           {
             name: "IAQ Plan & Testing",
             href: "/services/iaqPlanTesting",
-            subChevron: chevron,
           },
         ],
       },
@@ -164,12 +147,10 @@ const navigation = [
           {
             name: "Daylighting Calculations",
             href: "/services/daylightingCalculations",
-            subChevron: chevron,
           },
           {
             name: "Sunlight Analysis",
             href: "/services/sunlightAnalysis",
-            subChevron: chevron,
           },
         ],
       },
@@ -180,12 +161,10 @@ const navigation = [
           {
             name: "Sound Testing",
             href: "/services/soundTesting",
-            subChevron: chevron,
           },
           {
             name: "Noise Impact Assessment",
             href: "/services/noiseImpactAssessment",
-            subChevron: chevron,
           },
         ],
       },
@@ -196,7 +175,6 @@ const navigation = [
           {
             name: "Thermographic Survey",
             href: "/services/thermographicSurvey",
-            subChevron: chevron,
           },
         ],
       },
@@ -207,7 +185,6 @@ const navigation = [
           {
             name: "Flood Risk Assessment",
             href: "/services/floodRiskAssessment",
-            subChevron: chevron,
           },
         ],
       },
@@ -218,13 +195,12 @@ const navigation = [
           {
             name: "Building User Guide",
             href: "/services/buildingUserGuide",
-            subChevron: chevron,
           },
         ],
       },
     ],
   },
-
+  { name: "Projects", href: "/projects" },
   { name: "FAQs", href: "/faqs" },
   { name: "AboutUs", href: "/aboutus" },
   { name: "Contact", href: "/contactUs" },
@@ -232,16 +208,28 @@ const navigation = [
 
 const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [openSubMenu, setOpenSubMenu] = useState(false);
+  const [openSubMenu, setOpenSubMenu] = useState(null);
+  const [openSublist, setOpenSublist] = useState(null);
   const [subMenuHovered, setSubMenuHovered] = useState(false);
+  const [sublistHovered, setSublistHovered] = useState(false);
 
   const handleChevronHover = (index) => {
     setOpenSubMenu(index);
   };
 
+  const handleSublistHover = (index) => {
+    setOpenSublist(index);
+  };
+
   const handleChevronLeave = () => {
     if (!subMenuHovered) {
       setOpenSubMenu(null);
+    }
+  };
+
+  const handleSublistLeave = () => {
+    if (!sublistHovered) {
+      setOpenSublist(null);
     }
   };
 
@@ -252,6 +240,15 @@ const Navigation = () => {
   const handleSubMenuLeave = () => {
     setSubMenuHovered(false);
     setOpenSubMenu(null);
+  };
+
+  const handleSublistEnter = () => {
+    setSublistHovered(true);
+  };
+
+  const handleSublistMenuLeave = () => {
+    setSublistHovered(false);
+    setOpenSublist(null);
   };
 
   return (
@@ -274,57 +271,71 @@ const Navigation = () => {
                 <span className="sr-only">Open main menu</span>
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </button>
-              <div className="hidden lg:ml-6 lg:flex lg:gap-x-14 items-center relative">
+              <div className="hidden lg:ml-6 lg:flex lg:gap-x-6 items-center relative">
                 {navigation.map((item, index) => (
                   <div key={item.name} className="relative">
                     <a
                       href={item.href}
                       className="text-sm font-semibold leading-6 text-primary"
+                      onMouseEnter={() => handleChevronHover(index)}
+                      onMouseLeave={handleChevronLeave}
                     >
                       {item.name}
-                      <span
-                        className="chevron-down"
-                        onMouseEnter={() => handleChevronHover(index)}
-                        onMouseLeave={handleChevronLeave}
-                      >
-                        {item.chevron}
-                      </span>
+                      <span className="chevron-down">{item.chevron}</span>
                     </a>
 
-                    {openSubMenu === index && (
+                    {openSubMenu === index && item.subItems && (
                       <div
-                        className="absolute top-2 left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden opacity-100 visible transition-opacity duration-200 z-10"
+                        className="absolute top-2 left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-100 visible transition-opacity duration-1000 z-10"
                         onMouseEnter={handleSubMenuEnter}
                         onMouseLeave={handleSubMenuLeave}
                       >
                         <div className="py-1">
-                          {item.subItems.map((subItem) => (
-                            <a
-                              key={subItem.name}
-                              href={subItem.href}
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              {subItem.name}
-
-                              <div className="py-1">
-                                {item.subItems.sublists &&
-                                  item.subItems.sublists.map((subItemList) => (
-                                    <a
-                                      key={subItemList.name}
-                                      href={subItemList.href}
-                                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                                    >
-                                      {subItemList.name}
-                                    </a>
-                                  ))}
-                              </div>
-                            </a>
+                          {item.subItems.map((subItem, subIndex) => (
+                            <div key={subItem.name} className="relative">
+                              <a
+                                href={subItem.href}
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                onMouseEnter={() =>
+                                  handleSublistHover(subIndex)
+                                }
+                                onMouseLeave={handleSublistLeave}
+                              >
+                                {subItem.name}
+                                {subItem.sublists && (
+                                  <span className="chevron-right">
+                                    {subItem.chevron}
+                                  </span>
+                                )}
+                              </a>
+                              {openSublist === subIndex && subItem.sublists && (
+                                <div
+                                  className="absolute top-0 left-44 mt-0 w-48 bg-white shadow-lg rounded-md opacity-100 visible transition-opacity duration-2000 z-50"
+                                  onMouseEnter={handleSublistEnter}
+                                  onMouseLeave={handleSublistMenuLeave}
+                                >
+                                  <div className="py-1">
+                                    {subItem.sublists.map((sublistItem) => (
+                                      <a
+                                        key={sublistItem.name}
+                                        href={sublistItem.href}
+                                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                      >
+                                        {sublistItem.name}
+                                      </a>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
                           ))}
                         </div>
                       </div>
                     )}
                   </div>
                 ))}
+
+                <div>{/* Add any additional content for navigation */}</div>
               </div>
             </nav>
           </div>
@@ -367,33 +378,6 @@ const Navigation = () => {
                       >
                         {item.chevron}
                       </span>
-                      {openSubMenu === index && (
-                        <div
-                          className="absolute top-2 left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden opacity-100 visible transition-opacity duration-200 z-10"
-                          onMouseEnter={handleSubMenuEnter}
-                          onMouseLeave={handleSubMenuLeave}
-                        >
-                          <div className="py-1">
-                            {item.subItems.map((subItem) => (
-                              <a
-                                key={subItem.name}
-                                href={subItem.href}
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                              >
-                                {subItem.name}
-
-                                <span
-                                  className="chevron-down"
-                                  onMouseEnter={() => handleChevronHover(index)}
-                                  onMouseLeave={handleChevronLeave}
-                                >
-                                  {subItem.subChevron}
-                                </span>
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      )}
                     </a>
                   ))}
                 </div>

@@ -30,16 +30,6 @@ const associations = [
 const AssociationsSlider = () => {
   return (
     <div className="flex lg:flex-row-reverse items-center justify-center flex-col ">
-      <div className="md:w-[30%] ">
-        <h1 className="text-3xl font-semibold md:text-center  text-primary p-4 xxxl:text-5xl">
-          <span className="text-white">Our</span> associations
-        </h1>
-        <p className="text-base md:text-center">
-          We know that you need complete confidence in your supply chain. That's
-          why we're backed by industry leading certification and quality
-          standards.
-        </p>
-      </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:xl:grid-cols-6 gap-4 p-6 my-4">
         {associations.map((association) => (
           <div key={association.id} className="w-44 p-4 associations-cards">

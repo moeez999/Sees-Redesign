@@ -6,7 +6,7 @@ const navigation = {
     { name: "01962 718870", href: "#" },
   ],
   support: [
-    { name: "Sadler Energy & Environmental Services Ltd", href: "#" },
+  
     { name: "Unit 5, Mill Court", href: "#" },
     { name: "The Sawmills", href: "#" },
     { name: "Durley", href: "#" },
@@ -14,16 +14,12 @@ const navigation = {
     { name: "SO32 2EJ", href: "#" },
   ],
   company: [
-    { name: "REFUND POLICY", href: "#" },
-    { name: "FAQS", href: "/faqs" },
-    { name: "RECRUITMENT", href: "#" },
-    { name: "CONTACT US", href: "/contactUs" },
+    { name: "Terma & Conditons", href: "#" },
+    { name: "Privacy Policy", href: "/faqs" },
+    { name: "GDPR", href: "#" },
+    { name: "Environmental Policy", href: "/contactUs" },
   ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
+
   social: [
     {
       name: "Facebook",
@@ -92,114 +88,101 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-secondary" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
+   
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-2">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Solutions
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  HEAD OFFICE
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  IMPORTANT LINKS
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Legal
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div>
             <img
               className="h-7 bg-white"
               src="../../logo.png"
               alt="Company name"
             />
-            <div className="mt-8">
-              <Map />
+          
+          </div>
+          <div className="mt-16 grid grid-cols-2 gap-2 xl:col-span-2 xl:mt-0">
+            
+            <div className="md:grid md:grid-cols-2 md:gap-2">
+              <div className="mt-10 md:mt-0">
+                <h3 className="text-sm font-semibold leading-6 text-white">
+                  HEAD OFFICE
+                </h3>
+                <ul role="list" className="mt-6 space-y-4 footer-li">
+                  {navigation.support.map((item) => (
+                    <li key={item.name}>
+                      <a
+                        href={item.href}
+                        className="text-sm leading-6 text-white font-semibold"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-white">
+               Get in Touch
+                </h3>
+                <ul role="list" className="mt-6 space-y-4 footer-li">
+                  {navigation.solutions.map((item) => (
+                    <li key={item.name}>
+                      <a
+                        href={item.href}
+                        className="text-sm leading-6 text-white font-semibold"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+             
+            </div>
+            <div className="md:grid md:grid-cols-2 md:gap-2">
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-white">
+               Policies
+                </h3>
+                <ul role="list" className="mt-6 space-y-4 footer-li">
+                  {navigation.company.map((item) => (
+                    <li key={item.name}>
+                      <a
+                        href={item.href}
+                        className="text-sm leading-6 text-white font-semibold"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-10 md:mt-0">
+                <div className="flex flex-col items-center gap-4 space-x-6">
+                      <h3 className="text-sm font-semibold leading-6 text-white">
+                 Socials
+                </h3>
+                <div  className="flex flex-row gap-4">
+              {navigation.social.map((item) => (
+                <a key={item.name} href={item.href} className="text-white hover:text-gray-500">
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                </a>
+              ))}
+                 </div>
+            </div>
+              </div>
             </div>
           </div>
+       
         </div>
-        <div className="mt-4 border-t border-white/10 pt-8 sm:mt-4 lg:mt-4 lg:flex lg:items-center lg:justify-center">
-          <div>
-            <h3 className="text-sm font-semibold leading-6 text-white text-center">
-              Registered Office: Sadler Energy and Environmental Services Ltd,
-              1&2 The Barn, Oldwick, West Stoke Road, Lavant, Chichester, West
-              Sussex, PO18 9AA
-              <br />
-              Reg No: 6548294 | VAT Reg No: 928433411
-            </h3>
-            <p className="mt-2 text-sm leading-6 text-gray-300 text-center">
-              TERMS & CONDITIONS PRIVACY POLICY GDPR
-            </p>
-          </div>
-        </div>
-        <div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-center">
-          <p className="mt-8 text-center text-xs leading-5 text-white md:order-1 md:mt-0">
+     
+        <div className="mt-8 border-t border-white/10 pt-8 md:flex flex-col md:items-start md:justify-start">
+          <p className="text-sm font-semibold leading-6 text-white text-center">
             &copy; Sadler Energy and Environmental Services Ltd.
           </p>
+          <p className="text-sm font-semibold leading-6 text-white text-center">
+            Reg No: 6548294
+                 </p>
         </div>
       </div>
     </footer>
