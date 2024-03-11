@@ -6,7 +6,6 @@ const navigation = {
     { name: "01962 718870", href: "#" },
   ],
   support: [
-  
     { name: "Unit 5, Mill Court", href: "#" },
     { name: "The Sawmills", href: "#" },
     { name: "Durley", href: "#" },
@@ -88,19 +87,12 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-secondary" aria-labelledby="footer-heading">
-   
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-2">
-              <div>
-            <img
-              className="h-7 bg-white"
-              src="../../logo.png"
-              alt="Company name"
-            />
-          
+          <div>
+            <p className="text-2xl font-extrabold">SEES</p>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-2 xl:col-span-2 xl:mt-0">
-            
             <div className="md:grid md:grid-cols-2 md:gap-2">
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
@@ -121,7 +113,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-               Get in Touch
+                  Get in Touch
                 </h3>
                 <ul role="list" className="mt-6 space-y-4 footer-li">
                   {navigation.solutions.map((item) => (
@@ -136,12 +128,11 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-             
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-2">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-               Policies
+                  Policies
                 </h3>
                 <ul role="list" className="mt-6 space-y-4 footer-li">
                   {navigation.company.map((item) => (
@@ -158,31 +149,34 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <div className="flex flex-col items-center gap-4 space-x-6">
-                      <h3 className="text-sm font-semibold leading-6 text-white">
-                 Socials
-                </h3>
-                <div  className="flex flex-row gap-4">
-              {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-white hover:text-gray-500">
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
-                </a>
-              ))}
-                 </div>
-            </div>
+                  <h3 className="text-sm font-semibold leading-6 text-white">
+                    Socials
+                  </h3>
+                  <div className="flex flex-row gap-4">
+                    {navigation.social.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="text-white hover:text-gray-500"
+                      >
+                        <span className="sr-only">{item.name}</span>
+                        <item.icon className="h-6 w-6" aria-hidden="true" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-       
         </div>
-     
+
         <div className="mt-8 border-t border-white/10 pt-8 md:flex flex-col md:items-start md:justify-start">
           <p className="text-sm font-semibold leading-6 text-white text-center">
             &copy; Sadler Energy and Environmental Services Ltd.
           </p>
           <p className="text-sm font-semibold leading-6 text-white text-center">
             Reg No: 6548294
-                 </p>
+          </p>
         </div>
       </div>
     </footer>
