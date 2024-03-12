@@ -675,6 +675,12 @@ nav ul li {
   background-size: cover;
   background-position-y: center;
 }
+.domestic {
+  background: url(../public/Images/Fotolia_394708_M.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
 
 .New-building {
   background: url(../public/Images/SAP/home2.png);
