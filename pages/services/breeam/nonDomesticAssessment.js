@@ -22,7 +22,7 @@ export default function nonDomesticAssessment() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full   lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-semibold leading-7">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                       What we bring?
                     </p>
                     <p
@@ -90,7 +90,7 @@ export default function nonDomesticAssessment() {
                       </li>
                     </ul>
                     <p
-                      className="mt-6 text-2xl font-semibold leading-7 text-secondary"
+                      className="mt-4 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="zoom-in"
                     >
                       BREEAM Rating
@@ -110,7 +110,7 @@ export default function nonDomesticAssessment() {
                       What types of buildings does BREEAM new construction
                       cover?
                     </h2>
-                    <p className="mt-6 text-primary">
+                    <p className="mt-6 text-primary font-normal">
                       BRE has divided buildings into categories for ease of the
                       developer and the assessor, these are as follows:
                     </p>
@@ -200,7 +200,7 @@ export default function nonDomesticAssessment() {
                         </span>
                       </li>
                     </ul>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary font-normal">
                       We typically work across Commercial and Other buildings,
                       but this is not exhaustive.
                     </p>
@@ -210,26 +210,26 @@ export default function nonDomesticAssessment() {
                     >
                       Why do I need an assessment?
                     </h2>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary font-medium">
                       There are a variety of reasons as to why you might want to
                       have your project assessed. Some schemes will have a
                       specific target level, normally around the "Very Good"
                       level, as part of the planning condition or local unitary
                       authority planning policy.
                     </p>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary font-medium">
                       Often when the construction is undertaken on behalf of
                       local government authority, BREEAM Target is set as part
                       of the employees requirements (ER's), even if it does not
                       for part of the planning condition
                     </p>
                     <h2
-                      className="mt-16 text-2xl  tracking-tight  text-secondary"
+                      className="mt-16 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="zoom-in"
                     >
                       Secondary Services:
                     </h2>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary font-normal">
                       For your ease, we also provide additional services to help
                       optimise the cost of the assessment.
                     </p>

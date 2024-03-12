@@ -21,7 +21,7 @@ export default function airTightnessTesting() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-extrabold leading-7">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                       Why airtightness is so crucial
                     </p>
                     <p
@@ -46,7 +46,7 @@ export default function airTightnessTesting() {
                     </p>
 
                     <p
-                      className="mt-6 text-xl leading-8 font-extrabold text-secondary"
+                      className="mt-6 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="fade-up"
                     >
                       Why choose SEES
@@ -66,7 +66,7 @@ export default function airTightnessTesting() {
                           />
                         </svg>
                         <span>
-                          <strong className="font-semibold text-primary">
+                          <strong className="text-primary">
                             Accredited members of the Air Tightness Testing and
                             Measuring Association (ATTMA)
                           </strong>
@@ -88,7 +88,7 @@ export default function airTightnessTesting() {
                           <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
                         </svg>
                         <span>
-                          <strong className="font-semibold text-primary">
+                          <strong className="text-primary">
                             Coverage all over the UK with no mileage charges
                           </strong>
                         </span>
@@ -108,7 +108,7 @@ export default function airTightnessTesting() {
                         </svg>
 
                         <span>
-                          <strong className="font-semibold text-primary">
+                          <strong className="text-primary">
                             We provide practical information & guidance prior to
                             visit to ensure best results possible
                           </strong>
@@ -134,7 +134,7 @@ export default function airTightnessTesting() {
                         </svg>
 
                         <span>
-                          <strong className="font-semibold text-primary">
+                          <strong className="text-primary">
                             If required, we can provide same day certificates
                           </strong>
                         </span>
@@ -150,7 +150,7 @@ export default function airTightnessTesting() {
                         </svg>
 
                         <span>
-                          <strong className="font-semibold text-primary">
+                          <strong className="text-primary">
                             We use the latest high power blower door fan systems
                           </strong>
                         </span>
@@ -176,7 +176,7 @@ export default function airTightnessTesting() {
                       <div>
                         <p
                           data-aos="fade-up"
-                          className="font-semibold text-2xl"
+                          className="text-2xl font-extrabold text-secondary leading-7"
                         >
                           Building Preparation
                         </p>
@@ -202,7 +202,7 @@ export default function airTightnessTesting() {
                               />
                             </svg>
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 Internal doors to riser cupboards may be closed
                                 but not artificially sealed.
                               </strong>
@@ -224,7 +224,7 @@ export default function airTightnessTesting() {
                               <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
                             </svg>
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 Lift doors should be closed (not artificially
                                 sealed), and external lift shaft vents should
                                 remain open
@@ -242,7 +242,7 @@ export default function airTightnessTesting() {
                             </svg>
 
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 All drainage traps should be filled with water.
                                 Incoming service penetrations should be
                                 permanently sealed
@@ -264,7 +264,7 @@ export default function airTightnessTesting() {
                             </svg>
 
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 External doors and windows should be closed
                                 (except those connected to test equipment)
                               </strong>
@@ -285,7 +285,7 @@ export default function airTightnessTesting() {
                             </svg>
 
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 Trickle vents, smoke vents, and passive
                                 ventilation systems should be closed but not
                                 artificially sealed
@@ -308,7 +308,7 @@ export default function airTightnessTesting() {
                             </svg>
 
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 Mechanical ventilation and air conditioning
                                 systems should be turned off and temporarily
                                 sealed
@@ -331,7 +331,7 @@ export default function airTightnessTesting() {
                             </svg>
 
                             <span>
-                              <strong className="font-semibold text-primary">
+                              <strong className="text-primary">
                                 AGA’S must be turned off and COLD!
                               </strong>
                             </span>

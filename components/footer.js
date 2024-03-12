@@ -88,9 +88,11 @@ export default function Footer() {
   return (
     <footer className="bg-secondary" aria-labelledby="footer-heading">
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-2">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-2 md:w-[90%]">
           <div>
-            <p className="text-2xl font-extrabold text-white">SEES</p>
+            <p className="text-4xl text-center font-extrabold text-white">
+              SEES
+            </p>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-2 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-2">
@@ -152,7 +154,7 @@ export default function Footer() {
                   <h3 className="text-sm font-semibold leading-6 text-white">
                     Socials
                   </h3>
-                  <div className="flex flex-row gap-4">
+                  <div className="flex flex-row flex-wrap gap-4">
                     {navigation.social.map((item) => (
                       <a
                         key={item.name}

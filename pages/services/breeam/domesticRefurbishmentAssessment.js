@@ -10,26 +10,19 @@ export default function dosmesticRefurbishmentAssessment() {
       <div className="breeam-nav">
         <Navigation />
       </div>
-           <div className=" Non-domestic mt-24 py-14 h-64 flex items-center justify-center">
-            <h1
-              style={{
-                backgroundColor: "rgba(255, 255, 255, 0.853)",
-                padding: "0.5rem",
-              }}
-              className="mt-2 shadow-lg text-3xl text-center font-semibold tracking-tight text-primary sm:text-4xl animate__animated animate__backInLeft animate__slow"
-            >
-              Domestic Refurbishment Assessment
-            </h1>
-          </div>
+      <div className="Non-domestic h-64 mt-24 py-14 flex items-center justify-center">
+        <h1 className="mt-2  px-4 py-2 rounded-xl font-semibold  text text-3xl  text-shadow-black   text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+          Domestic Refurbishment Assessment
+        </h1>
+      </div>
       <div class="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl">
-     
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="lg:max-w-lg">
-                    <p className="text-base font-semibold leading-7 ">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                       What we bring?
                     </p>
                     <p
@@ -99,7 +92,7 @@ export default function dosmesticRefurbishmentAssessment() {
                       </li>
                     </ul>
                     <p
-                      className="mt-6 text-xl leading-8 text-secondary"
+                      className="mt-6 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="zoom-in"
                     >
                       BREEAM Rating
@@ -116,7 +109,7 @@ export default function dosmesticRefurbishmentAssessment() {
                       What types of buildings does BREEAM new construction
                       cover?
                     </h2>
-                    <p className="mt-6 text-primary">
+                    <p className="mt-6 text-primary  font-normal">
                       BRE has divided buildings into categories for ease of the
                       developer and the assessor, these are as follows:
                     </p>
@@ -206,7 +199,7 @@ export default function dosmesticRefurbishmentAssessment() {
                         </span>
                       </li>
                     </ul>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary  font-normal">
                       We typically work across Commercial and Other buildings,
                       but this is not exhaustive.
                     </p>
@@ -216,26 +209,26 @@ export default function dosmesticRefurbishmentAssessment() {
                     >
                       Why do I need an assessment?
                     </h2>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary  font-normal">
                       There are a variety of reasons as to why you might want to
                       have your project assessed. Some schemes will have a
                       specific target level, normally around the "Very Good"
                       level, as part of the planning condition or local unitary
                       authority planning policy.
                     </p>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary  font-normal">
                       Often when the construction is undertaken on behalf of
                       local government authority, BREEAM Target is set as part
                       of the employees requirements (ER's), even if it does not
                       for part of the planning condition
                     </p>
                     <h2
-                      className="mt-16 text-2xl font-bold tracking-tight text-secondary"
+                      className="mt-16 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="zoom-in"
                     >
                       Secondary Services:
                     </h2>
-                    <p className="mt-8 text-primary">
+                    <p className="mt-8 text-primary font-normal">
                       For your ease, we also provide additional services to help
                       optimise the cost of the assessment.
                     </p>

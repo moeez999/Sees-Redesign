@@ -29,8 +29,8 @@ const Home = () => {
       <div className="services-slider container mx-auto  mb-6 pb-6 flex justify-center">
         <ServicesSlider></ServicesSlider>
       </div>
-      <div className="flex justify-center">
-        <div className="w-[80%] xsm:w-full">
+      <div className="flex justify-center flex-col">
+        <div className="xsm:w-full">
           <div className="flex justify-center relative anima">
             <ul className="circles">
               <li></li>
@@ -53,14 +53,12 @@ const Home = () => {
               AND NATIONAL HOUSE BUILDERS ALIKE.
             </h1>
           </div>
-
-          <div className="p-2 mt-8 container client-slider mx-auto flex justify-center">
-            <ClientSlider></ClientSlider>
-          </div>
+        </div>
+        <div className="p-2 mt-8 container client-slider mx-auto flex justify-center">
+          <ClientSlider></ClientSlider>
         </div>
       </div>
 
-  
       <div className="p-4 mt-8" id="review-section">
         <QuoteContainer quoteData={quotesData} />
       </div>
@@ -89,20 +87,19 @@ const Home = () => {
           </a>
         </div>
       </div>
-            <div className="anima relative py-6">
-        <h1 className="text-4xl font-semibold md:text-center  text-white p-4 xxxl:text-5xl">
+      <div className="anima relative py-6">
+        <h1 className="text-4xl font-semibold text-center  text-white p-4 xxxl:text-5xl">
           Our associations
         </h1>
         <div className="flex justify-center">
-
-              <p className="text-xl text-white md:text-center md:w-[30%]">
-          We know that you need complete confidence in your supply chain. That's
-          why we're backed by industry leading certification and quality
-          standards.
-        </p>
+          <p className="text-xl text-white text-center md:w-[30%]">
+            We know that you need complete confidence in your supply chain.
+            That's why we're backed by industry leading certification and
+            quality standards.
+          </p>
         </div>
-    
-             <ul className="circles">
+
+        <ul className="circles">
           <li></li>
           <li></li>
           <li></li>
@@ -115,8 +112,7 @@ const Home = () => {
           <li></li>
         </ul>
       </div>
-    <div className="py-8 px-4 my-6  ">
-   
+      <div className="py-8 px-4 my-6  ">
         <AssociationsSlider></AssociationsSlider>
       </div>
       <Footer />

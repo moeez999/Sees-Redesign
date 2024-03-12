@@ -234,7 +234,7 @@ const Navigation = () => {
   };
 
   const handleSubMenuEnter = () => {
-    setSubMenuHovered(true);
+    setOpenSubMenu(openSubMenu);
   };
 
   const handleSubMenuLeave = () => {

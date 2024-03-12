@@ -1,18 +1,17 @@
 import React from "react";
 import Navigation from "../../../components/navigation";
 import Footer from "../../../components/footer";
-import Table from "../../../components/tables";
 import ContactForm from "../../../components/contactform";
 
-export default function sapForConversions() {
+export default function renewableEnergy() {
   return (
     <div className="bg-[#E8E8E8]">
       <div className="breeam-nav">
         <Navigation />
       </div>
-      <div className="sap-conversion h-64 flex items-center mt-24 py-14 justify-center">
-        <h1 className="mt-2  text text-3xl text-center text-shadow-black font-extrabold  tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
-          SAP for Conversion
+      <div className="renew-energy h-64 flex items-center mt-24 py-14 justify-center">
+        <h1 className="mt-2  text text-3xl font-extrabold text-center text-shadow-black tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+      Renewable Energy/Low Carbon Report
         </h1>
       </div>
       <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
@@ -23,27 +22,25 @@ export default function sapForConversions() {
                 <div className="lg:pr-4">
                   <div className="">
                     <p className="text-2xl font-extrabold text-secondary leading-7">
-                      Building Regulations
+                  What is an Energy Strategy and why you need it
                     </p>
                     <p
                       className="mt-6 text-xl leading-8 text-primary"
                       data-aos="fade-up"
                     >
-                      Part L1B states that changing the use of a building or
-                      converting it would require SAP calculations to be carried
-                      out to ensure it meets the efficiency standards and carbon
-                      targets.
+                     An energy strategy lays out a plan outlining how carbon and energy reduction targets set by your Local Planning Authority will be achieved.
                     </p>
                     <p
                       className="mt-6 text-xl leading-8 text-primary"
                       data-aos="fade-up"
                     >
-                      The process is done in two stages; firstly SAP
-                      calculations are carried out at the design stage to ensure
-                      the proposed design complies with Part L1B requirements,
-                      and the calculations are carried out again at the
-                      ‘as-built’ stage, producing a final report and an EPC for
-                      the new dwelling.
+                   The reduction target for your property will be dependent on where it’s located as every Local Planning Authority has their own reduction targets, but are typically in the range of 10% to 19%.
+                    </p>
+                       <p
+                      className="mt-6 text-xl leading-8 text-primary"
+                      data-aos="fade-up"
+                    >
+                 An energy strategy compliant with Part 25A of local building regulations will be required to achieve planning permission. This energy statement can also serve as a guide to help direct the design and construction of the development. 
                     </p>
                   </div>
                 </div>
@@ -54,44 +51,15 @@ export default function sapForConversions() {
                   <div className=" text-base leading-7  text-secondary ">
                     <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:grid-cols-2  lg:items-start lg:gap-y-10">
                       <div>
-                        <p
-                          className="text-2xl font-extrabold text-secondary leading-7"
-                          data-aos="fade-up"
-                        >
-                          How we help
+                        <p className="text-2xl font-extrabold text-secondary leading-7" data-aos="fade-up">
+                      Producing the report 
                         </p>
-                        <p
-                          className="mt-6 text-xl leading-8 text-primary"
-                          data-aos="fade-up"
-                        >
-                          We've supported numerous architects, contractors, and
-                          developers in delivering commercially viable projects
-                          that prioritize sustainability and environmental
-                          consciousness.
-                        </p>
-                        <p
-                          className="mt-6 text-xl leading-8 text-primary"
-                          data-aos="fade-up"
-                        >
-                          We, at SEES, will help and advise you throughout the
-                          whole process, from the design stage until completion,
-                          to ensure your building meets the regulation
-                          requirements in the most cost-effective way.
-                        </p>
-                        <p
-                          className="mt-6 text-xl leading-8 text-primary"
-                          data-aos="fade-up"
-                        >
-                          We identify areas of improvement in both the new and
-                          existing elements of the building and come up with a
-                          plan of action laying out how these can be
-                          incorporated into the design.
-                        </p>
+
                         <p
                           className="mt-6 text-xl leading-8 text-secondary"
                           data-aos="fade-up"
                         >
-                          What we would require to conduct SAP calculations:
+                       The report will use the energy hierarchy to minimise onsite carbon emissions, the stages are:
                         </p>
                         <ul role="list" className="mt-8 space-y-4 text-primary">
                           <li className="flex gap-x-3" data-aos="fade-up">
@@ -109,7 +77,7 @@ export default function sapForConversions() {
                             </svg>
                             <span>
                               <strong className="font-semibold text-primary">
-                                Existing and proposed site plans and elevations
+                             Use Renewable Energy – assess the feasibility of renewable energy systems.  
                               </strong>
                             </span>
                           </li>
@@ -130,21 +98,44 @@ export default function sapForConversions() {
                             </svg>
                             <span>
                               <strong className="font-semibold text-primary">
-                                Construction details and building services
-                                specifications
+                           Supply Energy Efficiently – Use low-carbon technology to significantly reduce energy consumption. 
+                              </strong>
+                            </span>
+                          </li>
+                          <li className="flex gap-x-3" data-aos="fade-up">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="#509e2f"
+                              className="w-6 h-6"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+
+                            <span>
+                              <strong className="font-semibold text-primary">
+                            Use less Energy – the incorporation of low energy design and passive measures to promise the reduction of energy use
                               </strong>
                             </span>
                           </li>
                         </ul>
+                     
+                        
                       </div>
                       <div>
-                        <img src="../../Images/Sap/grasshome.png" />
+                        <img src="../../Images/3.png" />
                       </div>
                     </div>
-                    <p className="mt-8 text-primary">
-                      The rest will be done from our office on our SAP software,
-                      eliminating the need for any site visits.
-                    </p>
+                       <p
+                          className="mt-6 text-xl leading-8 text-primary"
+                          data-aos="fade-up"
+                        >
+                 We will consider all viable options that can be employed to achieve reduction targets and will then be presented to you in a report outlining all of them. 
+                        </p>
                   </div>
                 </div>
               </div>

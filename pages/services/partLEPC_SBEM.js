@@ -18,7 +18,7 @@ export default function partLEPC_SBEM() {
         </div>
         <div className="flex items-center justify-center">
           <div className=" w-32 animate__animated animate__backInRight animate__slow ">
-            <img src="../Service Logos/SAP.png" />
+            <img src="../Service Logos/SBEM.png" />
           </div>
         </div>
         <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4">

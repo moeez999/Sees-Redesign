@@ -21,7 +21,7 @@ export default function waterUsageCalculation() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-extrabold leading-7">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                      
 Part G of the Building Regulations
 
@@ -47,7 +47,7 @@ Part G of the Building Regulations
 
 
                     <p
-                      className="mt-6 text-xl leading-8 font-extrabold text-secondary"
+                      className="mt-6 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="fade-up"
                     >
                A Guide to target water efficiency of fittings
@@ -90,7 +90,7 @@ Part G of the Building Regulations
                     </tr>
                 </tbody>
             </table>
-                <p className="text-2xl font-extrabold leading-7">
+                <p className="text-2xl font-extrabold text-secondary leading-7">
                      
 Water Reduction Strategy 
 

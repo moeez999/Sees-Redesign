@@ -10,7 +10,7 @@ export default function daylightingCalculations() {
         <Navigation />
       </div>
       <div className="daylight h-64 flex items-center justify-center mt-24 py-14">
-        <h1 className="mt-2  text text-3xl text-center text-shadow-black font-semibold tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
+        <h1 className="mt-2  text text-3xl text-center text-shadow-black font-extrabold tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
           Daylighting Calculation
         </h1>
       </div>
@@ -21,7 +21,7 @@ export default function daylightingCalculations() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-semibold leading-7">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                       Importance of Daylighting
                     </p>
                     <p

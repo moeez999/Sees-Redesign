@@ -21,7 +21,7 @@ export default function ventilationTesting() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-extrabold leading-7">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                       Building Regulations
                     </p>
                     <p
@@ -35,7 +35,7 @@ export default function ventilationTesting() {
                       buildings other than dwellings.
                     </p>
                     <p
-                      className="mt-6 text-xl leading-8 font-extrabold text-secondary"
+                      className="mt-6 text-2xl font-extrabold text-secondary leading-7"
                       data-aos="fade-up"
                     >
                       Under Part F ventilation systems are divided into separate
@@ -148,12 +148,12 @@ export default function ventilationTesting() {
                       <div>
                         <p
                           data-aos="fade-up"
-                          className="font-semibold text-2xl"
+                          className="text-2xl font-extrabold text-secondary leading-7"
                         >
                           How we help
                         </p>
                         <p
-                          className="mt-6 text-xl font-semibold leading-8 text-primary"
+                          className="mt-6 text-xl leading-8 text-primary"
                           data-aos="fade-up"
                         >
                           We provide coverage all over the UK and our expert
@@ -161,7 +161,7 @@ export default function ventilationTesting() {
                           Part F regulations.
                         </p>
                         <p
-                          className="mt-6 text-xl font-semibold leading-8 text-primary"
+                          className="mt-6 text-xl leading-8 text-primary"
                           data-aos="fade-up"
                         >
                           Ventilation testing can usually be coupled with

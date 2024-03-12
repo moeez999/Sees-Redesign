@@ -21,7 +21,7 @@ export default function sbemCommercialExistingBuildings() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full  lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="">
-                    <p className="text-2xl font-extrabold leading-7">
+                    <p className="text-2xl font-extrabold text-secondary leading-7">
                       Building Regulations
                     </p>
                     <p
@@ -61,10 +61,10 @@ export default function sbemCommercialExistingBuildings() {
 
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full  lg:grid-cols-1 lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
-                  <div className=" text-base leading-7 font-semibold text-secondary ">
+                  <div className=" text-base leading-7 text-secondary ">
                     <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:grid-cols-2  lg:items-start lg:gap-y-10">
                       <div>
-                        <p data-aos="fade-up">How we help</p>
+                        <p className="text-2xl font-extrabold text-secondary leading-7" data-aos="fade-up">How we help</p>
                         <p
                           className="mt-6 text-xl leading-8 text-primary"
                           data-aos="fade-up"

@@ -729,18 +729,25 @@ nav ul li {
 }
 
 .daylight {
-    background: url(../public/Images/Daylighting/Daylight.JPG);
+  background: url(../public/Images/Daylighting/Daylight.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
 }
 
 .IAQ {
-    background: url(../public/Images/IndoorAirQuality/IMG_0022.png);
+  background: url(../public/Images/IndoorAirQuality/IMG_0022.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
 }
+.renew-energy {
+  background: url(../public/Images/image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
 .home-page div header {
   background: transparent;
 }
