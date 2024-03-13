@@ -9,7 +9,7 @@ export default function waterNeutrality() {
       <div className="breeam-nav">
         <Navigation />
       </div>
-      <div className="sap-conversion h-64 flex items-center mt-24 py-14 justify-center">
+      <div className="water-neutral h-64 flex items-center mt-24 py-14 justify-center">
         <h1 className="mt-2  text text-3xl font-extrabold text-center text-shadow-black tracking-tight text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
           Water Neutrality
         </h1>
@@ -152,7 +152,7 @@ export default function waterNeutrality() {
                         </p>
                       </div>
                       <div>
-                        <img src="../../Images/Sap/grasshome.png" />
+                        <img src="../../Images/Water-Images/225527_100915011772_IMG_16_0000.jpeg" />
                       </div>
                     </div>
                   </div>

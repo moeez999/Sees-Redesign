@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "../../components/navigation";
-import ServiceCard from "../../components/serviceCards";
 import Card from "../../components/ServicesCards";
 import Footer from "../../components/footer";
 

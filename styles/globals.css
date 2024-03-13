@@ -681,6 +681,31 @@ nav ul li {
   background-size: cover;
   background-position-y: center;
 }
+.lifeCycle {
+  background: url(../public/Images/Fotolia_390119_M.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.over-heat {
+  background: url(../public/Images/Fotolia_3074524_M.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.water-neutral {
+  background: url(../public/Images/Water-Images/225527_100915011772_IMG_15_0000.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.wholeCarbon {
+  background: url(../public/Images/Fotolia_33265_M.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
 
 .New-building {
   background: url(../public/Images/SAP/home2.png);
@@ -754,6 +779,25 @@ nav ul li {
   background-position-y: center;
 }
 
+.thermal-bridge {
+  background: url(../public/Images/Thermal-Bridging-Images/E6\ 3D\ thermal\ Model.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.sunlight {
+  background: url(../public/Images/Daylighting/IMG_1554.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.thermographic{
+    background: url(../public/Images/Thermographics/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
 .home-page div header {
   background: transparent;
 }
@@ -770,6 +814,10 @@ nav ul li {
 
 .nav-p {
   padding-bottom: 1.5rem;
+}
+
+.bg-gray {
+  background: darkgray;
 }
 .center-s {
   display: flex;

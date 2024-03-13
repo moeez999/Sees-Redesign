@@ -3,30 +3,30 @@ import Navigation from "../../components/navigation";
 import Card from "../../components/ServicesCards";
 import Footer from "../../components/footer";
 
-export default function buildingUser() {
+export default function thermalBridging() {
   return (
     <div>
-      <div className="breeam ">
+      <div className="breeam">
         <Navigation />
       </div>
       <div className="mt-24  h-screen">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold text-center py-4 tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
-         O&M Manual
+           Thermal Bridging
           </h2>
         </div>
         <div className="flex items-center justify-center">
           <div className=" w-32 animate__animated animate__backInRight animate__slow ">
-            <img src="../Service Logos/Building User Guide.png" />
+            <img src="../Service Logos/Thermal Modelling.png" />
           </div>
         </div>
         <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full">
           <Card
             color="#509e2f"
-            title="Building User Guide"
-            image="../Images/download.jpeg"
-            content=" A building user guide (BUG) should help building users and facilities managers access, understand and operate the building efficiently and in accordance with the original design intent."
-            nav="/services/UserGuide/buildingUserGuide"
+            title="Thermal Bridging Calculations"
+            image="../Images/Thermal-Bridging-Images/THermal Gun.webp"
+            content="SAP and SBEM calculations both incorporate heat loss from thermal bridges while checking for compliance with Part L. Where ever there’s a break in the insulation layer, or a point where two or more building units meet, that area can be classified as a thermal bridge which is a path for heat to escape. "
+            nav="/services/ThermalBridging/thermalBridgingCalculations"
           />
         </div>
       </div>

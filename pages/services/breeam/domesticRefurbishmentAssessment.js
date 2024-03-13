@@ -1,7 +1,6 @@
 import React from "react";
 import Navigation from "../../../components/navigation";
 import Footer from "../../../components/footer";
-import Table from "../../../components/tables";
 import ContactForm from "../../../components/contactform";
 
 export default function dosmesticRefurbishmentAssessment() {
