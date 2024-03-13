@@ -146,11 +146,11 @@ const navigation = [
         sublists: [
           {
             name: "Daylighting Calculations",
-            href: "/services/daylightingCalculations",
+            href: "/services/Daylighting/daylightingCalculations",
           },
           {
             name: "Sunlight Analysis",
-            href: "/services/sunlightAnalysis",
+            href: "/services/Daylighting/sunlightAnalysis",
           },
         ],
       },
@@ -160,11 +160,11 @@ const navigation = [
         sublists: [
           {
             name: "Sound Testing",
-            href: "/services/soundTesting",
+            href: "/services/Acoustics/soundTesting",
           },
           {
             name: "Noise Impact Assessment",
-            href: "/services/noiseImpactAssessment",
+            href: "/services/Acoustics/NoiseImpactAssessment",
           },
         ],
       },
@@ -174,7 +174,7 @@ const navigation = [
         sublists: [
           {
             name: "Thermographic Survey",
-            href: "/services/thermographicSurvey",
+            href: "/services/ThermoGraphy/thermographicSurvey",
           },
         ],
       },
@@ -184,17 +184,17 @@ const navigation = [
         sublists: [
           {
             name: "Flood Risk Assessment",
-            href: "/services/floodRiskAssessment",
+            href: "/services/FLoodRisk/FloodRiskAssessment",
           },
         ],
       },
       {
         name: "O&M Manual",
-        href: "/services/buildingUserGuide",
+        href: "/services/buildingUser",
         sublists: [
           {
             name: "Building User Guide",
-            href: "/services/buildingUserGuide",
+            href: "/services/UserGuide/buildingUserGuide",
           },
         ],
       },
