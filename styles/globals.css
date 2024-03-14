@@ -255,11 +255,14 @@ nav ul li {
 }
 
 :root {
-  --primary-color: #509e2f;
+  --primary-color: darkgrey;
   --bg-color: #dfe6e9;
   --text-color: white;
 }
-
+.review-s .swiper {
+  border-radius: 15px;
+  box-shadow: 0 50px 100px -12px rgb(0 0 0 / 0.25);
+}
 .container-card {
   background: white;
   cursor: pointer;
@@ -792,8 +795,8 @@ nav ul li {
   background-position-y: center;
 }
 
-.thermographic{
-    background: url(../public/Images/Thermographics/4.jpg);
+.thermographic {
+  background: url(../public/Images/Thermographics/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;

@@ -1,5 +1,5 @@
-import Map from "./map";
-
+import QuoteContainer from "./reviews";
+import quotesData from "./reviewsData";
 const navigation = {
   solutions: [
     { name: "hello@sees.co.uk", href: "#" },
@@ -87,8 +87,8 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-secondary" aria-labelledby="footer-heading">
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-2 md:w-[90%]">
+      <div className="mx-auto  px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+        <div className="xl:grid xl:grid-cols-4 xl:gap-2 md:w-[90%]">
           <div>
             <p className="text-4xl text-center font-extrabold text-white">
               SEES
@@ -131,7 +131,7 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-2">
+            <div className="md:grid md:grid-cols-3 md:gap-2">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
                   Policies
@@ -169,6 +169,9 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="shadow-2xl h-52 rounded-[15px] review-s">
+            <QuoteContainer quoteData={quotesData} />;
           </div>
         </div>
 

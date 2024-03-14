@@ -14,10 +14,8 @@ export default function airTightnessTesting() {
           <h2 className="text-4xl py-4 font-bold text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Airtightness Testing
           </h2>
-        </div>
-               <div className="flex items-center justify-center">
-          <div className=" w-32 animate__animated animate__backInRight animate__slow ">
-            <img src="../Service Logos/Air testing.png" />
+          <div className="w-24 animate__animated animate__backInRight animate__slow ">
+            <img src="../White-Images/white_01-air testing.png" />
           </div>
         </div>
         <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4">
