@@ -62,7 +62,10 @@ const Home = () => {
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
             <div class="w-full lg:max-w-lg lg:flex-auto">
-              <h2 class="text-3xl text-secondary font-bold tracking-tight  sm:text-4xl">
+              <h2
+                data-aos="zoom-out-up"  data-aos-duration="500"
+                class="text-3xl text-secondary font-bold tracking-tight  sm:text-4xl"
+              >
                 Get to Know Us
               </h2>
               <p class="mt-6 text-xl leading-8 text-gray-600">
@@ -74,6 +77,9 @@ const Home = () => {
                 regulations and advancements in building physics.
               </p>
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
                 src="../../Images/About us.jpg"
                 alt=""
                 class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[50.5rem]"
