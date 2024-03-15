@@ -12,14 +12,13 @@ export default function thermalBridging() {
       <div className="mt-24  h-screen">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold text-center py-4 tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
-           Thermal Bridging
+            Thermal Bridging
           </h2>
-        </div>
-        <div className="flex items-center justify-center">
-          <div className=" w-32 animate__animated animate__backInRight animate__slow ">
-            <img src="../Service Logos/Thermal Modelling.png" />
+          <div className=" w-24 animate__animated animate__backInRight animate__slow ">
+            <img src="../White-Images/white_09-overheating assessments.png" />
           </div>
         </div>
+
         <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full">
           <Card
             color="#509e2f"

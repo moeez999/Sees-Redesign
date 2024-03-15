@@ -14,12 +14,11 @@ export default function dayLightining() {
           <h2 className="text-4xl font-bold py-4 text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Daylighting
           </h2>
-        </div>
-        <div className="flex items-center justify-center">
           <div className=" w-32 animate__animated animate__backInRight animate__slow ">
-            <img src="../Service Logos/Daylight calculations.png" />
+            <img src="../White-Images/white_04-day light calculations.png" />
           </div>
         </div>
+
         <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4">
           <Card
             color="#509e2f"
