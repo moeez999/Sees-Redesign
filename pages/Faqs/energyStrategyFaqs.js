@@ -2,7 +2,7 @@ import React from "react";
 
 function EnergyStrategyFaqs() {
   return (
-    <div className="container mx-auto px-4 Shadow-custom py-8">
+    <div className="container mx-auto px-4  py-8">
       <div className="p-6 mx-auto">
         <div className="my-2">
           <div className="flex flex-row justify-center items-center my-2">

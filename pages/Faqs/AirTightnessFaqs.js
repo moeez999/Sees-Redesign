@@ -2,7 +2,7 @@ import React from "react";
 
 function AirTightnessFaqs() {
   return (
-    <div className="container mx-auto px-4 Shadow-custom py-8">
+    <div className="container mx-auto px-4  py-8">
       <div className="p-6 mx-auto">
         <div className="flex flex-row justify-center items-center">
           <h1 className="text-4xl mb-[0px] animate__animated animate__backInRight animate__slow text-center font-bold mb-4 text-secondary">

@@ -6,9 +6,6 @@ export default function ContactForm() {
     lastName: "",
     email: "",
     message: "",
-    companyName: "",
-    phoneNumber: "",
-    file: null,
   });
 
   const handleChange = (e) => {
@@ -19,28 +16,35 @@ export default function ContactForm() {
     });
   };
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    setFormData({
-      ...formData,
-      file: file,
-    });
-  };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you can implement your form submission logic
-    console.log(formData);
-    // Reset the form after submission
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      message: "",
-      companyName: "",
-      phoneNumber: "",
-      file: null,
-    });
+
+    const formDataToSend = new FormData();
+    formDataToSend.append("firstName", formData.firstName);
+    formDataToSend.append("lastName", formData.lastName);
+    formDataToSend.append("email", formData.email);
+    formDataToSend.append("message", formData.message);
+
+    try {
+      const response = await fetch("http://localhost:3001/submit", {
+        method: "POST",
+        body: formDataToSend,
+      });
+      if (response.ok) {
+        console.log("Form submitted successfully");
+        // Reset the form after successful submission if needed
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        console.error("Failed to submit form");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
   };
 
   return (
@@ -49,7 +53,7 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
     >
       <div className="w-64">
-        <img src="../../Images/best-contact-us-pages-2.png" />
+        <img src="../../Images/best-contact-us-pages-2.png" alt="Contact Us" />
       </div>
       <div>
         <h1 className="text-xl text-secondary font-semibold py-6">
@@ -123,53 +127,6 @@ export default function ContactForm() {
           rows="4"
           required
         ></textarea>
-      </div>
-      <div className="mb-4">
-        <label
-          htmlFor="companyName"
-          className="block font-medium text-secondary text-sm"
-        >
-          Company Name
-        </label>
-        <input
-          type="text"
-          id="companyName"
-          name="companyName"
-          value={formData.companyName}
-          onChange={handleChange}
-          className="mt-1 p-2 block w-full border border-gray-300 rounded-md focus:outline-none "
-        />
-      </div>
-      <div className="mb-4">
-        <label
-          htmlFor="phoneNumber"
-          className="block font-medium text-secondary text-sm"
-        >
-          Phone Number
-        </label>
-        <input
-          type="tel"
-          id="phoneNumber"
-          name="phoneNumber"
-          value={formData.phoneNumber}
-          onChange={handleChange}
-          className="mt-1 p-2 block w-full border border-gray-300 rounded-md focus:outline-none "
-        />
-      </div>
-      <div className="mb-4">
-        <label
-          htmlFor="file"
-          className="block font-medium text-secondary text-sm"
-        >
-          Upload File
-        </label>
-        <input
-          type="file"
-          id="file"
-          name="file"
-          onChange={handleFileChange}
-          className="mt-1 block w-full border border-gray-300 rounded-md focus:outline-none "
-        />
       </div>
       <div className="mb-4">
         <button

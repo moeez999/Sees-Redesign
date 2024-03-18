@@ -9,6 +9,7 @@ import AirTightnessFaqs from "./Faqs/AirTightnessFaqs";
 import WaterCalculationsFaqs from "./Faqs/waterCalculationsFaqs";
 import EnergyStrategyFaqs from "./Faqs/energyStrategyFaqs";
 import Footer from "./../components/footer";
+import indoorAirQuality from "./services/indoorAirQuality";
 
 const Faqs = () => {
   const [activeFaqs, setActiveFaqs] = useState("BREEAM");
@@ -28,14 +29,14 @@ const Faqs = () => {
           </div>
           <ul>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("BREEAM")}
             >
               <img className="w-6" src="../White-Images/white_02-BREEAM.png" />
               BREEAM
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("BuildingLifeCycle")}
             >
               <img
@@ -45,7 +46,7 @@ const Faqs = () => {
               Building Life Cycle
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("ThermalModelling")}
             >
               <img
@@ -55,7 +56,7 @@ const Faqs = () => {
               Thermal Modelling
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("ThermalBridging")}
             >
               <img
@@ -65,7 +66,7 @@ const Faqs = () => {
               Thermal Bridging
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("SapCalculations")}
             >
               <img
@@ -75,7 +76,7 @@ const Faqs = () => {
               SAP Calculations
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("AirTightness")}
             >
               <img
@@ -85,7 +86,7 @@ const Faqs = () => {
               AirTightness
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("WaterCalculations")}
             >
               <img
@@ -95,7 +96,7 @@ const Faqs = () => {
               Water Calculations
             </li>
             <li
-              className="text-lg font-semibold text-white my-1 flex items-center gap-2"
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("EnergyStrategy")}
             >
               <img
@@ -103,6 +104,16 @@ const Faqs = () => {
                 src="../White-Images/white_10-Energy strategies for houses.png"
               />
               Energy Strategy
+            </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("inDoorAirQuality")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_01-air testing.png"
+              />
+              Indoor Air Quality
             </li>
             {/* Add more FAQ categories as needed */}
           </ul>
@@ -116,6 +127,7 @@ const Faqs = () => {
           {activeFaqs === "AirTightness" && <AirTightnessFaqs />}
           {activeFaqs === "WaterCalculations" && <WaterCalculationsFaqs />}
           {activeFaqs === "EnergyStrategy" && <EnergyStrategyFaqs />}
+          {activeFaqs === "inDoorAirQuality" && <indoorAirQuality />}
         </div>
       </div>
       <Footer />
