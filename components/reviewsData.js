@@ -7,17 +7,18 @@ const quotesData = [
   },
   {
     starRating: "⭐⭐⭐⭐⭐",
+    quote: "Great to work with and get the job done.",
+
+    reviewerName: "GRAEME BROWN.",
+  },
+  {
+    starRating: "⭐⭐⭐⭐⭐",
     quote:
       "Dave turned up on time, did the job, explained what he was doing and left without leaving any mess. Efficient and pleasant, what more could you ask for! Recommended.",
 
     reviewerName: "DAVID COURT.",
   },
-  {
-    starRating: "⭐⭐⭐⭐⭐",
-    quote: "Great to work with and get the job done.",
 
-    reviewerName: "GRAEME BROWN.",
-  },
   {
     starRating: "⭐⭐⭐⭐⭐",
     quote:

@@ -58,17 +58,18 @@ const Home = () => {
           <ClientSlider></ClientSlider>
         </div>
       </div>
-      <div class="bg-white py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
-            <div class="w-full lg:max-w-lg lg:flex-auto">
+      <div className="bg-white py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
+            <div className="w-full lg:max-w-lg lg:flex-auto">
               <h2
-                data-aos="zoom-out-up"  data-aos-duration="500"
-                class="text-3xl text-secondary font-bold tracking-tight  sm:text-4xl"
+                data-aos="zoom-out-up"
+                data-aos-duration="500"
+                className="text-3xl text-secondary font-bold tracking-tight  sm:text-4xl"
               >
                 Get to Know Us
               </h2>
-              <p class="mt-6 text-xl leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-gray-600">
                 Sadler Energy and Environmental Services Ltd was founded in 2008
                 with our team’s background firmly in the construction industry,
                 initially specialising in energy calculations and Code for
@@ -82,11 +83,11 @@ const Home = () => {
                 data-aos-duration="2000"
                 src="../../Images/About us.jpg"
                 alt=""
-                class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[50.5rem]"
+                className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[50.5rem]"
               />
             </div>
-            <div class="w-full lg:max-w-xl lg:flex-auto">
-              <p class="mt-6 text-xl leading-8 text-gray-600">
+            <div className="w-full lg:max-w-xl lg:flex-auto">
+              <p className="mt-6 text-xl leading-8 text-gray-600">
                 Our journey began modestly, operating from a home's box room. As
                 demand grew, we transitioned to an office space and gradually
                 built a dedicated team. Today, we take pride in offering a
@@ -98,7 +99,7 @@ const Home = () => {
                 prioritise the well-being of both our team and clients, ensuring
                 that we consistently deliver optimal outcomes.
               </p>
-              <p class="mt-6 text-xl leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-gray-600">
                 Our dedication to environmental stewardship extends throughout
                 our business practices, making a positive impact on the
                 environment, community, and business landscape. We have
@@ -110,7 +111,7 @@ const Home = () => {
                 clients and educate others to empower them to make positive
                 environmental impacts.
               </p>
-              <p class="mt-6 text-xl leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-gray-600">
                 As part of our community engagement efforts, we have hosted Cub
                 Scouts to educate them about environmental responsibility and
                 everyone's role in fostering positive change. We recognise the
@@ -120,7 +121,7 @@ const Home = () => {
                 of SEES, not merely as employees but as champions of
                 sustainability.
               </p>
-              <p class="mt-6 text-xl leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-gray-600">
                 Looking ahead, we aspire to expand our services to become
                 leaders in environmental compliance in the south of England,
                 empowering others to create sustainable futures for all.

@@ -14,7 +14,7 @@ export default function thermographicSurvey() {
           Thermographic Survey
         </h1>
       </div>
-      <div class="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
+      <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0   lg:items-start lg:gap-y-10">
@@ -146,20 +146,27 @@ export default function thermographicSurvey() {
                       To name a few.
                     </p>
 
-                      <p className="text-2xl my-2 font-extrabold text-secondary leading-7">
-                     Thermography in BREEAM
+                    <p className="text-2xl my-2 font-extrabold text-secondary leading-7">
+                      Thermography in BREEAM
                     </p>
-                      <p
+                    <p
                       className="mt-6 text-xl leading-8 text-primary font-normal"
                       data-aos="fade-up"
                     >
-                     There are credits available in the Man 04 issue in BREEAM for carrying out a thermographic survey, although it does have some requirements.
+                      There are credits available in the Man 04 issue in BREEAM
+                      for carrying out a thermographic survey, although it does
+                      have some requirements.
                     </p>
-                      <p
+                    <p
                       className="mt-6 text-xl leading-8 text-primary font-normal"
                       data-aos="fade-up"
                     >
-                   The most important one is a 10 °C temperature differential between the internal and external envelope. Every area of the building to be surveyed has to abide by this rule, for the whole duration of the test which typically takes up to 4 hours. Also, wind speeds must be below 5 m/s and there must be no rain for the survey to be considered valid. 
+                      The most important one is a 10 °C temperature differential
+                      between the internal and external envelope. Every area of
+                      the building to be surveyed has to abide by this rule, for
+                      the whole duration of the test which typically takes up to
+                      4 hours. Also, wind speeds must be below 5 m/s and there
+                      must be no rain for the survey to be considered valid.
                     </p>
                   </div>
                 </div>

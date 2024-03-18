@@ -292,7 +292,7 @@ export default function overHeatingAnalysis() {
                           <tr>
                             <td
                               style={{ border: "1px solid black" }}
-                              class="text-center bg-gray text-black"
+                              className="text-center bg-gray text-black"
                               colspan="4"
                             >
                               Mitigation options following the cooling hierarchy
@@ -305,31 +305,36 @@ export default function overHeatingAnalysis() {
                           <tr>
                             <td
                               style={{ border: "1px solid black" }}
-                              class="text-center bg-gray text-black"
+                              className="text-center bg-gray text-black"
                             >
                               Cooling hierarchy
                             </td>
                             <td
                               style={{ border: "1px solid black" }}
-                              class="text-center bg-gray text-black"
+                              className="text-center bg-gray text-black"
                             >
                               Design element
                             </td>
                             <td
                               style={{ border: "1px solid black" }}
-                              class="text-center bg-gray text-black"
+                              className="text-center bg-gray text-black"
                             ></td>
                             <td
                               style={{ border: "1px solid black" }}
-                              class="text-center bg-gray text-black"
+                              className="text-center bg-gray text-black"
                             >
                               Discussion
                             </td>
                           </tr>
                           <tr>
-                             
-                            <td  class="text-center bg-secondary text-white"
-                             style={{ border: "1px solid black" }}   rowspan="9">  Reduce the heat entering the building</td>
+                            <td
+                              className="text-center bg-secondary text-white"
+                              style={{ border: "1px solid black" }}
+                              rowspan="9"
+                            >
+                              {" "}
+                              Reduce the heat entering the building
+                            </td>
                             <td style={{ border: "1px solid black" }}></td>
                             <td style={{ border: "1px solid black" }}>
                               External shutters
@@ -378,12 +383,7 @@ export default function overHeatingAnalysis() {
                             <td style={{ border: "1px solid black" }}></td>
                           </tr>
                           <tr>
-                            <td
-                              style={{ border: "1px solid black" }}
-                             
-                            >
-                            
-                            </td>
+                            <td style={{ border: "1px solid black" }}></td>
                             <td style={{ border: "1px solid black" }}></td>
                             <td style={{ border: "1px solid black" }}>
                               Awnings

@@ -11,10 +11,10 @@ export default function noiseImpactAssessment() {
       </div>
       <div className="domestic h-64 mt-24 py-14 flex items-center justify-center">
         <h1 className="mt-2  px-4 py-2 rounded-xl font-extrabold  text text-3xl  text-shadow-black   text-white sm:text-4xl animate__animated animate__backInLeft animate__slow">
-        Noise Impact Assessment
+          Noise Impact Assessment
         </h1>
       </div>
-      <div class="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
+      <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0   lg:items-start lg:gap-y-10">
@@ -22,19 +22,29 @@ export default function noiseImpactAssessment() {
                 <div className="lg:pr-4">
                   <div className="">
                     <p className="text-2xl font-extrabold text-secondary leading-7">
-                   Detailed Surveys and Assessments
+                      Detailed Surveys and Assessments
                     </p>
-                    <p
-                      className="mt-6 text-xl leading-8 text-primary"
-                      data-aos="fade-up"
-                    >SEES provides noise impact surveys for a variety of different projects to help you obtain planning permission for your development. This will conform to the relevant standards and requirements of either building control, local planners, or the environmental health department. 
-                    </p>
-            
                     <p
                       className="mt-6 text-xl leading-8 text-primary"
                       data-aos="fade-up"
                     >
-                   A survey typically includes assessment and evaluation of noise pollution from roads, railways, heavy industries, airports and wind turbines for instance. We will provide the necessary acoustic and sound insulation recommendations based upon your property needs, along with a tailored report analysing your development. 
+                      SEES provides noise impact surveys for a variety of
+                      different projects to help you obtain planning permission
+                      for your development. This will conform to the relevant
+                      standards and requirements of either building control,
+                      local planners, or the environmental health department.
+                    </p>
+
+                    <p
+                      className="mt-6 text-xl leading-8 text-primary"
+                      data-aos="fade-up"
+                    >
+                      A survey typically includes assessment and evaluation of
+                      noise pollution from roads, railways, heavy industries,
+                      airports and wind turbines for instance. We will provide
+                      the necessary acoustic and sound insulation
+                      recommendations based upon your property needs, along with
+                      a tailored report analysing your development.
                     </p>
                   </div>
                 </div>
@@ -120,7 +130,7 @@ export default function noiseImpactAssessment() {
 
                       <span>
                         <strong className="font-semibold text-primary">
-                         Noise Abatement
+                          Noise Abatement
                         </strong>
                       </span>
                     </li>
@@ -136,7 +146,7 @@ export default function noiseImpactAssessment() {
 
                       <span>
                         <strong className="font-semibold text-primary">
-                        Noise at Work surveys
+                          Noise at Work surveys
                         </strong>
                       </span>
                     </li>
@@ -152,7 +162,7 @@ export default function noiseImpactAssessment() {
 
                       <span>
                         <strong className="font-semibold text-primary">
-                       Noise at Work surveys
+                          Noise at Work surveys
                         </strong>
                       </span>
                     </li>

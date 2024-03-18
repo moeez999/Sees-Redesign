@@ -14,7 +14,7 @@ export default function dosmesticRefurbishmentAssessment() {
           Domestic Refurbishment Assessment
         </h1>
       </div>
-      <div class="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
+      <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0   lg:items-start lg:gap-y-10">

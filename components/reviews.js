@@ -25,37 +25,14 @@ import "swiper/css/scrollbar";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-const breakpoints = {
-  320: {
-    slidesPerView: 1,
-  },
-  480: {
-    slidesPerView: 1,
-  },
-  640: {
-    slidesPerView: 1,
-  },
-  768: {
-    slidesPerView: 1,
-  },
-  1024: {
-    slidesPerView: 1,
-  },
-};
 const QuoteContainer = ({ quoteData }) => {
   return (
-    // <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-4 container mx-auto">
     <Swiper
+      loop={true}
       effect={"fade"}
-      grabCursor={true}
-      cubeEffect={{
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-      }}
-      modules={[EffectFade, Autoplay]}
-      autoplay={{ delay: 3000 }}
+      fadeEffect={{ crossFade: true }}
+      modules={[Autoplay]}
+      autoplay={{ delay: 3000, disableOnInteraction: false }}
       className="mySwiper"
     >
       {quoteData.map((quote, index) => (

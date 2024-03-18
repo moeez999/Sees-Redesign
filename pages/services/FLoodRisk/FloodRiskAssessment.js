@@ -14,7 +14,7 @@ export default function floodRiskAssessment() {
           Flood Risk Assessment
         </h1>
       </div>
-      <div class="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
+      <div className="flex flex-col xl:flex-row justify-center gap-4 mb-8 container mx-auto">
         <div className="shadow-xl">
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="mx-auto grid  grid-cols-1 gap-x-8 gap-y-16 lg:mx-0   lg:items-start lg:gap-y-10">
@@ -165,18 +165,24 @@ export default function floodRiskAssessment() {
                       You will need an FRA if it lies in one of these
                       categories:
                     </p>
-                    <ul class="list-decimal">
+                    <ul className="list-decimal">
                       <li className="text-primary my-3">
-                  Lies in flood zone 2 or 3 of the Environmental Agency Flood Map, including minor development and change of use
+                        Lies in flood zone 2 or 3 of the Environmental Agency
+                        Flood Map, including minor development and change of use
                       </li>
                       <li className="text-primary my-3">
-                      Lies in flood zone 1 and is greater than 1 hectare (ha)
+                        Lies in flood zone 1 and is greater than 1 hectare (ha)
                       </li>
                       <li className="text-primary my-3">
-                  Less than 1 ha in flood zone 1, including a change of use in development type to a more vulnerable class (for example from commercial to residential), where they could be affected by sources of flooding other than rivers and the sea
+                        Less than 1 ha in flood zone 1, including a change of
+                        use in development type to a more vulnerable class (for
+                        example from commercial to residential), where they
+                        could be affected by sources of flooding other than
+                        rivers and the sea
                       </li>
                       <li className="text-primary my-3">
-                      In an area within flood zone 1 which has critical drainage problems as notified by the Environment Agency
+                        In an area within flood zone 1 which has critical
+                        drainage problems as notified by the Environment Agency
                       </li>
                     </ul>
                   </div>
