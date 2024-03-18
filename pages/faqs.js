@@ -22,7 +22,7 @@ const Faqs = () => {
       <Navigation />
 
       <div className="my-28 flex flex-row gap-4 container mx-auto ">
-        <div className="container mx-auto px-4 py-8 max-w-xs sticky top-0 Shadow-custom ">
+        <div className="container mx-auto px-4 py-8 max-w-xs sticky top-0 Shadow-custom h-screen ">
           <h2 className="text-3xl text-secondary font-bold mt-8 mb-4">FAQs</h2>
           <ul>
             <li
