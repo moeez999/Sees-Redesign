@@ -80,7 +80,8 @@ export default function BreeamFaqs() {
             the BREEAM framework. The assessment process typically involves a
             combination of documentation review, site visits, and performance
             measurements.
-          </p>{" "}
+          </p>
+
           <h3
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"

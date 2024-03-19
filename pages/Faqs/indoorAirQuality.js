@@ -1,16 +1,16 @@
 import React from "react";
 
-export default function BuildingLifeCycleFaqs() {
+export default function indoorAirQualityFaqs() {
   return (
     <div>
-      <div className="container mx-auto px-4  py-8">
+      <div className="container mx-auto px-4 py-8">
         <div className="mx-auto p-6">
           <div className="flex flex-row justify-center items-center">
             <h1 className="text-4xl mb-[0px] animate__animated animate__backInRight animate__slow text-center font-bold mb-4 text-secondary">
               Indoor Air Quality
             </h1>
             <div className="w-20 animate__animated animate__backInLeft animate__slow">
-              <img src="../Service Logos/white_01-air testing.png" />
+              <img src="../Service Logos/Air Quality.png" />
             </div>
           </div>
           <h2
@@ -42,8 +42,8 @@ export default function BuildingLifeCycleFaqs() {
           <ul className="list-disc ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                IAQ Objectives and Goals
-              </strong>{" "}
+                IAQ Objectives and Goals:
+              </strong>
               Define the overarching objectives and goals of the IAQ plan, such
               as achieving compliance with indoor air quality standards,
               minimizing occupant complaints related to indoor air quality,
@@ -52,7 +52,6 @@ export default function BuildingLifeCycleFaqs() {
             </li>
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                {" "}
                 IAQ Team and Responsibilities:
               </strong>
               Establish an IAQ team consisting of representatives from building
@@ -65,7 +64,7 @@ export default function BuildingLifeCycleFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 IAQ Assessment and Monitoring:
-              </strong>{" "}
+              </strong>
               Conduct a comprehensive assessment of indoor air quality in the
               building, including sampling and analysis of air pollutants,
               monitoring of key IAQ parameters (such as temperature, humidity,
@@ -90,7 +89,7 @@ export default function BuildingLifeCycleFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Ventilation Management:
-              </strong>{" "}
+              </strong>
               Ensure adequate ventilation and airflow within the building to
               dilute indoor air pollutants and maintain optimal indoor air
               quality. Implement strategies to optimize ventilation system
@@ -100,8 +99,8 @@ export default function BuildingLifeCycleFaqs() {
             </li>
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                Filtration and Air Cleaning
-              </strong>{" "}
+                Filtration and Air Cleaning:
+              </strong>
               Install and maintain effective air filtration and purification
               systems to remove airborne contaminants and improve indoor air
               quality. Select appropriate air filters based on filtration
@@ -113,9 +112,10 @@ export default function BuildingLifeCycleFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Occupant Education and Communication:
-              </strong>{" "}
+              </strong>
               Educate building occupants about the importance of indoor air
-              quality, common sources of indoor air pollution, potential health
+              quality, common sources of indoor airimport indoorAirQuality from
+              './../services/indoorAirQuality'; pollution, potential health
               effects, and preventive measures to minimize exposure. Provide
               guidance on proper use of building amenities, such as kitchen
               exhaust fans, smoking areas, and indoor plants, to prevent indoor
@@ -126,7 +126,7 @@ export default function BuildingLifeCycleFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Response and Remediation Procedures:
-              </strong>{" "}
+              </strong>
               Develop protocols for responding to IAQ complaints, incidents, or
               emergencies, including procedures for investigating complaints,
               conducting IAQ assessments, implementing corrective actions, and
@@ -134,11 +134,12 @@ export default function BuildingLifeCycleFaqs() {
               for determining when IAQ issues require remediation and define
               appropriate remediation strategies based on IAQ assessment
               results.
-            </li>{" "}
+            </li>
+
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Documentation and Record Keeping:
-              </strong>{" "}
+              </strong>
               Maintain detailed documentation of IAQ assessments, monitoring
               data, corrective actions, and preventive measures implemented as
               part of the IAQ plan. Keep records of building maintenance
@@ -146,10 +147,11 @@ export default function BuildingLifeCycleFaqs() {
               filter replacements, and other IAQ-related activities to track
               compliance with IAQ objectives and regulatory requirements.
             </li>
+
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Continuous Improvement and Review:
-              </strong>{" "}
+              </strong>
               Establish a process for ongoing review, evaluation, and continuous
               improvement of the IAQ plan. Conduct periodic reviews of IAQ
               performance, effectiveness of mitigation measures, occupant
@@ -171,6 +173,7 @@ export default function BuildingLifeCycleFaqs() {
             can help reduce absenteeism, improve employee morale and retention,
             and enhance overall building performance and sustainability.
           </p>
+
           <h2
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
@@ -188,19 +191,14 @@ export default function BuildingLifeCycleFaqs() {
             may affect occupant health, comfort, and well-being. The testing
             process typically involves several steps and may vary depending on
             the specific objectives of the assessment and the types of
-            pollutants of concern.
-          </p>
-          <p
-            data-aos="fade-up"
-            className="mb-4 text-base md:text-lg lg:text-xl "
-          >
-            Here's an overview of what an IAQ test entails:
+            pollutants of concern. Here's an overview of what an IAQ test
+            entails:
           </p>
           <ul className="list-disc ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                Initial Assessment and Objective Definition:{" "}
-              </strong>{" "}
+                Initial Assessment and Objective Definition:
+              </strong>
               The IAQ testing process begins with an initial assessment to
               define the objectives of the test and identify specific pollutants
               or parameters of concern. Common indoor air pollutants include
@@ -211,6 +209,7 @@ export default function BuildingLifeCycleFaqs() {
               characteristics, ventilation system performance, and regulatory
               requirements.
             </li>
+
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Sampling Plan Development:
@@ -227,7 +226,7 @@ export default function BuildingLifeCycleFaqs() {
             </li>
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                Air Sampling and Analysis:{" "}
+                Air Sampling and Analysis:
               </strong>
               Air samples are collected according to the sampling plan using
               appropriate sampling equipment and methods. Samples may be
@@ -252,22 +251,7 @@ export default function BuildingLifeCycleFaqs() {
               indoor air pollution, evaluating exposure risks to building
               occupants, and determining whether IAQ objectives are met.
             </li>
-            .
-            <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Air Sampling and Analysis:{" "}
-              </strong>
-              Air samples are collected according to the sampling plan using
-              appropriate sampling equipment and methods. Samples may be
-              collected for analysis of specific pollutants (e.g., VOCs, CO,
-              CO2) using analytical techniques such as gas chromatography, mass
-              spectrometry, or direct-reading instruments. Additional samples
-              may be collected for analysis of particulate matter, allergens,
-              microbial contaminants, or other parameters using microscopy,
-              culturing techniques, or molecular methods. Samples are typically
-              analysed by accredited laboratories following standardized methods
-              and quality assurance procedures.
-            </li>
+
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Reporting and Communication:
@@ -281,8 +265,9 @@ export default function BuildingLifeCycleFaqs() {
               improving indoor air quality. The results of the IAQ test are
               communicated to building owners, facility managers, occupants, and
               other stakeholders to raise awareness about indoor air quality
-              issues and facilitate informed decision-making
+              issues and facilitate informed decision-making.
             </li>
+
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Follow-Up Actions and Monitoring:
@@ -310,7 +295,7 @@ export default function BuildingLifeCycleFaqs() {
             owners and facility managers can create a healthy, comfortable, and
             productive indoor environment for occupants.
           </p>
-          {/* Content for question 8 */}
+
           <h2
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
@@ -327,23 +312,23 @@ export default function BuildingLifeCycleFaqs() {
             Environmental Assessment Method). Here's why you need an IAQ plan
             and test:
           </p>
-          <div className="mb-4">
-            <h3 className="text-2xl text-secondary font-bold mb-4">1. Scope</h3>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
+          <ul className="list-disc ml-6 mb-4">
+            <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Occupant Health and Well-being:
-              </strong>{" "}
+              </strong>
               Poor indoor air quality can have significant impacts on occupant
               health and well-being, leading to respiratory problems, allergies,
               asthma, headaches, fatigue, and other health issues. An IAQ plan
               helps ensure that indoor air quality is monitored, maintained, and
               optimized to promote a healthy and comfortable indoor environment
               for building occupants.
-            </p>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
+            </li>
+
+            <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                Productivity and Performance::
-              </strong>{" "}
+                Productivity and Performance:
+              </strong>
               Indoor air quality can affect occupant comfort, productivity, and
               cognitive performance. Studies have shown that improved indoor air
               quality is associated with higher productivity, reduced
@@ -351,75 +336,71 @@ export default function BuildingLifeCycleFaqs() {
               occupants. By implementing an IAQ plan and conducting IAQ testing,
               you can create a conducive indoor environment that supports
               occupant well-being and performance.
-            </p>
-          </div>
-          <div className="mb-4">
-            <h3 className="text-2xl text-secondary font-bold mb-4">
-              2. Metrics
-            </h3>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>{" "}
+            </li>
+
+            <li className="text-base md:text-lg lg:text-xl">
+              <strong className="text-secondary">Regulatory Compliance:</strong>
               In many jurisdictions, there are regulations and standards
               governing indoor air quality in buildings to protect occupant
               health and safety. By implementing an IAQ plan and conducting IAQ
               testing, you can ensure compliance with relevant regulations and
               demonstrate due diligence in managing indoor air quality risks.
-            </p>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
+            </li>
+
+            <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Green Building Certifications:
-              </strong>{" "}
+              </strong>
               Green building certification schemes like BREEAM require buildings
               to meet certain criteria related to indoor air quality as part of
               their assessment process. Having an IAQ plan and conducting IAQ
               testing can help earn credits or points towards achieving
               certification and demonstrate commitment to sustainable building
               practices.
-            </p>
-          </div>
-          <div className="mb-4">
-            <h3 className="text-2xl text-secondary font-bold mb-4">
-              3. Application
-            </h3>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">LCA:</strong> LCA is widely
-              used across different sectors to assess the environmental impacts
-              of products, processes, and systems, including buildings,
-              transportation, energy production, consumer goods, and more.
-            </p>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">WLCA:</strong> WLCA is
-              specifically tailored for assessing the carbon emissions of
-              buildings and infrastructure projects. It is commonly used in the
-              construction and building industry to support sustainable design,
-              construction, and operation practices.
-            </p>
-          </div>
-          <div className="mb-4">
-            <h3 className="text-2xl text-secondary font-bold mb-4">4. Focus</h3>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">LCA:</strong> LCA considers all
-              environmental impacts, allowing stakeholders to identify
-              trade-offs and hotspots across different impact categories. It
-              provides a holistic view of the environmental performance of a
-              product or system.
-            </p>
-            <p className="mb-4 text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">WLCA:</strong> WLCA focuses
-              specifically on carbon emissions, reflecting the growing
-              importance of addressing climate change concerns and reducing
-              greenhouse gas emissions in the built environment.
-            </p>
-          </div>
+            </li>
+
+            <li className="text-base md:text-lg lg:text-xl">
+              <strong className="text-secondary">Risk Management:</strong> Poor
+              indoor air quality can lead to legal liabilities, occupant
+              complaints, and reputational damage for building owners and
+              operators. Implementing an IAQ plan and conducting IAQ testing
+              allows you to identify and mitigate sources of indoor air
+              pollution, minimize exposure risks, and proactively manage indoor
+              air quality-related risks.
+            </li>
+
+            <li className="text-base md:text-lg lg:text-xl">
+              <strong className="text-secondary">
+                Energy Efficiency and Ventilation Optimization:
+              </strong>
+              Balancing indoor air quality with energy efficiency is essential
+              for sustainable building design and operation. An IAQ plan can
+              help optimize ventilation strategies, HVAC system operation, and
+              building envelope design to maintain good indoor air quality while
+              minimizing energy consumption and operating costs.
+            </li>
+
+            <li className="text-base md:text-lg lg:text-xl">
+              <strong className="text-secondary">
+                Sustainable Building Practices:
+              </strong>
+              Sustainable buildings prioritize environmental and human health
+              considerations, including indoor air quality. By implementing an
+              IAQ plan and conducting IAQ testing, you contribute to sustainable
+              building practices that minimize environmental impact, conserve
+              resources, and promote occupant well-being.
+            </li>
+          </ul>
           <p
             data-aos="fade-up"
             className="mb-4 text-base md:text-lg lg:text-xl "
           >
-            In summary, while both LCA and WLCA are methodologies used to assess
-            environmental impacts, LCA provides a broader assessment covering
-            various environmental indicators, whereas WLCA zooms in on carbon
-            emissions to evaluate a building or infrastructure project's
-            contribution to climate change.
+            Overall, an IAQ plan and testing are critical components of
+            sustainable building management practices, ensuring occupant health
+            and well-being, regulatory compliance, and achievement of green
+            building certifications like BREEAM. By proactively managing indoor
+            air quality, you create healthier, more comfortable, and more
+            sustainable indoor environments for building occupants.
           </p>
         </div>
       </div>

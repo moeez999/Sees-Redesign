@@ -41,7 +41,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Energy Performance Assessment:
-              </strong>{" "}
+              </strong>
               SAP calculations evaluate the energy performance of a residential
               building based on various factors such as the building's fabric,
               heating system, hot water system, ventilation, lighting, and
@@ -64,7 +64,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Energy Efficiency Rating:
-              </strong>{" "}
+              </strong>
               The output of SAP calculations is an energy efficiency rating
               expressed on a scale from 1 to 100, known as the SAP Rating. A
               higher SAP Rating indicates better energy performance, with 100
@@ -261,7 +261,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Building Regulations and Standards:
-              </strong>{" "}
+              </strong>
               Many building codes and standards specify maximum allowable
               U-values for different building components, such as walls, roofs,
               windows, and doors. Compliance with these regulations ensures that
@@ -325,7 +325,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Energy Performance Assessment:
-              </strong>{" "}
+              </strong>
               SBEM calculations evaluate the energy performance of a
               non-domestic building based on various factors such as the
               building's fabric, heating systems, cooling systems, ventilation,
@@ -348,7 +348,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Energy Performance Rating:
-              </strong>{" "}
+              </strong>
               The output of SBEM calculations is an energy performance rating
               expressed as a numerical value in kilowatt-hours per square meter
               per year (kWh/m²/year). This rating represents the predicted
@@ -399,7 +399,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Input Data into SBEM Software:
-              </strong>{" "}
+              </strong>
               Use approved SBEM software to input the building data gathered in
               the previous step. The software will prompt you to enter
               information about the building's geometry, construction, and
@@ -415,7 +415,7 @@ export default function SAPCalculations() {
               lighting, and hot water production.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Compliance Targets:</strong>{" "}
+              <strong className="text-secondary">Compliance Targets:</strong>
               Compare Results with Compare the results of the SBEM calculation
               with the compliance targets specified in Part L of the Building
               Regulations. Part L sets out minimum energy performance standards
@@ -426,7 +426,7 @@ export default function SAPCalculations() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Implement Energy Efficiency Measures:
-              </strong>{" "}
+              </strong>
               If the SBEM calculation indicates that the building does not meet
               the compliance targets, identify areas where energy efficiency
               improvements can be made. This may involve upgrading insulation,

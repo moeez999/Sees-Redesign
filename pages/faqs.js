@@ -9,7 +9,9 @@ import AirTightnessFaqs from "./Faqs/AirTightnessFaqs";
 import WaterCalculationsFaqs from "./Faqs/waterCalculationsFaqs";
 import EnergyStrategyFaqs from "./Faqs/energyStrategyFaqs";
 import Footer from "./../components/footer";
-import indoorAirQuality from "./services/indoorAirQuality";
+import IndoorAirQualityFaqs from "./Faqs/indoorAirQuality";
+import DayLightFaqs from "./Faqs/dayLightFaqs";
+import AcousticsFaqs from "./Faqs/AcousticsFaqs";
 
 const Faqs = () => {
   const [activeFaqs, setActiveFaqs] = useState("BREEAM");
@@ -115,6 +117,26 @@ const Faqs = () => {
               />
               Indoor Air Quality
             </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("DayLight")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_04-day light calculations.png"
+              />
+              Daylight
+            </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("Acoustics")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_08-sound testing.png"
+              />
+              Acoustics
+            </li>
             {/* Add more FAQ categories as needed */}
           </ul>
         </div>
@@ -127,7 +149,9 @@ const Faqs = () => {
           {activeFaqs === "AirTightness" && <AirTightnessFaqs />}
           {activeFaqs === "WaterCalculations" && <WaterCalculationsFaqs />}
           {activeFaqs === "EnergyStrategy" && <EnergyStrategyFaqs />}
-          {activeFaqs === "inDoorAirQuality" && <indoorAirQuality />}
+          {activeFaqs === "inDoorAirQuality" && <IndoorAirQualityFaqs />}
+          {activeFaqs === "DayLight" && <DayLightFaqs />}
+          {activeFaqs === "Acoustics" && <AcousticsFaqs />}
         </div>
       </div>
       <Footer />

@@ -2,7 +2,7 @@ import React from "react";
 
 function WaterCalculationsFaqs() {
   return (
-    <div className="container mx-auto px-4  py-8">
+    <div className="container mx-auto px-4 py-8">
       <div className="p-6 mx-auto">
         <div className="my-2">
           <div className="flex flex-row justify-center items-center my-2">
@@ -30,27 +30,27 @@ function WaterCalculationsFaqs() {
               environment.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Cost Management:</strong>{" "}
+              <strong className="text-secondary">Cost Management:</strong>
               Monitoring water usage can help you manage water bills and reduce
               expenses. By identifying areas of high water consumption, you can
               implement measures to improve efficiency and lower costs.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Environmental Impact:</strong>{" "}
+              <strong className="text-secondary">Environmental Impact:</strong>
               Excessive water usage can have adverse environmental impacts, such
               as water scarcity, habitat destruction, and pollution. Calculating
               water usage allows you to assess your environmental footprint and
               take steps to minimize negative impacts.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>{" "}
+              <strong className="text-secondary">Regulatory Compliance:</strong>
               In some cases, regulatory authorities may require businesses or
               industries to report their water usage or comply with water
               efficiency standards. Calculating water usage ensures compliance
               with relevant regulations and helps avoid penalties or fines.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Resource Management:</strong>{" "}
+              <strong className="text-secondary">Resource Management:</strong>
               Understanding water usage patterns can help water utilities and
               policymakers better manage water resources, plan for future
               demand, and allocate resources more effectively.
@@ -58,7 +58,7 @@ function WaterCalculationsFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Infrastructure Planning:
-              </strong>{" "}
+              </strong>
               By analyzing water usage data, water utilities can identify areas
               of high demand, prioritize infrastructure upgrades, and optimize
               water distribution networks to ensure reliable water supply for
@@ -83,7 +83,7 @@ function WaterCalculationsFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Reducing Water Consumption:
-              </strong>{" "}
+              </strong>
               The primary goal of water neutrality is to reduce water
               consumption through conservation measures, efficiency
               improvements, and water-saving technologies. This includes efforts
@@ -92,7 +92,7 @@ function WaterCalculationsFaqs() {
               households, and businesses.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Water Replenishment:</strong>{" "}
+              <strong className="text-secondary">Water Replenishment:</strong>
               In addition to reducing water consumption, water neutrality also
               involves replenishing water resources through measures such as
               rainwater harvesting, stormwater management, groundwater recharge,
@@ -103,7 +103,7 @@ function WaterCalculationsFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Offsetting Water Usage:
-              </strong>{" "}
+              </strong>
               In cases where it's not feasible to achieve complete water
               neutrality through conservation and replenishment measures alone,
               organizations may opt to offset their water usage by investing in
@@ -115,7 +115,7 @@ function WaterCalculationsFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Monitoring and Reporting:
-              </strong>{" "}
+              </strong>
               Achieving water neutrality requires ongoing monitoring and
               reporting of water usage, conservation efforts, replenishment
               activities, and offsetting measures. Organizations track their
@@ -126,7 +126,7 @@ function WaterCalculationsFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Certification and Recognition:
-              </strong>{" "}
+              </strong>
               Some organizations may seek certification or recognition for
               achieving water neutrality, similar to certifications for carbon
               neutrality or sustainability. This demonstrates their commitment

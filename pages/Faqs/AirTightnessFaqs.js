@@ -42,7 +42,7 @@ function AirTightnessFaqs() {
           </p>
           <ul className="list-disc ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Energy Efficiency:</strong>{" "}
+              <strong className="text-secondary">Energy Efficiency:</strong>
               Airtightness is a critical factor in the energy performance of
               buildings. Air leakage can account for a significant portion of
               heat loss or gain in a building, leading to increased energy
@@ -53,7 +53,7 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Comfort and Indoor Air Quality:
-              </strong>{" "}
+              </strong>
               Air leakage can result in drafts, cold spots, and uneven
               temperatures within a building. It can also allow pollutants,
               allergens, and outdoor contaminants to enter the indoor
@@ -73,7 +73,7 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Building Regulations Compliance:
-              </strong>{" "}
+              </strong>
               In many jurisdictions, including the United Kingdom, building
               regulations require new buildings to meet specific airtightness
               standards. An airtightness test is typically required to
@@ -82,7 +82,7 @@ function AirTightnessFaqs() {
               regulatory requirements and obtain necessary approvals.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Quality Assurance:</strong>{" "}
+              <strong className="text-secondary">Quality Assurance:</strong>
               Airtightness testing provides a means of quality assurance for
               construction projects. It allows builders to identify and address
               air leakage issues early in the construction process, before they
@@ -117,7 +117,7 @@ function AirTightnessFaqs() {
           </p>
           <ol className="list-decimal ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Indoor Air Quality:</strong>{" "}
+              <strong className="text-secondary">Indoor Air Quality:</strong>
               Proper ventilation is essential for maintaining good indoor air
               quality by removing pollutants, allergens, and odors from indoor
               spaces. A ventilation test ensures that the ventilation system is
@@ -126,7 +126,7 @@ function AirTightnessFaqs() {
               environment.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Occupant Comfort:</strong>{" "}
+              <strong className="text-secondary">Occupant Comfort:</strong>
               Effective ventilation helps regulate indoor temperatures, control
               humidity levels, and reduce stuffiness and odors in occupied
               spaces. By conducting a ventilation test, building owners and
@@ -135,7 +135,7 @@ function AirTightnessFaqs() {
               conditions.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Health and Well-being:</strong>{" "}
+              <strong className="text-secondary">Health and Well-being:</strong>
               Poor indoor air quality can have adverse effects on occupant
               health and well-being, leading to symptoms such as headaches,
               fatigue, respiratory problems, and allergies. A ventilation test
@@ -144,7 +144,7 @@ function AirTightnessFaqs() {
               measures to be implemented to improve occupant health and comfort.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Energy Efficiency:</strong>{" "}
+              <strong className="text-secondary">Energy Efficiency:</strong>
               Properly designed and balanced ventilation systems can help
               improve energy efficiency by minimizing energy consumption
               associated with heating, cooling, and ventilation. By optimizing
@@ -153,7 +153,7 @@ function AirTightnessFaqs() {
               maintaining indoor air quality standards.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>{" "}
+              <strong className="text-secondary">Regulatory Compliance:</strong>
               In many jurisdictions, building regulations require ventilation
               systems to meet specific performance standards to ensure adequate
               indoor air quality and occupant comfort. A ventilation test is
@@ -162,7 +162,7 @@ function AirTightnessFaqs() {
               building.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Quality Assurance:</strong>{" "}
+              <strong className="text-secondary">Quality Assurance:</strong>
               Ventilation testing provides a means of quality assurance for
               construction projects by verifying that ventilation systems are
               installed correctly and functioning as intended. It helps identify
@@ -198,14 +198,14 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Installation of Blower Door:
-              </strong>{" "}
+              </strong>
               Position the blower door, which consists of a large fan mounted
               within an adjustable frame, in an external doorway or opening of
               the building. The blower door creates a temporary airtight seal in
               the doorway.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Pressure Measurement:</strong>{" "}
+              <strong className="text-secondary">Pressure Measurement:</strong>
               Attach pressure gauges to the blower door system to measure the
               pressure difference between the inside and outside of the
               building. The pressure gauges measure both the building's internal
@@ -214,7 +214,7 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Pressurization or Depressurization:
-              </strong>{" "}
+              </strong>
               Depending on the testing protocol, the blower door fan can be used
               to either pressurize or depressurize the building. Pressurization
               involves blowing air into the building to increase the internal
@@ -226,21 +226,21 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Adjustment of Fan Speed:
-              </strong>{" "}
+              </strong>
               Gradually increase or decrease the fan speed to achieve the
               desired pressure difference between the inside and outside of the
               building. The pressure difference is typically measured in Pascals
               (Pa), with standard testing pressures ranging from 50 to 100 Pa.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Airflow Measurement:</strong>{" "}
+              <strong className="text-secondary">Airflow Measurement:</strong>
               Once the desired pressure difference is achieved, measure the
               airflow rate required to maintain this pressure difference using
               the blower door fan. The airflow rate is typically measured in
               cubic meters per hour (m³/h) or cubic feet per minute (CFM).
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Data Collection:</strong>{" "}
+              <strong className="text-secondary">Data Collection:</strong>
               Record the airflow rate and pressure difference readings obtained
               during the test. These readings are used to calculate the air
               leakage rate of the building, typically expressed in air changes
@@ -250,7 +250,7 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Analysis and Reporting:
-              </strong>{" "}
+              </strong>
               Analyse the test data to determine the building's air leakage rate
               and identify any areas of significant air leakage. Prepare a
               report detailing the test results, including recommendations for
@@ -286,12 +286,12 @@ function AirTightnessFaqs() {
               replace damaged seals to ensure airtightness.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Close Interior Doors:</strong>{" "}
+              <strong className="text-secondary">Close Interior Doors:</strong>
               Close all interior doors within the building to isolate individual
               spaces and minimize air movement between rooms.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Secure Access Panels:</strong>{" "}
+              <strong className="text-secondary">Secure Access Panels:</strong>
               Ensure that access panels, such as those for plumbing, electrical,
               or HVAC systems, are securely closed and sealed to prevent air
               leakage.
@@ -299,21 +299,21 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Turn Off Fans and Ventilation Systems:
-              </strong>{" "}
+              </strong>
               Turn off all mechanical ventilation systems, including exhaust
               fans, supply fans, and mechanical ventilation systems. This helps
               prevent interference with the test results and ensures that the
               building is in a neutral airflow state.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Eliminate Drafts:</strong>{" "}
+              <strong className="text-secondary">Eliminate Drafts:</strong>
               Identify and eliminate drafts or air leaks around doors, windows,
               electrical outlets, and other penetrations in the building
               envelope. Use draft stoppers, weatherstripping, or caulking to
               seal gaps and cracks.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Remove Obstructions:</strong>{" "}
+              <strong className="text-secondary">Remove Obstructions:</strong>
               Clear obstacles and obstructions from around the blower door
               installation site to ensure unobstructed access for the blower
               door equipment and technicians.
@@ -321,7 +321,7 @@ function AirTightnessFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Coordinate with Occupants:
-              </strong>{" "}
+              </strong>
               Inform building occupants about the airtightness test and any
               necessary preparations, such as closing windows and doors during
               the test period. Coordinate scheduling to minimize disruptions to
@@ -335,7 +335,7 @@ function AirTightnessFaqs() {
               envelope.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Prepare Documentation:</strong>{" "}
+              <strong className="text-secondary">Prepare Documentation:</strong>
               Gather any relevant documentation, such as building plans,
               specifications, and construction details, to provide to the
               technicians conducting the airtightness test.

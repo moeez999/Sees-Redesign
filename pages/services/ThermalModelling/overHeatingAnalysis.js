@@ -332,7 +332,6 @@ export default function overHeatingAnalysis() {
                               style={{ border: "1px solid black" }}
                               rowspan="9"
                             >
-                              {" "}
                               Reduce the heat entering the building
                             </td>
                             <td style={{ border: "1px solid black" }}></td>

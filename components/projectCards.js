@@ -25,7 +25,9 @@ export default function ProjectCards() {
       <div className="container">
         {projects.map((project, index) => (
           <div className="item" key={index}>
-            <h1 className="text-2xl text-white absolute z-[100]">{project.title}</h1>
+            <h1 className="text-2xl text-white absolute z-[100]">
+              {project.title}
+            </h1>
             <div className="card">
               <div className="circle circle2"></div>
               <div className="circle circle1"></div>
@@ -36,7 +38,7 @@ export default function ProjectCards() {
             </div>
           </div>
         ))}
-      </div>{" "}
+      </div>
     </div>
   );
 }

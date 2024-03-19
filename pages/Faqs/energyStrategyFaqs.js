@@ -34,7 +34,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Carbon Reduction Targets:
-              </strong>{" "}
+              </strong>
               Establish ambitious targets for reducing greenhouse gas emissions,
               typically measured in terms of carbon dioxide equivalents (CO2e),
               over a specified timeframe. These targets may align with national
@@ -45,7 +45,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Energy Efficiency Improvements:
-              </strong>{" "}
+              </strong>
               Prioritize energy efficiency measures to reduce energy consumption
               and associated carbon emissions across sectors such as buildings,
               industry, transportation, and agriculture. This may involve
@@ -56,7 +56,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Renewable Energy Deployment:
-              </strong>{" "}
+              </strong>
               Accelerate the deployment of renewable energy sources, such as
               solar, wind, hydro, biomass, and geothermal energy, to decarbonize
               the energy supply and reduce reliance on fossil fuels. Set targets
@@ -67,7 +67,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Electrification and Decarbonization:
-              </strong>{" "}
+              </strong>
               Promote electrification of end-use sectors, such as transportation
               and heating, as a means of reducing reliance on fossil fuels and
               transitioning to low-carbon electricity sources. Support the
@@ -77,7 +77,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Energy System Integration:
-              </strong>{" "}
+              </strong>
               Foster integration and optimization of energy systems to maximize
               efficiency, flexibility, and resilience. This may involve smart
               grid technologies, energy storage, demand response, district
@@ -88,7 +88,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Carbon Pricing and Market Mechanisms:
-              </strong>{" "}
+              </strong>
               Implement carbon pricing mechanisms, such as carbon taxes,
               cap-and-trade systems, or carbon offsets, to internalize the cost
               of carbon emissions and provide economic incentives for emission
@@ -99,7 +99,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Regulatory and Policy Frameworks:
-              </strong>{" "}
+              </strong>
               Develop supportive regulatory and policy frameworks to incentivize
               carbon and energy reduction initiatives, foster innovation, and
               create a level playing field for low-carbon technologies and
@@ -110,7 +110,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Public Awareness and Engagement:
-              </strong>{" "}
+              </strong>
               Engage stakeholders, including businesses, communities, academia,
               civil society organizations, and the public, in supporting and
               implementing carbon and energy reduction efforts. Raise awareness
@@ -121,7 +121,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Monitoring, Reporting, and Verification (MRV):
-              </strong>{" "}
+              </strong>
               Establish robust MRV systems to track progress toward carbon and
               energy reduction targets, measure performance against key
               indicators, and ensure transparency and accountability. Regularly
@@ -132,7 +132,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Partnerships and Collaboration:
-              </strong>{" "}
+              </strong>
               Foster partnerships and collaboration among government agencies,
               industry stakeholders, research institutions, non-governmental
               organizations, and international partners to leverage expertise,
@@ -164,7 +164,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Environmental Responsibility:
-              </strong>{" "}
+              </strong>
               Developing an energy strategy demonstrates a commitment to
               environmental stewardship and corporate social responsibility. By
               reducing carbon emissions and energy consumption, organizations
@@ -175,7 +175,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Cost Savings and Financial Benefits:
-              </strong>{" "}
+              </strong>
               Implementing energy efficiency measures and renewable energy
               solutions as part of an energy strategy can result in significant
               cost savings over time. By reducing energy consumption and
@@ -185,7 +185,7 @@ function EnergyStrategyFaqs() {
               profitability.
             </li>
             <li className="text-base md:text-lg lg:text-xl my-4">
-              <strong className="text-secondary">Regulatory Compliance:</strong>{" "}
+              <strong className="text-secondary">Regulatory Compliance:</strong>
               An energy strategy helps organizations comply with increasingly
               stringent environmental regulations, energy efficiency standards,
               and carbon emissions targets imposed by governments, regulatory
@@ -195,7 +195,7 @@ function EnergyStrategyFaqs() {
               demonstrate compliance with legal obligations.
             </li>
             <li className="text-base md:text-lg lg:text-xl my-4">
-              <strong className="text-secondary">Risk Management:</strong>{" "}
+              <strong className="text-secondary">Risk Management:</strong>
               Energy-related risks, such as volatile energy prices, supply chain
               disruptions, regulatory changes, and physical impacts of climate
               change, can pose significant challenges to business operations and
@@ -207,7 +207,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Competitive Advantage and Market Differentiation:
-              </strong>{" "}
+              </strong>
               A robust energy strategy can serve as a competitive
               differentiator, enhancing brand reputation, attracting customers,
               investors, and partners, and creating market opportunities.
@@ -219,7 +219,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Innovation and Technological Leadership:
-              </strong>{" "}
+              </strong>
               Developing an energy strategy fosters innovation and technological
               advancements by incentivizing research, development, and adoption
               of clean energy technologies, energy-efficient solutions, and
@@ -231,7 +231,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Employee Engagement and Morale:
-              </strong>{" "}
+              </strong>
               Engaging employees in the development and implementation of an
               energy strategy can boost morale, foster a culture of
               sustainability, and enhance employee satisfaction and retention.
@@ -243,7 +243,7 @@ function EnergyStrategyFaqs() {
             <li className="text-base md:text-lg lg:text-xl my-4">
               <strong className="text-secondary">
                 Long-Term Resilience and Adaptation:
-              </strong>{" "}
+              </strong>
               An energy strategy focused on carbon and energy reduction enhances
               organizational resilience and adaptability to future challenges,
               such as climate change impacts, energy transitions, and evolving
