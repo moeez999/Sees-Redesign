@@ -13,7 +13,13 @@ body {
   font-size: 62.5%;
   font-family: Poppins, sans-serif;
 }
-
+p,
+li,
+h1,
+h2,
+h3 {
+  cursor: pointer;
+}
 .sub-menu {
   display: none;
   position: absolute;
@@ -962,5 +968,3 @@ nav ul li {
 .Shadow-custom {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
-
-
