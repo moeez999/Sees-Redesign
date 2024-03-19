@@ -10,7 +10,7 @@ export default function OMannual() {
               O&M Manual
             </h1>
             <div className="w-20 animate__animated animate__backInLeft animate__slow">
-              <img src="../Service Logos/Air Quality.png" />
+              <img src="../Service Logos/Building User Guide.png" />
             </div>
           </div>
           <h2
