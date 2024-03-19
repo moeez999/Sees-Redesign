@@ -12,6 +12,9 @@ import Footer from "./../components/footer";
 import IndoorAirQualityFaqs from "./Faqs/indoorAirQuality";
 import DayLightFaqs from "./Faqs/dayLightFaqs";
 import AcousticsFaqs from "./Faqs/AcousticsFaqs";
+import ThermographyFaqs from "./Faqs/thermographyFaqs";
+import FloodRisksFaqs from "./Faqs/floodRiskFaqs";
+import OMannual from "./Faqs/manualFaqs";
 
 const Faqs = () => {
   const [activeFaqs, setActiveFaqs] = useState("BREEAM");
@@ -137,6 +140,36 @@ const Faqs = () => {
               />
               Acoustics
             </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("Thermography")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_09-overheating assessments.png"
+              />
+              Thermography
+            </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("FloodRiskAssessment")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_05-flood risk assessments.png"
+              />
+              Flood Risk Assessment
+            </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("O&MManual")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_12 (SBEM)-environmental performance certificates for non domestic buildings.png"
+              />
+              O&M Manual
+            </li>
             {/* Add more FAQ categories as needed */}
           </ul>
         </div>
@@ -152,6 +185,9 @@ const Faqs = () => {
           {activeFaqs === "inDoorAirQuality" && <IndoorAirQualityFaqs />}
           {activeFaqs === "DayLight" && <DayLightFaqs />}
           {activeFaqs === "Acoustics" && <AcousticsFaqs />}
+          {activeFaqs === "Thermography" && <ThermographyFaqs />}
+          {activeFaqs === "FloodRiskAssessment" && <FloodRisksFaqs />}
+          {activeFaqs === "O&MManual" && <OMannual />}
         </div>
       </div>
       <Footer />

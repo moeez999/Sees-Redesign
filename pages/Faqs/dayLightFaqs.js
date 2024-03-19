@@ -310,7 +310,7 @@ export default function DayLightFaqs() {
             </h2>
             <ul class="list-disc ml-8">
               <li class="text-base md:text-lg lg:text-xl">
-                <span class="font-semibold">Sunlight analysis</span>{" "}
+                <span class="font-semibold">Sunlight analysis</span>
                 specifically focuses on the evaluation of direct solar radiation
                 and its impact on outdoor environments, building facades, and
                 solar access.
@@ -401,7 +401,7 @@ export default function DayLightFaqs() {
             </li>
 
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Sustainable Design:</strong>{" "}
+              <strong className="text-secondary">Sustainable Design:</strong>
               Daylighting optimization aligns with principles of sustainable
               design by promoting resource efficiency and reducing environmental
               impact. Harnessing natural light minimizes the use of artificial
@@ -489,7 +489,7 @@ export default function DayLightFaqs() {
             </li>
 
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Overall BREEAM Rating:</strong>{" "}
+              <strong className="text-secondary">Overall BREEAM Rating:</strong>
               Daylighting optimization can directly contribute to the overall
               BREEAM rating of a building project by earning credits in relevant
               categories such as Energy, Health and Well-being, Indoor

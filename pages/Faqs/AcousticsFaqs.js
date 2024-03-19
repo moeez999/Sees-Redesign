@@ -112,7 +112,7 @@ export default function AcousticsFaqs() {
                   applicable standards or requirements.
                 </li>
               </ul>
-            </li>{" "}
+            </li>
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">Post-Test Actions:</strong>
               <ul className="list-disc ml-6 mb-4">
@@ -286,7 +286,7 @@ export default function AcousticsFaqs() {
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
                 Identification of Mitigation Measures:
-              </strong>{" "}
+              </strong>
               Based on the assessment findings, mitigation measures are
               recommended to minimize or mitigate potential noise impacts.
               Mitigation strategies may include design modifications, noise
@@ -415,7 +415,7 @@ export default function AcousticsFaqs() {
             </li>
             <li className="text-base md:text-lg lg:text-xl">
               <strong className="text-secondary">
-                Improved Community Relations:{" "}
+                Improved Community Relations:
               </strong>
               Engaging with the community and addressing noise concerns through
               a transparent and participatory process can improve community

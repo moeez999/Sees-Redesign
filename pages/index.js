@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <HeroSection></HeroSection>
 
-      <div className="flex justify-center mt-8 p-2 xxxl:container xxxl:mx-auto">
+      <div className="flex justify-center mt-8 p-2 xxxl:container xxxl:mx-auto xxm:mt-[16rem]">
         <div
           id="service-section"
           className="w-full xsm:w-[50%] md:w-[75%] lg:w-[60%] py-6"
