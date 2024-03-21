@@ -15,6 +15,7 @@ import AcousticsFaqs from "./Faqs/AcousticsFaqs";
 import ThermographyFaqs from "./Faqs/thermographyFaqs";
 import FloodRisksFaqs from "./Faqs/floodRiskFaqs";
 import OMannual from "./Faqs/manualFaqs";
+import SbemFaqs from "./Faqs/SbemFaqs";
 
 const Faqs = () => {
   const [activeFaqs, setActiveFaqs] = useState("BREEAM");
@@ -28,7 +29,7 @@ const Faqs = () => {
       <Navigation />
 
       <div className="my-28 flex flex-row Shadow-custom container mx-auto ">
-        <div className="container mx-auto px-4 bg-secondary py-8 max-w-xs sticky top-0  h-screen">
+        <div className="container mx-auto px-4 bg-secondary py-8 max-w-xs sticky top-0  h-[110vh]">
           <div className="my-4">
             <img src="../Images/faq.png" />
           </div>
@@ -46,7 +47,7 @@ const Faqs = () => {
             >
               <img
                 className="w-6"
-                src="../White-Images/white_10-Energy strategies for houses.png"
+                src="../White-Images/white_23-carbon lifecycle stage.png"
               />
               Building Life Cycle
             </li>
@@ -82,6 +83,16 @@ const Faqs = () => {
             </li>
             <li
               className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
+              onClick={() => handleFaqsClick("SBEMCalculations")}
+            >
+              <img
+                className="w-6"
+                src="../White-Images/white_11 (SAP) -environmental performance certificates for houses.png"
+              />
+              SBEM Calculations
+            </li>
+            <li
+              className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("AirTightness")}
             >
               <img
@@ -114,10 +125,7 @@ const Faqs = () => {
               className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("inDoorAirQuality")}
             >
-              <img
-                className="w-6"
-                src="../White-Images/white_01-air testing.png"
-              />
+              <img className="w-6" src="../White-Images/white_21-air.png" />
               Indoor Air Quality
             </li>
             <li
@@ -164,10 +172,7 @@ const Faqs = () => {
               className="text-base md:text-lg lg:text-xl font-semibold text-white my-1 flex items-center gap-2"
               onClick={() => handleFaqsClick("O&MManual")}
             >
-              <img
-                className="w-6"
-                src="../White-Images/white_12 (SBEM)-environmental performance certificates for non domestic buildings.png"
-              />
+              <img className="w-6" src="../White-Images/white_20-book.png" />
               O&M Manual
             </li>
             {/* Add more FAQ categories as needed */}
@@ -179,6 +184,7 @@ const Faqs = () => {
           {activeFaqs === "ThermalModelling" && <ThermalModellingFaqs />}
           {activeFaqs === "ThermalBridging" && <ThermalBridgingFaqs />}
           {activeFaqs === "SapCalculations" && <SAPCalculations />}
+          {activeFaqs === "SBEMCalculations" && <SbemFaqs />}
           {activeFaqs === "AirTightness" && <AirTightnessFaqs />}
           {activeFaqs === "WaterCalculations" && <WaterCalculationsFaqs />}
           {activeFaqs === "EnergyStrategy" && <EnergyStrategyFaqs />}

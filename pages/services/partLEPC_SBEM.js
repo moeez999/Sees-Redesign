@@ -20,7 +20,7 @@ export default function partLEPC_SBEM() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
           <Card
             color="#509e2f"
             title="SBEM For Commercial New Builds"

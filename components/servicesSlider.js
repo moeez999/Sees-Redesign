@@ -14,7 +14,7 @@ const services = [
   {
     id: 3,
     name: "Air Quality",
-    imageSrc: "Service Logos/Air Quality.png",
+    imageSrc: "Service Logos/IndoorAirQuality.png",
     href: "/services/indoorAirQuality",
   },
   {
@@ -49,9 +49,9 @@ const services = [
   },
   {
     id: 9,
-    name: "Renewable energy Assessments",
-    imageSrc: "Service Logos/Renewable energy Assessments.png",
-    href: "/services/renewableEnergy",
+    name: "Thermal Bridging",
+    imageSrc: "Service Logos/thermalBridging.png",
+    href: "/services/thermalBridging",
   },
   {
     id: 10,
@@ -83,11 +83,17 @@ const services = [
     imageSrc: "Service Logos/Building User Guide.png",
     href: "/services/buildingUser",
   },
+  {
+    id: 14,
+    name: "Thermographics",
+    imageSrc: "Service Logos/Thermal Modelling.png",
+    href: "/services/thermographics",
+  },
 ];
 
 const ServicesSlider = () => {
   return (
-    <div className="grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 p-6 my-4">
+    <div className="flex flex-row flex-wrap justify-center gap-4 p-6 my-4">
       {services.map((service) => (
         <a key={service.id} href={service.href}>
           <div key={service.id} className="w-44 service-cards">

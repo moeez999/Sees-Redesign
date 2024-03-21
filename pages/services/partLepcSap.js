@@ -10,7 +10,7 @@ export default function partLEPC_SAP() {
       <div className="SAP ">
         <Navigation />
       </div>
-      <div className="mt-24 h-screen">
+      <div className="mt-24 mb-40  h-screen">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl py-4 font-bold text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Part L SAP/HEM Calculations (Domestic)
@@ -19,7 +19,7 @@ export default function partLEPC_SAP() {
             <img src="../White-Images/white_11 (SAP) -environmental performance certificates for houses.png" />
           </div>
         </div>
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
           <Card
             color="#509e2f"
             title="SAP for New Build"
@@ -43,7 +43,9 @@ export default function partLEPC_SAP() {
           />
         </div>
       </div>
-      <Footer />
+      <div className="mt-[20rem]">
+        <Footer />
+      </div>
     </div>
   );
 }

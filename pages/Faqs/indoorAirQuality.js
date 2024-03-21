@@ -10,7 +10,7 @@ export default function indoorAirQualityFaqs() {
               Indoor Air Quality
             </h1>
             <div className="w-20 animate__animated animate__backInLeft animate__slow">
-              <img src="../Service Logos/Air Quality.png" />
+              <img src="../Service Logos/IndoorAirQuality.png" />
             </div>
           </div>
           <h2

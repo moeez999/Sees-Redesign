@@ -9,7 +9,7 @@ export default function dayLightining() {
       <div className="SAP">
         <Navigation />
       </div>
-      <div className="mt-24  h-screen">
+      <div className="my-24  h-screen">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold py-4 text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Daylighting
@@ -19,7 +19,7 @@ export default function dayLightining() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
           <Card
             color="#509e2f"
             title="Daylighting Calculation"

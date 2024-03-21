@@ -9,17 +9,17 @@ export default function floodRisk() {
       <div className="breeam ">
         <Navigation />
       </div>
-      <div className="mt-24  h-screen">
+      <div className="my-24  h-screen">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold text-center py-4 tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Flood Risk
           </h2>
-             <div className=" w-24 animate__animated animate__backInRight animate__slow ">
+          <div className=" w-24 animate__animated animate__backInRight animate__slow ">
             <img src="../White-Images/white_05-flood risk assessments.png" />
           </div>
         </div>
-   
-        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full">
+
+        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full xxm:gap-60">
           <Card
             color="#509e2f"
             title="Flood Risk"

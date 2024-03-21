@@ -19,7 +19,7 @@ export default function breeam() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full">
+        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full xxm:gap-60">
           <Card
             color="#509e2f"
             title="Non Domestic Assessment"

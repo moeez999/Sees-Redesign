@@ -10,7 +10,7 @@ export default function ThermalBridgingFaqs() {
               Thermal Bridging
             </h1>
             <div className="w-20 animate__animated animate__backInLeft animate__slow">
-              <img src="../Service Logos/Thermal Modelling.png" />
+              <img src="../Service Logos/thermalBridging.png" />
             </div>
           </div>
           {/* Content for question 13 */}

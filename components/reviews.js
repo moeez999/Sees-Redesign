@@ -36,7 +36,7 @@ const QuoteContainer = ({ quoteData }) => {
       className="mySwiper"
     >
       {quoteData.map((quote, index) => (
-        <SwiperSlide key={quote.id}>
+        <SwiperSlide key={index}>
           <div className="container-card shadow-2xl h-52">
             <div className="content">
               <h1 className="text-xl font-semibold">{quote.reviewerName}</h1>
@@ -47,7 +47,6 @@ const QuoteContainer = ({ quoteData }) => {
         </SwiperSlide>
       ))}
     </Swiper>
-    // </div>
   );
 };
 

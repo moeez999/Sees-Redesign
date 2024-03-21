@@ -433,7 +433,21 @@ nav ul li {
     justify-content: center;
   }
 }
-
+@media screen and (max-width: 1024px) {
+  .margin-top {
+    margin-top: 50rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .margin-top {
+    margin-top: 40rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .margin-top {
+    margin-top: 40rem;
+  }
+}
 .anima {
   background: #509e2f;
   background-size: 400% 400%;
