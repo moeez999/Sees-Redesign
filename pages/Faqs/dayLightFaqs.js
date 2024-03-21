@@ -39,11 +39,11 @@ export default function DayLightFaqs() {
           >
             Here's an overview of daylighting calculations and simulations:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className="ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Daylight Factor Calculation
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Daylight Factor Calculation:
-              </strong>
               The daylight factor is a metric used to quantify the amount of
               natural light available in a space relative to the light available
               outside under overcast sky conditions. Daylight factor
@@ -54,10 +54,10 @@ export default function DayLightFaqs() {
               mathematical models or software tools that simulate daylight
               penetration and distribution.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Climate and Site Analysis
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Climate and Site Analysis:
-              </strong>
               Daylighting simulations take into account climatic conditions,
               site orientation, and local shading effects to predict daylight
               availability throughout the day and across different seasons.
@@ -66,10 +66,10 @@ export default function DayLightFaqs() {
               patterns to assess daylight performance and inform building design
               decisions.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Glazing and Shading Design:
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Glazing and Shading Design:
-              </strong>
               Daylighting simulations help evaluate the impact of different
               glazing types, window configurations, and shading devices on
               daylight penetration, glare control, and thermal performance.
@@ -79,10 +79,10 @@ export default function DayLightFaqs() {
               louvers, blinds, or overhangs) to balance daylighting goals with
               energy efficiency requirements.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Occupant Comfort and Visual Performance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Occupant Comfort and Visual Performance:
-              </strong>
               Daylighting simulations assess visual comfort and performance
               metrics, such as daylight glare probability, daylight glare index,
               and uniformity ratio, to ensure that natural light is distributed
@@ -91,10 +91,10 @@ export default function DayLightFaqs() {
               sources, optimize shading design, and enhance visual quality in
               interior spaces.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Energy Savings and Environmental Impact
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Energy Savings and Environmental Impact:
-              </strong>
               Daylighting simulations quantify the energy savings potential
               associated with reduced reliance on artificial lighting and
               cooling loads resulting from daylighting strategies. By optimizing
@@ -103,10 +103,10 @@ export default function DayLightFaqs() {
               sustainability goals while enhancing occupant comfort and
               well-being.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Regulatory Compliance and Certification
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Regulatory Compliance and Certification:
-              </strong>
               Daylighting calculations and simulations are often required to
               demonstrate compliance with building codes, energy standards, and
               green building certification criteria related to daylighting
@@ -133,7 +133,7 @@ export default function DayLightFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            36.What is Sunlight Analysis?
+            What is Sunlight Analysis?
           </h2>
           <p
             data-aos="fade-up"
@@ -158,10 +158,10 @@ export default function DayLightFaqs() {
             Here's an overview of sunlight analysis and its key components:
           </p>
           <ul className="list-disc ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Solar Path and Sun Angles
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Solar Path and Sun Angles:
-              </strong>
               Sunlight analysis begins with understanding the solar path and sun
               angles relative to the site location throughout the day and across
               different seasons. This involves analysing solar geometry
@@ -169,21 +169,20 @@ export default function DayLightFaqs() {
               solar azimuth angle to determine the position of the sun in the
               sky at various times of the day and year.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Site Context and Obstructions
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Site Context and Obstructions:
-              </strong>
               Assess the site context, including nearby buildings, trees,
               topography, and other obstructions that may cast shadows or block
               sunlight on the site. Site analysis helps identify potential
               shading sources and areas of solar access restriction that may
               impact building design and solar exposure.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Daylight and Sunlight Modelling
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Daylight and Sunlight Modelling:
-              </strong>
               Use daylight and sunlight modelling software tools to simulate
               solar radiation patterns and analyse sunlight exposure on building
               facades, outdoor spaces, and surrounding areas. Daylight modelling
@@ -191,10 +190,10 @@ export default function DayLightFaqs() {
               penetration, diffuse skylight distribution, and solar exposure
               intensity to evaluate solar access and daylight availability.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Solar Radiation Mapping
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Solar Radiation Mapping:
-              </strong>
               Generate solar radiation maps or diagrams to visualize solar
               exposure patterns and identify areas of high or low solar gain on
               the site. Solar radiation mapping helps identify optimal building
@@ -202,21 +201,21 @@ export default function DayLightFaqs() {
               maximize solar access for passive solar heating, daylighting, and
               outdoor comfort.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Glare Analysis
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Glare Analysis:</strong> Assess
-              the potential for glare caused by direct sunlight or reflected
-              sunlight from building facades, windows, or surfaces. Glare
-              analysis evaluates glare indices, glare angles, and glare
+              Assess the potential for glare caused by direct sunlight or
+              reflected sunlight from building facades, windows, or surfaces.
+              Glare analysis evaluates glare indices, glare angles, and glare
               probability to identify areas prone to glare discomfort and inform
               fenestration design, shading devices, and interior lighting
               strategies.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Energy Performance Evaluation{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Energy Performance Evaluation:
-              </strong>
               Evaluate the energy performance of buildings and outdoor spaces
               based on solar access analysis results. Assess the impact of solar
               radiation on building heating and cooling loads, solar heat gain
@@ -224,22 +223,20 @@ export default function DayLightFaqs() {
               generation opportunities (e.g., solar photovoltaic panels, solar
               thermal systems).
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Occupant Comfort and Well-being
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Occupant Comfort and Well-being:
-              </strong>
               Consider the implications of sunlight exposure on occupant
               comfort, health, and well-being. Sunlight analysis helps optimize
               indoor thermal comfort, visual comfort, and daylight quality while
               minimizing solar glare, overheating, and thermal discomfort for
               building occupants.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Design Optimization and Mitigation Strategies
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Design Optimization and Mitigation Strategies:
-              </strong>
               Use sunlight analysis findings to inform design decisions and
               implement mitigation strategies to address solar access
               constraints and optimize building performance. Design strategies
@@ -263,7 +260,7 @@ export default function DayLightFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            37.What is the difference between daylight analysis and sunlight
+            What is the difference between daylight analysis and sunlight
             analysis?
           </h2>
           <p
@@ -278,7 +275,7 @@ export default function DayLightFaqs() {
           </p>
           <div class="mb-8">
             <h2 class="text-2xl text-secondary font-bold mb-2">
-              Daylight Analysis:
+              Daylight Analysis
             </h2>
             <ul class="list-disc ml-8">
               <li class="text-base md:text-lg lg:text-xl">
@@ -306,11 +303,11 @@ export default function DayLightFaqs() {
           </div>
           <div>
             <h2 class="text-2xl text-secondary font-bold mb-2">
-              Sunlight Analysis:
+              Sunlight Analysis
             </h2>
             <ul class="list-disc ml-8">
               <li class="text-base md:text-lg lg:text-xl">
-                <span class="font-semibold">Sunlight analysis</span>
+                <span class="font-semibold">Sunlight analysis</span> {" "}
                 specifically focuses on the evaluation of direct solar radiation
                 and its impact on outdoor environments, building facades, and
                 solar access.
@@ -350,7 +347,7 @@ export default function DayLightFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            38.Why do I need a daylighting analysis?
+            Why do I need a daylighting analysis?
           </h2>
           <p
             data-aos="fade-up"
@@ -361,8 +358,10 @@ export default function DayLightFaqs() {
             and high-performance buildings.
           </p>
           <ul className="list-disc ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Energy Efficiency
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Energy Efficiency:</strong>
               Daylighting analysis plays a crucial role in optimizing energy
               usage within buildings by reducing reliance on artificial lighting
               during daylight hours. Maximizing natural light penetration and
@@ -370,11 +369,10 @@ export default function DayLightFaqs() {
               with lighting, leading to reduced operational costs and
               environmental impact.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Occupant Health and Well-being
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Occupant Health and Well-being:
-              </strong>
               Adequate daylighting positively impacts occupant health,
               well-being, and productivity. It helps regulate circadian rhythms,
               enhances mood, reduces eyestrain, and improves overall comfort for
@@ -383,25 +381,30 @@ export default function DayLightFaqs() {
               contributing to a healthier and more comfortable indoor
               environment.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Visual Comfort
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Visual Comfort:</strong>
               Proper daylighting design enhances visual comfort by minimizing
               glare, ensuring uniform light distribution, and optimizing visual
               contrast. This creates visually pleasing and functional indoor
               environments, enhancing the overall quality of the space and
               supporting various activities performed within it.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Regulatory Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>
               Many building codes and regulations mandate minimum daylighting
               standards to be met in building design and construction.
               Daylighting analysis ensures compliance with these requirements,
               ensuring that buildings provide healthy and safe environments for
               occupants and avoiding potential legal issues.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Sustainable Design
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Sustainable Design:</strong>
               Daylighting optimization aligns with principles of sustainable
               design by promoting resource efficiency and reducing environmental
               impact. Harnessing natural light minimizes the use of artificial
@@ -426,7 +429,7 @@ export default function DayLightFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            39.Importance of Daylighting in BREEAM
+            Importance of Daylighting in BREEAM
           </h2>
           <p
             data-aos="fade-up"
@@ -439,18 +442,20 @@ export default function DayLightFaqs() {
             BREEAM:
           </p>
           <ul className="list-disc ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Energy Efficiency
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Energy Efficiency:</strong>
               Daylighting optimization reduces reliance on artificial lighting,
               resulting in lower energy consumption for lighting purposes.
               Buildings that effectively utilize natural light can achieve
               significant energy savings, contributing to improved energy
               efficiency performance under BREEAM criteria.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Occupant Health and Well-being
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Occupant Health and Well-being:
-              </strong>
               Adequate daylighting positively impacts occupant health, comfort,
               and productivity. BREEAM places importance on providing healthy
               and comfortable indoor environments, and daylighting optimization
@@ -458,9 +463,10 @@ export default function DayLightFaqs() {
               to natural light, buildings can create spaces that promote
               well-being and enhance the overall user experience.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Visual Comfort
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Visual Comfort:</strong>
               Daylighting design considerations, such as glare control and
               uniform light distribution, contribute to visual comfort for
               building occupants. BREEAM assesses indoor environmental quality,
@@ -468,8 +474,10 @@ export default function DayLightFaqs() {
               help meet the criteria related to creating visually comfortable
               spaces.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Regulatory Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>
               Many building codes and regulations include requirements for
               minimum daylighting standards to be met in building design and
               construction. BREEAM takes into account regulatory compliance as
@@ -477,8 +485,10 @@ export default function DayLightFaqs() {
               align with or exceed regulatory requirements can earn credits
               under relevant BREEAM categories.
             </li>
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Sustainable Design
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Sustainable Design::</strong>
               Daylighting optimization aligns with principles of sustainable
               design by reducing energy consumption, minimizing environmental
               impact, and promoting resource efficiency. BREEAM evaluates
@@ -487,9 +497,10 @@ export default function DayLightFaqs() {
               energy efficiency, indoor environmental quality, and sustainable
               design principles.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold mb-2">
+              Overall BREEAM Rating
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Overall BREEAM Rating:</strong>
               Daylighting optimization can directly contribute to the overall
               BREEAM rating of a building project by earning credits in relevant
               categories such as Energy, Health and Well-being, Indoor

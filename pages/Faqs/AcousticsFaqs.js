@@ -257,7 +257,7 @@ export default function AcousticsFaqs() {
           </p>
           <ul className="ml-6 mb-4">
             <h2 className="text-2xl text-secondary font-bold my-4">
-              Baseline Noise Measurement{" "}
+              Baseline Noise Measurement
             </h2>
             <li className="text-base md:text-lg lg:text-xl">
               The assessment begins with the collection of baseline noise data

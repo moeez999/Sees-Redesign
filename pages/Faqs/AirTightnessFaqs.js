@@ -66,7 +66,7 @@ function AirTightnessFaqs() {
             </li>
             <h2 className="text-2xl text-secondary font-bold my-4">
               Moisture Control
-            </h2>{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
               Air leakage can also contribute to moisture problems within a
               building, such as condensation, dampness, and mold growth. By
@@ -208,7 +208,7 @@ function AirTightnessFaqs() {
           <ol className="list-decimal ml-6 mb-4">
             <h2 className="text-2xl text-secondary font-bold my-4">
               Preparation
-            </h2>{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
               Before conducting the test, ensure that all external doors,
               windows, vents, and other openings in the building envelope are
@@ -301,7 +301,7 @@ function AirTightnessFaqs() {
           <ol className="list-decimal ml-6 mb-4">
             <h2 className="text-2xl text-secondary font-bold my-4">
               Seal Openings
-            </h2>{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
               Close and seal all external doors, windows, vents, flues,
               chimneys, and other openings in the building envelope. Use
@@ -310,7 +310,7 @@ function AirTightnessFaqs() {
             </li>
             <h2 className="text-2xl text-secondary font-bold my-4">
               Check Seals
-            </h2>{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
               Inspect doors and windows for proper seals and weatherstripping.
               Repair or replace damaged seals to ensure airtightness.
@@ -367,7 +367,7 @@ function AirTightnessFaqs() {
             </li>
             <h2 className="text-2xl text-secondary font-bold my-4">
               Provide Access
-            </h2>{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
               Ensure that technicians conducting the airtightness test have
               access to all areas of the building, including mechanical rooms,

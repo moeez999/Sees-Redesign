@@ -17,7 +17,7 @@ export default function FloodRisksFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            47.What does a Flood Risk Assessment entail?
+            What does a Flood Risk Assessment entail?
           </h2>
           <p
             data-aos="fade-up"
@@ -32,9 +32,11 @@ export default function FloodRisksFaqs() {
             a Flood Risk Assessment typically entails:
           </p>
 
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Site Evaluation
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Site Evaluation:</strong>
               The assessment begins with an evaluation of the site's location,
               topography, hydrology, and proximity to water bodies, including
               rivers, streams, lakes, coastal areas, and floodplains. The site's
@@ -43,29 +45,31 @@ export default function FloodRisksFaqs() {
               flooding, is assessed based on historical flood data, flood maps,
               and hydrological models.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Identification of Flood Hazards
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Identification of Flood Hazards:
-              </strong>
               The assessment identifies potential flood hazards and sources of
               flooding that could affect the site, including natural and
               man-made factors. This may involve assessing the likelihood of
               flooding from river overflows, stormwater runoff, high tides,
               flash floods, dam breaches, and other sources of water inundation.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Flood Risk Analysis
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Flood Risk Analysis:</strong>A
-              quantitative analysis is conducted to assess the flood risk posed
-              to the site and its surroundings. This involves evaluating the
-              probability of flooding occurring (likelihood) and the potential
-              consequences of flooding (consequence), including property damage,
-              economic losses, environmental impacts, and risks to human health
-              and safety.
+              A quantitative analysis is conducted to assess the flood risk
+              posed to the site and its surroundings. This involves evaluating
+              the probability of flooding occurring (likelihood) and the
+              potential consequences of flooding (consequence), including
+              property damage, economic losses, environmental impacts, and risks
+              to human health and safety.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Flood Mapping and Modelling
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Flood Mapping and Modelling:
-              </strong>
               Flood mapping and hydraulic modelling techniques are used to
               predict flood extents, depths, velocities, and floodplain
               boundaries under different flood scenarios. This helps visualize
@@ -73,10 +77,10 @@ export default function FloodRisksFaqs() {
               areas, identify flood risk zones, and inform land use planning and
               development decisions.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Vulnerability Assessment
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Vulnerability Assessment:
-              </strong>
               The vulnerability of existing and proposed development to flooding
               is assessed based on factors such as building type, elevation,
               flood resistance measures, floodplain occupancy, critical
@@ -85,8 +89,10 @@ export default function FloodRisksFaqs() {
               prioritize flood risk reduction measures and emergency planning
               efforts
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Mitigation Measures
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Mitigation Measures:</strong>
               Based on the findings of the assessment, appropriate flood risk
               mitigation measures are recommended to reduce the potential
               impacts of flooding and enhance the resilience of the site and
@@ -97,8 +103,10 @@ export default function FloodRisksFaqs() {
               infrastructure solutions (e.g., wetlands, green roofs), and
               emergency response plans.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Regulatory Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>
               The Flood Risk Assessment ensures compliance with relevant
               regulations, policies, and planning requirements related to flood
               risk management, land use planning, and development control. This
@@ -107,10 +115,10 @@ export default function FloodRisksFaqs() {
               restrictions, and requirements for flood risk assessments in
               planning applications.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Stakeholder Engagement
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Stakeholder Engagement:
-              </strong>
               Stakeholder consultation is an integral part of the Flood Risk
               Assessment process, involving engagement with local authorities,
               environmental agencies, community groups, emergency services, and
@@ -118,11 +126,10 @@ export default function FloodRisksFaqs() {
               address concerns, and incorporate feedback into the assessment and
               mitigation planning process.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Documentation and Reporting
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                -Documentation and Reporting:
-              </strong>
               The findings of the Flood Risk Assessment are documented in a
               comprehensive report, which includes a description of the
               assessment methodology, data sources, analysis results, flood risk
@@ -147,7 +154,7 @@ export default function FloodRisksFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            48.When do I need a Flood Risk Assessment?
+            When do I need a Flood Risk Assessment?
           </h2>
           <p
             data-aos="fade-up"
@@ -158,11 +165,11 @@ export default function FloodRisksFaqs() {
             existing properties. Here are some scenarios where a Flood Risk
             Assessment may be necessary:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Planning Applications for Development
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Planning Applications for Development:
-              </strong>
               Local planning authorities typically require a Flood Risk
               Assessment as part of the planning application process for new
               developments or significant modifications to existing properties.
@@ -170,11 +177,10 @@ export default function FloodRisksFaqs() {
               in a manner that minimizes flood risk to people and property and
               complies with flood risk management policies and regulations.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Environmental Permitting
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Environmental Permitting:
-              </strong>
               Certain types of developments or activities may require
               environmental permits from regulatory agencies. As part of the
               permitting process, an assessment of potential environmental
@@ -182,8 +188,10 @@ export default function FloodRisksFaqs() {
               compliance with environmental regulations and obtain necessary
               permits.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Property Transactions
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Property Transactions:</strong>
               When buying or selling property, especially in flood-prone areas,
               it's essential to assess flood risk as part of the due diligence
               process. A Flood Risk Assessment can help potential buyers and
@@ -192,10 +200,10 @@ export default function FloodRisksFaqs() {
               costs, and make informed decisions regarding property
               transactions.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Infrastructure Projects
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Infrastructure Projects:
-              </strong>
               Infrastructure projects, such as road construction, bridge
               construction, utilities installation, and drainage improvements,
               may require a Flood Risk Assessment to evaluate potential impacts
@@ -204,11 +212,10 @@ export default function FloodRisksFaqs() {
               in a manner that minimizes adverse effects on flood risk and
               maintains the integrity of floodplains and watercourses.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Emergency Planning and Preparedness
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Emergency Planning and Preparedness:
-              </strong>
               Local authorities and emergency services may conduct Flood Risk
               Assessments as part of emergency planning and preparedness efforts
               to assess vulnerability, identify high-risk areas, develop flood
@@ -217,9 +224,10 @@ export default function FloodRisksFaqs() {
               response capabilities, and minimize the impacts of flooding on
               public safety and infrastructure.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Insurance Purposes
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Insurance Purposes:</strong>
               Insurance companies may require a Flood Risk Assessment to assess
               the level of flood risk associated with a property and determine
               insurance coverage and premiums. Assessing flood risk allows
@@ -227,10 +235,10 @@ export default function FloodRisksFaqs() {
               of risk, potential exposure to flood damage, and the effectiveness
               of flood risk mitigation measures implemented at the property.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Regulatory Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Regulatory Compliance::
-              </strong>
               Compliance with national and local regulations governing flood
               risk management, land use planning, and development control may
               require the submission of a Flood Risk Assessment. This ensures
