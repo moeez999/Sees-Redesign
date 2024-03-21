@@ -10,14 +10,14 @@ export default function AcousticsFaqs() {
               Acoustics
             </h1>
             <div className="w-20 animate__animated animate__backInLeft animate__slow">
-              <img src="../Service Logos/Air Quality.png" />
+              <img src="../Service Logos/Acoustics.png" />
             </div>
           </div>
           <h2
             data-aos="fade-right"
-            className="text-2xl text-secondary font-bold mb-2"
+            className="text-2xl text-secondary font-bold my-4"
           >
-            40.How is a sound test carried out?
+            How is a sound test carried out?
           </h2>
           <p
             data-aos="fade-up"
@@ -32,9 +32,11 @@ export default function AcousticsFaqs() {
             Here's how a sound test is typically carried out:
           </p>
 
-          <ul className="list-decimal ml-6 mb-4">
+          <ul className="ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Preparation:</strong>
+              <h2 className="text-2xl text-secondary font-bold my-4">
+                Preparation
+              </h2>
               <ul className="list-disc ml-6 mb-4">
                 <li>
                   Before conducting the sound test, the building must be in a
@@ -47,7 +49,9 @@ export default function AcousticsFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Test Setup:</strong>
+              <h2 className="text-2xl text-secondary font-bold my-4">
+                Test Setup
+              </h2>
               <ul className="list-disc ml-6 mb-4">
                 <li>
                   The test setup involves dividing the building into individual
@@ -68,7 +72,9 @@ export default function AcousticsFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Test Procedure:</strong>
+              <h2 className="text-2xl text-secondary font-bold my-4">
+                Test Procedure
+              </h2>
               <ul className="list-disc ml-6 mb-4">
                 <li>
                   During the test, the standardized noise source (for airborne
@@ -87,7 +93,9 @@ export default function AcousticsFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Data Analysis:</strong>
+              <h2 className="text-2xl text-secondary font-bold my-4">
+                Data Analysis
+              </h2>
               <ul className="list-disc ml-6 mb-4">
                 <li>
                   After completing the sound test, the recorded sound levels are
@@ -101,7 +109,9 @@ export default function AcousticsFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Reporting:</strong>
+              <h2 className="text-2xl text-secondary font-bold my-4">
+                Reporting
+              </h2>
               <ul className="list-disc ml-6 mb-4">
                 <li>
                   A detailed test report is prepared, documenting the test
@@ -114,7 +124,9 @@ export default function AcousticsFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Post-Test Actions:</strong>
+              <h2 className="text-2xl text-secondary font-bold my-4">
+                Post-Test Actions
+              </h2>
               <ul className="list-disc ml-6 mb-4">
                 <li>
                   a.Based on the test results and recommendations provided in
@@ -143,9 +155,9 @@ export default function AcousticsFaqs() {
 
           <h2
             data-aos="fade-right"
-            className="text-2xl text-secondary font-bold mb-2"
+            className="text-2xl text-secondary font-bold my-4"
           >
-            41.Why do I need a sound test?
+            Why do I need a sound test?
           </h2>
           <p
             data-aos="fade-up"
@@ -153,11 +165,11 @@ export default function AcousticsFaqs() {
           >
             There are several reasons why you might need a sound test:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className="ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Building Regulations Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Building Regulations Compliance:
-              </strong>
               Building regulations in the UK set minimum standards for sound
               insulation between different parts of buildings, such as walls and
               floors between dwellings or rooms. Conducting a sound test ensures
@@ -165,9 +177,11 @@ export default function AcousticsFaqs() {
               designed to protect occupants from excessive noise and ensure a
               reasonable level of acoustic privacy.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Occupant Comfort
+            </h2>
 
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Occupant Comfort:</strong>
               Sound insulation is crucial for ensuring occupant comfort within
               buildings. Excessive noise transmission between dwellings or rooms
               can lead to disturbances and reduce the quality of life for
@@ -175,16 +189,21 @@ export default function AcousticsFaqs() {
               where sound insulation may be insufficient and take steps to
               improve acoustic performance, thereby enhancing occupant comfort.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Legal Compliance
+            </h2>
+
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Legal Compliance:</strong>
               Compliance with building regulations, including those related to
               sound insulation, is often a legal requirement for new buildings
               and conversions in the UK. Failing to meet these requirements can
               result in legal consequences, such as enforcement notices, fines,
               or delays in obtaining building approvals.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Quality Assurance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Quality Assurance:</strong>
               Conducting a sound test provides assurance that the construction
               work has been carried out to a satisfactory standard and that the
               building meets the required performance criteria. It helps
@@ -192,9 +211,10 @@ export default function AcousticsFaqs() {
               sound insulation performance, allowing for corrective measures to
               be implemented before occupancy.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Customer Satisfaction
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Customer Satisfaction:</strong>
               Ensuring good sound insulation can enhance customer satisfaction
               for both homeowners and tenants. By conducting a sound test and
               demonstrating that the building provides adequate acoustic privacy
@@ -214,9 +234,9 @@ export default function AcousticsFaqs() {
 
           <h2
             data-aos="fade-right"
-            className="text-2xl text-secondary font-bold mb-2"
+            className="text-2xl text-secondary font-bold my-4"
           >
-            42.What is a Noise Impact Assessment?
+            What is a Noise Impact Assessment?
           </h2>
           <p
             data-aos="fade-up"
@@ -235,33 +255,31 @@ export default function AcousticsFaqs() {
             relevant regulations and standards. Here are the key components and
             objectives of a Noise Impact Assessment:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className="ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Baseline Noise Measurement{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Baseline Noise Measurement:
-              </strong>
               The assessment begins with the collection of baseline noise data
               to characterize the existing acoustic environment in the project
               area. This involves conducting noise measurements at various
               locations during different times of the day and night to capture
               typical noise levels and variations over time.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Noise Source Identification
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Noise Source Identification:
-              </strong>
               The assessment identifies all potential noise sources associated
               with the proposed development, including construction activities,
               operational activities, transportation (e.g., road traffic,
               aircraft, railways), industrial processes, mechanical equipment,
               and other sources.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Prediction of Noise Levels
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Prediction of Noise Levels:
-              </strong>
               Using noise modelling software and predictive tools, the
               assessment estimates the potential noise levels generated by the
               proposed development at various receptor locations (e.g.,
@@ -270,11 +288,10 @@ export default function AcousticsFaqs() {
               sources, site topography, building layout, and intervening
               barriers.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Assessment of Noise Impacts
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Assessment of Noise Impacts:
-              </strong>
               The predicted noise levels are compared to established noise
               criteria, standards, or guidelines to evaluate potential noise
               impacts on sensitive receptors and the surrounding environment.
@@ -282,11 +299,10 @@ export default function AcousticsFaqs() {
               sleep disturbance, communication, outdoor amenity, wildlife
               habitats, and cultural or recreational activities.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Identification of Mitigation Measures
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Identification of Mitigation Measures:
-              </strong>
               Based on the assessment findings, mitigation measures are
               recommended to minimize or mitigate potential noise impacts.
               Mitigation strategies may include design modifications, noise
@@ -294,9 +310,10 @@ export default function AcousticsFaqs() {
               noise control technologies, and other measures to reduce noise
               emissions or protect sensitive receptors.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Regulatory Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>
               The Noise Impact Assessment ensures compliance with relevant
               regulations, planning policies, and environmental standards
               governing noise emissions and exposure levels. This may include
@@ -304,20 +321,19 @@ export default function AcousticsFaqs() {
               standards (e.g., WHO guidelines), and specific requirements for
               noise-sensitive developments.
             </li>
-
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Stakeholder Engagement
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Stakeholder Engagement:
-              </strong>
               The assessment may involve consultation with stakeholders,
               including local authorities, regulatory agencies, community
               groups, and affected residents, to gather input, address concerns,
               and incorporate feedback into the assessment process.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Documentation and Reporting
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Documentation and Reporting:
-              </strong>
               The findings of the Noise Impact Assessment are documented in a
               comprehensive report, which includes detailed methodologies, data
               analysis, noise predictions, assessment results, mitigation
@@ -339,9 +355,9 @@ export default function AcousticsFaqs() {
 
           <h2
             data-aos="fade-right"
-            className="text-2xl text-secondary font-bold mb-2"
+            className="text-2xl text-secondary font-bold my-4"
           >
-            43.Benefits of a Noise Impact Assessment?
+            Benefits of a Noise Impact Assessment?
           </h2>
           <p
             data-aos="fade-up"
@@ -352,11 +368,11 @@ export default function AcousticsFaqs() {
             advantages:
           </p>
 
-          <ul className="list-disc ml-6 mb-4">
+          <ul className="ml-6 mb-4">
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Compliance with Regulations:
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Compliance with Regulations:
-              </strong>
               One of the primary benefits of a Noise Impact Assessment is
               ensuring compliance with local, national, and international
               regulations and standards governing noise emissions and exposure
@@ -364,10 +380,10 @@ export default function AcousticsFaqs() {
               that their project meets regulatory requirements, reducing the
               risk of delays, fines, or legal challenges.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Identification of Potential Impacts:
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Identification of Potential Impacts:
-              </strong>
               A Noise Impact Assessment helps identify potential noise-related
               impacts associated with a proposed development, such as increased
               noise levels, disturbance to sensitive receptors (e.g.,
@@ -377,10 +393,10 @@ export default function AcousticsFaqs() {
               appropriate mitigation measures to address concerns and minimize
               adverse effects.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Mitigation and Design Optimization:
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Mitigation and Design Optimization:
-              </strong>
               Based on the findings of the assessment, developers can implement
               mitigation measures to minimize noise impacts and optimize project
               design. These measures may include incorporating noise barriers,
@@ -390,10 +406,10 @@ export default function AcousticsFaqs() {
               the planning process can lead to cost savings, improved project
               efficiency, and enhanced environmental performance.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Assessment of Noise Impacts:
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Assessment of Noise Impacts:
-              </strong>
               The predicted noise levels are compared to established noise
               criteria, standards, or guidelines to evaluate potential noise
               impacts on sensitive receptors and the surrounding environment.
@@ -401,10 +417,10 @@ export default function AcousticsFaqs() {
               sleep disturbance, communication, outdoor amenity, wildlife
               habitats, and cultural or recreational activities.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Enhanced Environmental Stewardship:
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Enhanced Environmental Stewardship:
-              </strong>
               By proactively assessing and addressing potential noise impacts,
               developers demonstrate their commitment to environmental
               stewardship and sustainable development. A Noise Impact Assessment
@@ -413,10 +429,10 @@ export default function AcousticsFaqs() {
               development practices and minimizing negative environmental
               consequences.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Improved Community Relations
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Improved Community Relations:
-              </strong>
               Engaging with the community and addressing noise concerns through
               a transparent and participatory process can improve community
               relations and build trust between developers, local authorities,
@@ -425,8 +441,10 @@ export default function AcousticsFaqs() {
               project design, developers can foster positive relationships and
               support for their development projects.
             </li>
+            <h2 className="text-2xl text-secondary font-bold my-4">
+              Risk Management
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Risk Management:</strong>
               Conducting a Noise Impact Assessment helps developers identify and
               manage potential risks associated with noise impacts, such as
               project delays, public opposition, regulatory non-compliance, and
