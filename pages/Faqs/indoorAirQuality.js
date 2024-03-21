@@ -17,7 +17,7 @@ export default function indoorAirQualityFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            32.What is an IAQ plan and what does it entail?
+            What is an IAQ plan and what does it entail?
           </h2>
           <p
             data-aos="fade-up"
@@ -39,21 +39,21 @@ export default function indoorAirQualityFaqs() {
           >
             Here are the key components typically included in an IAQ plan:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              IAQ Objectives and Goals
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                IAQ Objectives and Goals:
-              </strong>
               Define the overarching objectives and goals of the IAQ plan, such
               as achieving compliance with indoor air quality standards,
               minimizing occupant complaints related to indoor air quality,
               promoting a healthy and comfortable indoor environment, and
               reducing health risks associated with indoor air pollution.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              IAQ Team and Responsibilities
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                IAQ Team and Responsibilities:
-              </strong>
               Establish an IAQ team consisting of representatives from building
               management, facility operations, environmental health and safety,
               maintenance staff, and other relevant stakeholders. Clearly define
@@ -61,10 +61,10 @@ export default function indoorAirQualityFaqs() {
               team to ensure effective coordination and implementation of the
               IAQ plan.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              IAQ Assessment and Monitoring
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                IAQ Assessment and Monitoring:
-              </strong>
               Conduct a comprehensive assessment of indoor air quality in the
               building, including sampling and analysis of air pollutants,
               monitoring of key IAQ parameters (such as temperature, humidity,
@@ -74,10 +74,10 @@ export default function indoorAirQualityFaqs() {
               assess occupant exposure levels, and prioritize mitigation
               measures.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Source Identification and Control
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Source Identification and Control:
-              </strong>
               Identify and evaluate potential sources of indoor air pollution,
               such as building materials, furnishings, cleaning products, HVAC
               systems, outdoor pollutants, occupant activities, and microbial
@@ -86,10 +86,10 @@ export default function indoorAirQualityFaqs() {
               source control, substitution of less harmful materials, and proper
               maintenance practices.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Ventilation Management
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Ventilation Management:
-              </strong>
               Ensure adequate ventilation and airflow within the building to
               dilute indoor air pollutants and maintain optimal indoor air
               quality. Implement strategies to optimize ventilation system
@@ -97,10 +97,10 @@ export default function indoorAirQualityFaqs() {
               equipment, adjustment of ventilation rates based on occupancy
               levels, and use of natural ventilation where feasible.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Filtration and Air Cleaning
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Filtration and Air Cleaning:
-              </strong>
               Install and maintain effective air filtration and purification
               systems to remove airborne contaminants and improve indoor air
               quality. Select appropriate air filters based on filtration
@@ -109,10 +109,10 @@ export default function indoorAirQualityFaqs() {
               ultraviolet germicidal irradiation (UVGI) or photocatalytic
               oxidation, where necessary.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Occupant Education and Communication
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Occupant Education and Communication:
-              </strong>
               Educate building occupants about the importance of indoor air
               quality, common sources of indoor airimport indoorAirQuality from
               './../services/indoorAirQuality'; pollution, potential health
@@ -123,10 +123,10 @@ export default function indoorAirQualityFaqs() {
               reporting IAQ concerns and addressing occupant inquiries or
               complaints.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Response and Remediation Procedures
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Response and Remediation Procedures:
-              </strong>
               Develop protocols for responding to IAQ complaints, incidents, or
               emergencies, including procedures for investigating complaints,
               conducting IAQ assessments, implementing corrective actions, and
@@ -135,11 +135,10 @@ export default function indoorAirQualityFaqs() {
               appropriate remediation strategies based on IAQ assessment
               results.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Documentation and Record Keeping
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Documentation and Record Keeping:
-              </strong>
               Maintain detailed documentation of IAQ assessments, monitoring
               data, corrective actions, and preventive measures implemented as
               part of the IAQ plan. Keep records of building maintenance
@@ -147,11 +146,10 @@ export default function indoorAirQualityFaqs() {
               filter replacements, and other IAQ-related activities to track
               compliance with IAQ objectives and regulatory requirements.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Continuous Improvement and Review
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Continuous Improvement and Review:
-              </strong>
               Establish a process for ongoing review, evaluation, and continuous
               improvement of the IAQ plan. Conduct periodic reviews of IAQ
               performance, effectiveness of mitigation measures, occupant
@@ -194,11 +192,11 @@ export default function indoorAirQualityFaqs() {
             pollutants of concern. Here's an overview of what an IAQ test
             entails:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Initial Assessment and Objective Definition
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Initial Assessment and Objective Definition:
-              </strong>
               The IAQ testing process begins with an initial assessment to
               define the objectives of the test and identify specific pollutants
               or parameters of concern. Common indoor air pollutants include
@@ -209,11 +207,11 @@ export default function indoorAirQualityFaqs() {
               characteristics, ventilation system performance, and regulatory
               requirements.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Sampling Plan Development
+            </h2>
 
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Sampling Plan Development:
-              </strong>
               Based on the identified objectives and pollutants of concern, a
               sampling plan is developed to determine the locations, sampling
               methods, and frequency of air sampling. The sampling plan may
@@ -224,10 +222,10 @@ export default function indoorAirQualityFaqs() {
               within the building, such as occupied spaces, HVAC system intakes,
               and areas with potential pollutant sources.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Air Sampling and Analysis
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Air Sampling and Analysis:
-              </strong>
               Air samples are collected according to the sampling plan using
               appropriate sampling equipment and methods. Samples may be
               collected for analysis of specific pollutants (e.g., VOCs, CO,
@@ -239,10 +237,10 @@ export default function indoorAirQualityFaqs() {
               analysed by accredited laboratories following standardized methods
               and quality assurance procedures.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Data Interpretation and Analysis
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Data Interpretation and Analysis:
-              </strong>
               Once air sampling and analysis are complete, the data are
               interpreted and analysed to determine concentrations of indoor air
               pollutants and compare them to relevant exposure guidelines,
@@ -251,11 +249,10 @@ export default function indoorAirQualityFaqs() {
               indoor air pollution, evaluating exposure risks to building
               occupants, and determining whether IAQ objectives are met.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Reporting and Communication{" "}
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Reporting and Communication:
-              </strong>
               The findings of the IAQ test are summarized in a comprehensive
               report that includes information on sampling methods, analytical
               results, data interpretation, conclusions, and recommendations for
@@ -267,11 +264,10 @@ export default function indoorAirQualityFaqs() {
               other stakeholders to raise awareness about indoor air quality
               issues and facilitate informed decision-making.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Follow-Up Actions and Monitoring
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Follow-Up Actions and Monitoring:
-              </strong>
               Based on the findings of the IAQ test, follow-up actions may be
               implemented to address identified IAQ problems, mitigate sources
               of indoor air pollution, and improve indoor air quality. This may
@@ -312,11 +308,11 @@ export default function indoorAirQualityFaqs() {
             Environmental Assessment Method). Here's why you need an IAQ plan
             and test:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Occupant Health and Well-being
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Occupant Health and Well-being:
-              </strong>
               Poor indoor air quality can have significant impacts on occupant
               health and well-being, leading to respiratory problems, allergies,
               asthma, headaches, fatigue, and other health issues. An IAQ plan
@@ -324,11 +320,10 @@ export default function indoorAirQualityFaqs() {
               optimized to promote a healthy and comfortable indoor environment
               for building occupants.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Productivity and Performance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Productivity and Performance:
-              </strong>
               Indoor air quality can affect occupant comfort, productivity, and
               cognitive performance. Studies have shown that improved indoor air
               quality is associated with higher productivity, reduced
@@ -337,20 +332,20 @@ export default function indoorAirQualityFaqs() {
               you can create a conducive indoor environment that supports
               occupant well-being and performance.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Regulatory Compliance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Regulatory Compliance:</strong>
               In many jurisdictions, there are regulations and standards
               governing indoor air quality in buildings to protect occupant
               health and safety. By implementing an IAQ plan and conducting IAQ
               testing, you can ensure compliance with relevant regulations and
               demonstrate due diligence in managing indoor air quality risks.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Green Building Certifications
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Green Building Certifications:
-              </strong>
               Green building certification schemes like BREEAM require buildings
               to meet certain criteria related to indoor air quality as part of
               their assessment process. Having an IAQ plan and conducting IAQ
@@ -358,32 +353,31 @@ export default function indoorAirQualityFaqs() {
               certification and demonstrate commitment to sustainable building
               practices.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Risk Management
+            </h2>{" "}
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Risk Management:</strong> Poor
-              indoor air quality can lead to legal liabilities, occupant
+              Poor indoor air quality can lead to legal liabilities, occupant
               complaints, and reputational damage for building owners and
               operators. Implementing an IAQ plan and conducting IAQ testing
               allows you to identify and mitigate sources of indoor air
               pollution, minimize exposure risks, and proactively manage indoor
               air quality-related risks.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Energy Efficiency and Ventilation Optimization
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Energy Efficiency and Ventilation Optimization:
-              </strong>
               Balancing indoor air quality with energy efficiency is essential
               for sustainable building design and operation. An IAQ plan can
               help optimize ventilation strategies, HVAC system operation, and
               building envelope design to maintain good indoor air quality while
               minimizing energy consumption and operating costs.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Sustainable Building Practices
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Sustainable Building Practices:
-              </strong>
               Sustainable buildings prioritize environmental and human health
               considerations, including indoor air quality. By implementing an
               IAQ plan and conducting IAQ testing, you contribute to sustainable

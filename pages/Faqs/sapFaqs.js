@@ -18,7 +18,7 @@ export default function SAPCalculations() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            15. What are SAP calculations?
+            What are SAP calculations?
           </h2>
           <p
             data-aos="fade-up"
@@ -37,49 +37,53 @@ export default function SAPCalculations() {
           >
             Here's an overview of how SAP calculations work:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Energy Performance Assessment
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Energy Performance Assessment:
-              </strong>
               SAP calculations evaluate the energy performance of a residential
               building based on various factors such as the building's fabric,
               heating system, hot water system, ventilation, lighting, and
               renewable energy sources.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Data Input</h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Data Input:</strong> The
-              calculations require detailed input data about the building's
+              The calculations require detailed input data about the building's
               characteristics, including its size, orientation, construction
               materials, insulation levels, glazing types, heating system
               efficiency, and renewable energy technologies.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Calculation Software
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Calculation Software:</strong>
               SAP calculations are typically performed using approved software
               tools that implement the SAP methodology. These software tools
               facilitate the input of building data and perform the necessary
               calculations to determine the building's energy rating.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Energy Efficiency Rating
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Energy Efficiency Rating:
-              </strong>
               The output of SAP calculations is an energy efficiency rating
               expressed on a scale from 1 to 100, known as the SAP Rating. A
               higher SAP Rating indicates better energy performance, with 100
               representing zero energy cost (a net zero-energy building) and 1
               representing very poor energy performance.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Compliance</h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Compliance:</strong> In the UK,
-              residential buildings must achieve a minimum SAP Rating to comply
-              with building regulations. The required SAP Rating varies
-              depending on factors such as the building's type, size, and
+              In the UK, residential buildings must achieve a minimum SAP Rating
+              to comply with building regulations. The required SAP Rating
+              varies depending on factors such as the building's type, size, and
               location, as well as changes to building regulations over time.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Improvement Measures
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Improvement Measures:</strong>
               SAP calculations can also be used to assess the impact of various
               energy efficiency measures or building design changes on the
               building's overall energy performance. This helps designers and
@@ -92,7 +96,7 @@ export default function SAPCalculations() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            16. Is SAP necessary for an EPC?
+            Is SAP necessary for an EPC?
           </h2>
           <p
             data-aos="fade-up"
@@ -141,7 +145,7 @@ export default function SAPCalculations() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            17. Are EPC and SAP the same?
+            Are EPC and SAP the same?
           </h2>
           <p
             data-aos="fade-up"
@@ -156,7 +160,7 @@ export default function SAPCalculations() {
                 data-aos="fade-up"
                 className="text-lg md:text-xl lg:text-2xl text-secondary font-bold mb-2"
               >
-                Energy Performance Certificate (EPC):
+                Energy Performance Certificate (EPC)
               </h3>
               <p
                 data-aos="fade-up"
@@ -185,7 +189,7 @@ export default function SAPCalculations() {
                 data-aos="fade-up"
                 className="text-lg md:text-xl lg:text-2xl text-secondary font-bold mb-2"
               >
-                Standard Assessment Procedure (SAP):
+                Standard Assessment Procedure (SAP)
               </h3>
               <p
                 data-aos="fade-up"
@@ -214,7 +218,7 @@ export default function SAPCalculations() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            18. What are u-values and why are they significant?
+            What are u-values and why are they significant?
           </h2>
           <p
             data-aos="fade-up"
@@ -241,9 +245,11 @@ export default function SAPCalculations() {
           >
             U-values are significant for several reasons:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Energy Efficiency
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Energy Efficiency:</strong>
               Buildings with lower U-values typically require less energy for
               heating and cooling because they have better insulation. By
               reducing heat transfer through walls, roofs, windows, and doors,
@@ -251,39 +257,42 @@ export default function SAPCalculations() {
               reliance on heating and cooling systems, leading to lower energy
               consumption and utility costs.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Comfort</h2>
+
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Comfort:</strong> Improved
-              insulation provided by lower U-values helps maintain more
+              Improved insulation provided by lower U-values helps maintain more
               consistent indoor temperatures, reducing cold spots in winter and
               heat gain in summer. This enhances occupant comfort and well-being
               by creating a more thermally comfortable indoor environment.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Building Regulations and Standards
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Building Regulations and Standards:
-              </strong>
               Many building codes and standards specify maximum allowable
               U-values for different building components, such as walls, roofs,
               windows, and doors. Compliance with these regulations ensures that
               buildings meet minimum energy efficiency requirements and
               contribute to overall energy conservation goals.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Environmental Impact
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Environmental Impact:</strong>
               Buildings with lower U-values have reduced energy consumption,
               resulting in lower carbon emissions and environmental impact.
               Improving the energy efficiency of buildings through better
               insulation helps mitigate climate change by reducing greenhouse
               gas emissions associated with energy use.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Cost Savings</h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Cost Savings:</strong> While
-              materials with lower U-values may have higher upfront costs, the
-              long-term energy savings they provide can result in significant
-              cost savings over the life cycle of a building. Investing in
-              energy-efficient insulation and building components can yield a
-              positive return on investment through reduced energy bills and
-              operating expenses.
+              While materials with lower U-values may have higher upfront costs,
+              the long-term energy savings they provide can result in
+              significant cost savings over the life cycle of a building.
+              Investing in energy-efficient insulation and building components
+              can yield a positive return on investment through reduced energy
+              bills and operating expenses.
             </li>
           </ul>
           <p

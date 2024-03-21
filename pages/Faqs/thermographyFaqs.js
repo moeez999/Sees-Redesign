@@ -17,7 +17,7 @@ export default function ThermographyFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            44.What is a thermographic survey and how is it carried out?
+            What is a thermographic survey and how is it carried out?
           </h2>
           <p
             data-aos="fade-up"
@@ -40,17 +40,21 @@ export default function ThermographyFaqs() {
             Here's an overview of how a thermographic survey is conducted and
             its applications:
           </p>
-          <ul className="list-decimal ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Survey Preparation:</strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Survey Preparation
+              </h2>
               Before conducting the survey, the building and its components are
               prepared to ensure accurate and reliable thermal imaging results.
               This may involve adjusting indoor temperature conditions,
               controlling solar radiation, and removing obstructions or debris
               that may interfere with the imaging process.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Equipment Setup
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Equipment Setup:</strong>
               A thermal imaging camera, also known as an infrared camera or
               thermographic camera, is used to capture thermal images of the
               building components and surfaces. The camera is calibrated to
@@ -59,7 +63,9 @@ export default function ThermographyFaqs() {
               range, and image resolution suitable for building inspections.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Data Collection:</strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Data Collection
+              </h2>
               During the survey, trained technicians or thermographers
               systematically scan the building interior and exterior surfaces
               using the thermal imaging camera. The camera detects infrared
@@ -69,7 +75,9 @@ export default function ThermographyFaqs() {
               cover all areas of interest.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Image Analysis:</strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Image Analysis
+              </h2>
               The captured thermal images are analysed and interpreted by
               qualified thermographers to identify thermal anomalies,
               temperature variations, and potential defects within building
@@ -79,7 +87,9 @@ export default function ThermographyFaqs() {
               infiltration.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Anomaly Detection:</strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Anomaly Detection
+              </h2>
               Thermal anomalies, such as thermal bridges, air leaks, moisture
               intrusion, electrical hotspots, insulation deficiencies, and HVAC
               malfunctions, are identified based on temperature differences
@@ -88,9 +98,9 @@ export default function ThermographyFaqs() {
               building performance.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Reporting and Recommendations:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Reporting and Recommendations
+              </h2>
               A comprehensive thermographic survey report is generated,
               documenting the findings, analysis, and recommendations for
               corrective actions or improvements. The report may include
@@ -99,12 +109,14 @@ export default function ThermographyFaqs() {
               mitigation strategies or repairs.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Follow-Up Actions:</strong>
-              Based on the survey findings and recommendations, building
-              owners, managers, or maintenance personnel can implement
-              corrective actions, repairs, or maintenance activities to address
-              identified anomalies and improve the thermal performance, energy
-              efficiency, and comfort of the building.
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Follow-Up Actions
+              </h2>
+              Based on the survey findings and recommendations, building owners,
+              managers, or maintenance personnel can implement corrective
+              actions, repairs, or maintenance activities to address identified
+              anomalies and improve the thermal performance, energy efficiency,
+              and comfort of the building.
             </li>
           </ul>
           <p
@@ -124,7 +136,7 @@ export default function ThermographyFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            45.Why do I need a thermographic survey?
+            Why do I need a thermographic survey?
           </h2>
           <p
             data-aos="fade-up"
@@ -134,11 +146,11 @@ export default function ThermographyFaqs() {
             managers, and occupants. Here are some reasons why you might need a
             thermographic survey:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Identifying Energy Loss:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Identifying Energy Loss
+              </h2>
               A thermographic survey can pinpoint areas of energy loss within a
               building, such as poorly insulated walls, windows, doors, and
               roofs. By detecting thermal anomalies and temperature differences,
@@ -147,9 +159,9 @@ export default function ThermographyFaqs() {
               improve energy efficiency and reduce heating and cooling costs.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Detecting Thermal Defects:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Detecting Thermal Defects
+              </h2>
               Thermographic surveys can uncover hidden defects or deficiencies
               within building components and systems, such as thermal bridges,
               air leaks, moisture intrusion, electrical hotspots, and HVAC
@@ -158,9 +170,9 @@ export default function ThermographyFaqs() {
               safety, and prolong the lifespan of building assets.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Preventive Maintenance:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Preventive Maintenance
+              </h2>
               By conducting regular thermographic surveys as part of a
               preventive maintenance program, building owners can proactively
               identify and address potential issues before they escalate into
@@ -169,9 +181,9 @@ export default function ThermographyFaqs() {
               reduce downtime, and minimize operational disruptions.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Enhancing Comfort and Indoor Air Quality:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Enhancing Comfort and Indoor Air Quality
+              </h2>
               Thermographic surveys can identify thermal comfort issues within
               buildings, such as uneven heating or cooling, drafts, and
               temperature stratification. Addressing these issues improves
@@ -180,9 +192,9 @@ export default function ThermographyFaqs() {
               problems and reducing the risk of mold growth or indoor pollutants
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Optimizing Building Performance:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Optimizing Building Performance
+              </h2>
               By providing insights into the thermal performance of building
               components and systems, thermographic surveys enable building
               owners to optimize overall building performance. By addressing
@@ -192,9 +204,9 @@ export default function ThermographyFaqs() {
               sustainability goals.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Compliance and Certification Requirements:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Compliance and Certification Requirements
+              </h2>
               Thermographic surveys may be required to meet regulatory
               requirements, industry standards, or certification criteria for
               energy efficiency, building performance, and environmental
@@ -204,9 +216,9 @@ export default function ThermographyFaqs() {
               certifications.
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Insurance and Risk Management:
-              </strong>
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Insurance and Risk Management
+              </h2>
               By identifying potential hazards, defects, or vulnerabilities
               through a thermographic survey, building owners can reduce risks
               associated with property damage, liability claims, and insurance
@@ -231,7 +243,7 @@ export default function ThermographyFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            46.What are the uses of a thermographic survey?
+            What are the uses of a thermographic survey?
           </h2>
           <p
             data-aos="fade-up"
@@ -242,12 +254,16 @@ export default function ThermographyFaqs() {
             industries and applications. Here are some common uses of a
             thermographic survey:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Building Inspections:</strong>
-              <ul className="list-disc ml-6 mb-4">
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Building Inspections
+              </h2>
+              <ul className=" ml-6 mb-4">
                 <li>
-                  <strong className="text-secondary">Energy Audits:</strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Energy Audits
+                  </h2>
                   Thermographic surveys are used to assess the thermal
                   performance and energy efficiency of buildings by identifying
                   areas of heat loss, air leakage, and insulation deficiencies.
@@ -255,9 +271,9 @@ export default function ThermographyFaqs() {
                   optimize building envelope performance
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    Moisture Detection:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Moisture Detection
+                  </h2>
                   Thermal imaging can detect moisture intrusion and water damage
                   within building components, such as roofs, walls, and
                   ceilings. Identifying moisture problems early helps prevent
@@ -265,9 +281,9 @@ export default function ThermographyFaqs() {
                   issues
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    Electrical Inspections:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Electrical Inspections
+                  </h2>
                   Thermal imaging is utilized to identify electrical hotspots,
                   loose connections, overloaded circuits, and other potential
                   faults in electrical systems. Early detection of electrical
@@ -275,9 +291,9 @@ export default function ThermographyFaqs() {
                   electrical hazard
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    HVAC System Performance:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    HVAC System Performance
+                  </h2>
                   Thermographic surveys are used to assess the performance of
                   heating, ventilation, and air conditioning (HVAC) systems by
                   detecting temperature variations, airflow restrictions, and
@@ -286,9 +302,9 @@ export default function ThermographyFaqs() {
                   comfort.
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    Building Envelope Integrity:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Building Envelope Integrity
+                  </h2>
                   Thermal imaging is employed to evaluate the integrity of
                   building envelopes, including walls, windows, doors, and
                   roofs. By detecting thermal anomalies and air leakage
@@ -299,14 +315,14 @@ export default function ThermographyFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Industrial Applications:
-              </strong>
-              <ul className="list-disc ml-6 mb-4">
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Industrial Applications
+              </h2>
+              <ul className=" ml-6 mb-4">
                 <li>
-                  <strong className="text-secondary">
-                    Equipment Maintenance:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Equipment Maintenance
+                  </h2>
                   Thermographic surveys are used for predictive maintenance of
                   industrial equipment and machinery to detect overheating
                   components, bearing failures, lubrication issues, and other
@@ -315,9 +331,9 @@ export default function ThermographyFaqs() {
                   losses.
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    Process Monitoring:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Process Monitoring
+                  </h2>
                   Thermal imaging is employed to monitor temperature variations
                   and thermal profiles in industrial processes, such as
                   manufacturing, refining, and material processing. This
@@ -325,9 +341,9 @@ export default function ThermographyFaqs() {
                   quality, and maintain operational reliability.
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    Pipeline Inspection:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Pipeline Inspection
+                  </h2>
                   Thermal imaging is used for inspecting pipelines and storage
                   tanks in the oil and gas industry to detect leaks, corrosion,
                   and insulation degradation. Early detection of pipeline
@@ -337,12 +353,14 @@ export default function ThermographyFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Environmental Monitoring:
-              </strong>
-              <ul className="list-disc ml-6 mb-4">
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Environmental Monitoring
+              </h2>
+              <ul className=" ml-6 mb-4">
                 <li>
-                  <strong className="text-secondary">Wildlife Surveys:</strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Wildlife Surveys
+                  </h2>
                   Thermal imaging is utilized for wildlife surveys and
                   ecological studies to detect and monitor animal populations,
                   behavior patterns, and habitat use. Thermal cameras can detect
@@ -350,9 +368,9 @@ export default function ThermographyFaqs() {
                   or obscured conditions
                 </li>
                 <li>
-                  <strong className="text-secondary">
-                    Environmental Research:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Environmental Research
+                  </h2>
                   Thermal imaging is employed for environmental research and
                   monitoring applications, such as studying heat exchange
                   processes, mapping thermal gradients, and assessing ecosystem
@@ -363,14 +381,14 @@ export default function ThermographyFaqs() {
               </ul>
             </li>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Security and Surveillance:
-              </strong>
-              <ul className="list-disc ml-6 mb-4">
+              <h2 class="text-2xl text-secondary font-bold mb-2">
+                Security and Surveillance
+              </h2>
+              <ul className=" ml-6 mb-4">
                 <li>
-                  <strong className="text-secondary">
-                    Perimeter Security:
-                  </strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Perimeter Security
+                  </h2>
                   Thermal imaging is used for perimeter security and
                   surveillance applications to detect intruders, trespassers,
                   and wildlife activity in low-light or nighttime conditions.
@@ -379,7 +397,9 @@ export default function ThermographyFaqs() {
                   capabilities.
                 </li>
                 <li>
-                  <strong className="text-secondary">Search and Rescue:</strong>
+                  <h2 class="text-2xl text-secondary font-bold mb-2">
+                    Search and Rescue
+                  </h2>
                   Thermal imaging is utilized for search and rescue operations
                   to locate missing persons, stranded hikers, and survivors in
                   remote or hazardous environments. Thermal cameras can detect

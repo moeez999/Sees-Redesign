@@ -18,7 +18,7 @@ export default function ThermalModellingFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            9. At what stage do I need an overheating assessment?
+            At what stage do I need an overheating assessment?
           </h2>
           <p
             data-aos="fade-up"
@@ -38,7 +38,7 @@ export default function ThermalModellingFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            10. What criteria does an overheating assessment follow?
+            What criteria does an overheating assessment follow?
           </h2>
           <p
             data-aos="fade-up"
@@ -54,7 +54,7 @@ export default function ThermalModellingFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            11. What are the key factors in a building overheating?
+            What are the key factors in a building overheating?
           </h2>
           <p
             data-aos="fade-up"
@@ -88,7 +88,7 @@ export default function ThermalModellingFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            12. How do we stop overheating?
+            How do we stop overheating?
           </h2>
           <p
             data-aos="fade-up"

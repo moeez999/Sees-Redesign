@@ -29,50 +29,54 @@ export default function SbemFaqs() {
         <p data-aos="fade-up" className="mb-4 text-base md:text-lg lg:text-xl ">
           Here's an overview of how SBEM calculations work:
         </p>
-        <ul className="list-disc ml-6 mb-4">
+        <ul className=" ml-6 mb-4">
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Energy Performance Assessment
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">
-              Energy Performance Assessment:
-            </strong>
             SBEM calculations evaluate the energy performance of a non-domestic
             building based on various factors such as the building's fabric,
             heating systems, cooling systems, ventilation, lighting, and
             renewable energy sources.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2"> Data Input</h2>
+
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary"> Data Input:</strong> The
-            calculations require detailed input data about the building's
+            The calculations require detailed input data about the building's
             characteristics, including its size, orientation, construction
             materials, insulation levels, glazing types, heating and cooling
             systems, lighting efficiency, and renewable energy technologies.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">SBEM Software</h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">SBEM Software:</strong> SBEM
-            calculations are typically performed using approved software tools
-            that implement the SBEM methodology. These software tools facilitate
-            the input of building data and perform the necessary calculations to
-            determine the building's energy performance.
+            SBEM calculations are typically performed using approved software
+            tools that implement the SBEM methodology. These software tools
+            facilitate the input of building data and perform the necessary
+            calculations to determine the building's energy performance.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Energy Performance Rating
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">
-              Energy Performance Rating:
-            </strong>
             The output of SBEM calculations is an energy performance rating
             expressed as a numerical value in kilowatt-hours per square meter
             per year (kWh/m²/year). This rating represents the predicted energy
             consumption of the building for heating, cooling, ventilation,
             lighting, and hot water production.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">Compliance</h2>
+
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">Compliance:</strong> In the UK,
-            non-domestic buildings must achieve a minimum level of energy
-            performance to comply with building regulations. The required energy
-            performance rating varies depending on factors such as the
+            In the UK, non-domestic buildings must achieve a minimum level of
+            energy performance to comply with building regulations. The required
+            energy performance rating varies depending on factors such as the
             building's type, size, and use, as well as changes to building
             regulations over time.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Improvement Measures
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary"> Improvement Measures:</strong>
             SBEM calculations can also be used to assess the impact of various
             energy efficiency measures or building design changes on the
             building's overall energy performance. This helps designers and
@@ -85,33 +89,37 @@ export default function SbemFaqs() {
           data-aos="fade-right"
           className="text-2xl text-secondary font-bold mb-2"
         >
-          20. How do I show compliance with Part L regulations?
+          How do I show compliance with Part L regulations?
         </h2>
         <p data-aos="fade-up" className="mb-4 text-base md:text-lg lg:text-xl ">
           To demonstrate compliance with Part L of the Building Regulations in
           the United Kingdom using SBEM (Simplified Building Energy Model)
           calculations, you typically follow these steps:
         </p>
-        <ol className="list-decimal ml-6 mb-4">
+        <ol className=" ml-6 mb-4">
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Gather Building Data
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">Gather Building Data:</strong>
             Collect detailed information about the building's design,
             construction, and services. This includes data on the building's
             size, orientation, construction materials, insulation levels,
             glazing types, heating and cooling systems, ventilation, lighting,
             and any renewable energy technologies.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Input Data into SBEM Software
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">
-              Input Data into SBEM Software:
-            </strong>
             Use approved SBEM software to input the building data gathered in
             the previous step. The software will prompt you to enter information
             about the building's geometry, construction, and services, as well
             as occupancy patterns and operational schedules.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Run SBEM Calculation
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">Run SBEM Calculation:</strong>
             Once all the required data is inputted, run the SBEM calculation
             within the software. The SBEM calculation will analyse the
             building's energy performance based on the information provided and
@@ -119,8 +127,10 @@ export default function SbemFaqs() {
             consumption of the building for heating, cooling, ventilation,
             lighting, and hot water production.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Compliance Targets
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">Compliance Targets:</strong>
             Compare Results with Compare the results of the SBEM calculation
             with the compliance targets specified in Part L of the Building
             Regulations. Part L sets out minimum energy performance standards
@@ -128,10 +138,10 @@ export default function SbemFaqs() {
             vary depending on factors such as the building's type, size, and
             use.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Implement Energy Efficiency Measures
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">
-              Implement Energy Efficiency Measures:
-            </strong>
             If the SBEM calculation indicates that the building does not meet
             the compliance targets, identify areas where energy efficiency
             improvements can be made. This may involve upgrading insulation,
@@ -139,15 +149,19 @@ export default function SbemFaqs() {
             installing energy-efficient lighting, or incorporating renewable
             energy technologies.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Iterative Process
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">Iterative Process:</strong>
             Make adjustments to the building's design or services as needed and
             rerun the SBEM calculation to assess the impact of energy efficiency
             measures on the building's energy performance. Iterate this process
             until the building meets the compliance targets specified in Part L.
           </li>
+          <h2 class="text-2xl text-secondary font-bold mb-2">
+            Document Compliance
+          </h2>
           <li className="text-base md:text-lg lg:text-xl">
-            <strong className="text-secondary">Document Compliance:</strong>
             Keep records of the SBEM calculations, design decisions, and energy
             efficiency measures implemented to demonstrate compliance with Part
             L of the Building Regulations. These records may be required for

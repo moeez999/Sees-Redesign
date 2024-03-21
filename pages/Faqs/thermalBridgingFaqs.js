@@ -18,8 +18,7 @@ export default function ThermalBridgingFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            13. What is Thermal Bridging? It’s consequences and mitigation
-            measure?
+            What is Thermal Bridging? It’s consequences and mitigation measure?
           </h2>
           <p
             data-aos="fade-up"
@@ -42,24 +41,26 @@ export default function ThermalBridgingFaqs() {
             interior and exterior environments more easily. This can occur at
             various points within a building's envelope, including:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Structural Elements
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Structural Elements:</strong>
               Structural components such as beams, columns, and studs can act as
               thermal bridges if they conduct heat more effectively than the
               surrounding insulation materials.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Junctions and Connections
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Junctions and Connections:
-              </strong>
               Where different building elements meet, such as wall-to-floor
               connections, wall-to-roof connections, and window or door frames,
               thermal bridging can occur if proper insulation detailing is not
               implemented.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Penetrations</h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Penetrations:</strong>
               Openings or penetrations in the building envelope, such as service
               penetrations, ducts, pipes, and electrical conduits, can create
               pathways for heat transfer if not adequately insulated or sealed.
@@ -72,25 +73,29 @@ export default function ThermalBridgingFaqs() {
             Thermal bridging can have several negative consequences for a
             building, including:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Decreased Energy Efficiency
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Decreased Energy Efficiency:
-              </strong>
               Heat loss or gain through thermal bridging increases the demand
               for heating and cooling, leading to higher energy consumption and
               increased utility costs.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Condensation Risk
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Condensation Risk:</strong>
               Thermal bridging can lead to localized cold spots within a
               building envelope, increasing the risk of condensation and
               moisture problems, which can degrade building materials and
               compromise indoor air quality.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Comfort Issues
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Comfort Issues:</strong> Areas
-              affected by thermal bridging may experience temperature
+              Areas affected by thermal bridging may experience temperature
               variations, cold drafts, or discomfort for occupants, impacting
               overall comfort and well-being.
             </li>
@@ -102,28 +107,32 @@ export default function ThermalBridgingFaqs() {
             To mitigate thermal bridging, architects, engineers, and builders
             employ various strategies such as:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Thermal Breaks
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Thermal Breaks:</strong>
               Introducing insulating materials or thermal breaks within
               structural elements to interrupt the flow of heat.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Improved Insulation
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Improved Insulation:</strong>
               Enhancing insulation levels and continuity to minimize heat
               transfer through the building envelope.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              High-performance Windows and Doors
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                High-performance Windows and Doors:
-              </strong>
               Installing windows and doors with low thermal conductivity frames
               and multiple glazing layers to reduce heat loss or gain.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Careful Design and Detailing
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Careful Design and Detailing:
-              </strong>
               Paying attention to junctions, connections, and penetrations to
               ensure proper insulation detailing and minimize thermal bridging
               effects.
@@ -142,7 +151,7 @@ export default function ThermalBridgingFaqs() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            14. How are thermal bridges calculated?
+            How are thermal bridges calculated?
           </h2>
           <p
             data-aos="fade-up"
@@ -155,58 +164,66 @@ export default function ThermalBridgingFaqs() {
             overall thermal performance of the building envelope. Here's a
             general overview of how thermal bridges are calculated:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Identify Thermal Bridges
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Identify Thermal Bridges:
-              </strong>
               First, identify the locations within the building envelope where
               thermal bridges occur. This includes structural elements,
               junctions, connections, and penetrations where heat transfer may
               be higher than surrounding areas.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Gather Data</h2>{" "}
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Gather Data: </strong> Collect
-              relevant data such as building geometry, material properties,
-              insulation levels, climate data, and internal and external
-              temperatures.
+              Collect relevant data such as building geometry, material
+              properties, insulation levels, climate data, and internal and
+              external temperatures.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Thermal Modeling
+            </h2>{" "}
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Thermal Modeling:</strong> Use
-              thermal modeling software or hand calculations to simulate the
+              Use thermal modeling software or hand calculations to simulate the
               heat flow through the thermal bridge. This involves applying
               principles of heat transfer, such as conduction, convection, and
               radiation, to calculate the thermal resistance (R-value) of the
               thermal bridge.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Calculate Heat Flow
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Calculate Heat Flow:</strong>
               Determine the rate of heat flow (heat transfer per unit area)
               through the thermal bridge. This is typically expressed in units
               such as watts per meter squared (W/m²) or British thermal units
               per hour per square foot (BTU/h·ft²).
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Evaluate Impact
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Evaluate Impact:</strong>
               Assess the impact of the thermal bridge on the overall thermal
               performance of the building envelope. Consider factors such as
               energy consumption, heating and cooling loads, temperature
               differentials, and potential condensation risk.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Mitigation Strategies
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Mitigation Strategies:</strong>
               Based on the calculated thermal bridge effects, identify and
               implement mitigation strategies to reduce heat transfer and
               improve thermal performance. This may involve modifying building
               designs, incorporating thermal breaks, enhancing insulation
               levels, or optimizing construction details.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Validation</h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Validation:</strong> Validate
-              the thermal bridge calculations through empirical testing, field
-              measurements, or comparison with established standards and
-              guidelines. Ensure that the calculated results align with observed
-              performance in real-world conditions.
+              Validate the thermal bridge calculations through empirical
+              testing, field measurements, or comparison with established
+              standards and guidelines. Ensure that the calculated results align
+              with observed performance in real-world conditions.
             </li>
           </ul>
           <p

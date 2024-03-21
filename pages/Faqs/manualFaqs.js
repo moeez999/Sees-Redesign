@@ -17,7 +17,7 @@ export default function OMannual() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            49.What does a Building User Guide consist of?
+            What does a Building User Guide consist of?
           </h2>
           <p
             data-aos="fade-up"
@@ -33,37 +33,39 @@ export default function OMannual() {
             included in a Building User Guide:
           </p>
 
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Introduction and Overview
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Introduction and Overview:
-              </strong>
               A brief introduction to the building, including its purpose,
               location, and key features. This section may also provide an
               overview of the contents of the user guide and instructions on how
               to use it effectively.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Contact Information
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Contact Information:</strong>
               Contact details for the building owner, property manager,
               facilities management team, and other relevant personnel
               responsible for building maintenance, repairs, and emergency
               response. This allows occupants to report issues, request
               assistance, and access support when needed.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Building Layout and Navigation
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Building Layout and Navigation:
-              </strong>
               Floor plans, site maps, and wayfinding information to help
               occupants navigate the building efficiently and locate key
               amenities, facilities, entrances, exits, emergency exits,
               stairwells, elevators, and common areas.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Building Systems and Equipment
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Building Systems and Equipment:
-              </strong>
               Descriptions of building systems, including HVAC (heating,
               ventilation, and air conditioning), electrical, plumbing, fire
               protection, security, lighting, and communication systems. This
@@ -71,70 +73,70 @@ export default function OMannual() {
               components, controls, maintenance requirements, and
               troubleshooting tips.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Operating Instructions
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Operating Instructions:
-              </strong>
               Step-by-step instructions for operating building systems and
               equipment, such as thermostats, light switches, door locks,
               elevators, fire alarms, and emergency exits. This includes
               guidance on adjusting settings, programming schedules, and
               responding to alarms or emergency situations.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Maintenance Guidelines
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Maintenance Guidelines:
-              </strong>
               Guidance on routine maintenance tasks and procedures that
               occupants are responsible for, such as cleaning, replacing
               filters, lubricating moving parts, and reporting maintenance
               issues. This section may include checklists, schedules, and
               contact information for maintenance services or contractors.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Safety and Emergency Procedures
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Safety and Emergency Procedures:
-              </strong>
               Information on building safety features, emergency procedures,
               evacuation routes, assembly points, and emergency contact numbers.
               This includes instructions on what to do in the event of a fire,
               medical emergency, power outage, or other emergencies
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Accessibility Features
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Accessibility Features:
-              </strong>
               Details of accessibility features and facilities available in the
               building, such as ramps, elevators, accessible restrooms, signage,
               and communication systems for people with disabilities.
-            </li>
-
+            </li>{" "}
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Environmental and Sustainability Information
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Environmental and Sustainability Information:
-              </strong>
               Information on environmentally friendly practices, energy-saving
               tips, recycling programs, and sustainable features incorporated
               into the building design and operation.
             </li>
-
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Community Resources and Services
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Community Resources and Services:
-              </strong>
               Information on nearby amenities, services, public transportation
               options, local regulations, and community resources available to
               building occupants, such as shops, restaurants, schools, parks,
               and recreational facilities.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Additional Resources
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">-Additional Resources:</strong>
               Additional resources, references, and links to relevant documents,
               websites, user manuals, or training materials for further
               information and support.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">Appendices</h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Appendices:</strong>
               Supplementary materials, such as warranty information, building
               specifications, emergency response plans, and regulatory
               compliance certificates.
@@ -154,7 +156,7 @@ export default function OMannual() {
             data-aos="fade-right"
             className="text-2xl text-secondary font-bold mb-2"
           >
-            50.What is a Building User Guide’s significance in BREEAM?
+            What is a Building User Guide’s significance in BREEAM?
           </h2>
           <p
             data-aos="fade-up"
@@ -170,105 +172,107 @@ export default function OMannual() {
             engagement. Here's what a Building User Guide in BREEAM typically
             consists of:
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className=" ml-6 mb-4">
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Introduction to BREEAM and Sustainability
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Introduction to BREEAM and Sustainability:
-              </strong>
               An overview of BREEAM and its objectives, including the importance
               of sustainable building practices, environmental performance, and
               occupant engagement. This section may explain how the building
               achieved its BREEAM certification and the benefits of sustainable
               building design and operation.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Building Description and Features
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Building Description and Features:
-              </strong>
               Information about the building's design, construction, layout, and
               key sustainability features. This may include details about
               energy-efficient systems, water-saving measures, materials used,
               green spaces, renewable energy sources, and other sustainable
               design elements.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Operational Guidance
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">Operational Guidance:</strong>
               Instructions for occupants on how to operate building systems and
               equipment efficiently to minimize energy consumption, water usage,
               and waste generation. This may include guidance on adjusting
               heating and cooling settings, using natural ventilation, managing
               lighting controls, and using energy-efficient appliances.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Maintenance Instructions
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Maintenance Instructions:
-              </strong>
               Guidance on routine maintenance tasks and procedures that
               occupants are responsible for to ensure the efficient operation
               and longevity of building systems and components. This may include
               information on cleaning schedules, filter replacements,
               lubrication, and reporting maintenance issues.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Waste Management and Recycling
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Waste Management and Recycling:
-              </strong>
               nformation on waste management practices, recycling programs, and
               procedures for segregating and disposing of waste materials
               responsibly. This may include guidance on sorting recyclables,
               composting organic waste, and reducing waste generation through
               reuse and recycling.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Water Conservation Tips
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Water Conservation Tips:
-              </strong>
               Tips and recommendations for conserving water usage within the
               building, such as using water-efficient fixtures, reporting leaks
               promptly, and minimizing water wastage in kitchens, bathrooms, and
               landscaping.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Indoor Environmental Quality (IEQ) Tips
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                -Indoor Environmental Quality (IEQ) Tips:
-              </strong>
               Guidance on maintaining indoor environmental quality and occupant
               comfort, including strategies for optimizing indoor air quality,
               managing natural light and daylighting, and promoting health and
               well-being through ergonomic design and green cleaning practices.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Transportation and Travel Options
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Transportation and Travel Options:
-              </strong>
               Information on sustainable transportation options available to
               occupants, such as public transit, cycling facilities, carpooling
               programs, and electric vehicle charging stations. This may include
               maps, schedules, and resources for alternative transportation
               modes.
-            </li>
+            </li>{" "}
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Community Resources and Amenities
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Community Resources and Amenities:
-              </strong>
               Information on nearby amenities, services, community resources,
               and sustainable practices available to building occupants, such as
               local shops, farmers' markets, green spaces, recreational
               facilities, and community events.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Emergency Procedures and Safety Guidelines
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Emergency Procedures and Safety Guidelines:
-              </strong>
               Instructions for occupants on emergency procedures, evacuation
               routes, assembly points, and safety protocols in the event of
               fire, natural disasters, or other emergencies. This includes
               guidance on using fire extinguishers, alarms, and emergency exits.
             </li>
+            <h2 class="text-2xl text-secondary font-bold mb-2">
+              Additional Resources and References
+            </h2>
             <li className="text-base md:text-lg lg:text-xl">
-              <strong className="text-secondary">
-                Additional Resources and References:
-              </strong>
               Links to further information, resources, websites, and
               organizations related to sustainable living, environmental
               conservation, green building practices, and community engagement
