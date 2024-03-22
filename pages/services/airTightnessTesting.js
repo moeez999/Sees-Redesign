@@ -9,7 +9,7 @@ export default function airTightnessTesting() {
       <div className="SAP">
         <Navigation />
       </div>
-      <div className="my-24  h-screen">
+      <div className="my-24  h-auto">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl py-4 font-bold text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Airtightness Testing
@@ -18,7 +18,7 @@ export default function airTightnessTesting() {
             <img src="../White-Images/white_01-air testing.png" />
           </div>
         </div>
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-24 mt-28 p-4 xxm:gap-32">
           <Card
             color="#509e2f"
             title="Airtightness Testing"

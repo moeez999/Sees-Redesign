@@ -9,7 +9,7 @@ export default function breeam() {
       <div className="breeam ">
         <Navigation />
       </div>
-      <div className="mt-24  h-screen">
+      <div className="my-24  h-auto">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold text-center py-4 tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             BREEAM
@@ -19,19 +19,19 @@ export default function breeam() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full xxm:gap-60">
+        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full xxm:gap-32">
           <Card
             color="#509e2f"
             title="Non Domestic Assessment"
             image="../Images/BREEAM Non Domestic Assessment.png"
-            content="With over 10 years of experience and having worked across a range of schemes, we can help you achieve your target BREEAM rating  for your project, all the while recognising opportunities to reduce cost and eliminate risk."
+            content="With over 10 years of experience and having worked across a range of schemes, we can help you achieve your target."
             nav="/services/breeam/nonDomesticAssessment"
           />
           <Card
             color="#509e2f"
             title="Domestic Refurbishment Assessment"
             image="../Images/Domestic Air Testing.png"
-            content="With over 10 years of experience and having worked across a range of schemes, we can help you achieve your target BREEAM rating  for your project, all the while recognising opportunities to reduce cost and eliminate risk. "
+            content="With over 10 years of experience and having worked across a range of schemes."
             nav="/services/breeam/domesticRefurbishmentAssessment"
           />
         </div>

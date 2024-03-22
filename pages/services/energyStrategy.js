@@ -9,7 +9,7 @@ export default function energyStrategy() {
       <div className="SAP">
         <Navigation />
       </div>
-      <div className="my-24  h-screen">
+      <div className="my-24  h-auto">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold py-4 text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Energy Strategy
@@ -19,12 +19,12 @@ export default function energyStrategy() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-24 mt-28 p-4 xxm:gap-32">
           <Card
             color="#509e2f"
             title="Renewable Energy/Low Carbon Report"
             image="../Images/Fotolia_33265_M.jpg"
-            content="An energy strategy lays out a plan outlining how carbon and energy reduction targets set by your Local Planning Authority will be achieved."
+            content="An energy strategy lays out a plan outlining how carbon and."
             nav="/services/energyStrategy/renewableEnergy"
           />
         </div>

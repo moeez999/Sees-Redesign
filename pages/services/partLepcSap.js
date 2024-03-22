@@ -10,7 +10,7 @@ export default function partLEPC_SAP() {
       <div className="SAP ">
         <Navigation />
       </div>
-      <div className="mt-24 mb-40  h-screen">
+      <div className="mt-24  h-auto">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl py-4 font-bold text-center tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Part L SAP/HEM Calculations (Domestic)
@@ -19,7 +19,7 @@ export default function partLEPC_SAP() {
             <img src="../White-Images/white_11 (SAP) -environmental performance certificates for houses.png" />
           </div>
         </div>
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-24 mt-28 p-4 xxm:gap-32">
           <Card
             color="#509e2f"
             title="SAP for New Build"
@@ -31,14 +31,14 @@ export default function partLEPC_SAP() {
             color="#509e2f"
             title="SAP for Extensions"
             image="../Images/extension.png"
-            content="If you are planning to carry out an extension on your existing property, you will need to carry out SAP calculations to get planning permission."
+            content="If you are planning to carry out an extension on your existing property."
             nav="/services/SAP/sapForExtensions"
           />
           <Card
             color="#509e2f"
             title="SAP for Conversions"
             image="../Images/Conversion SAPs.png"
-            content="Part L1B states that changing the use of a building or converting it would require SAP calculations to be carried out to ensure it meets the efficiency standards and carbon targets."
+            content="Part L1B states that changing the use of a building or converting."
             nav="/services/SAP/sapForConversions"
           />
         </div>

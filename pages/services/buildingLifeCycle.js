@@ -9,7 +9,7 @@ export default function buildingLifeCycle() {
       <div className="breeam ">
         <Navigation />
       </div>
-      <div className="my-24  h-screen">
+      <div className="my-24  h-auto">
         <div className="flex flex-row justify-center items-center relative bg-secondary">
           <h2 className="text-4xl font-bold text-center py-4 tracking-tight text-white sm:text-6xl  animate__animated animate__backInLeft animate__slow">
             Building Life Cycle
@@ -19,18 +19,18 @@ export default function buildingLifeCycle() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full xxm:gap-60">
+        <div className="flex flex-row justify-center flex-wrap gap-8 mt-28 p-4 w-full xxm:gap-32">
           <Card
             color="#509e2f"
             title="Life Cycle Assessment (LCA)"
             image="../Images/Fotolia_394708_M.jpg"
-            content="A life cycle assessment evaluates the environmental impact of a product/process over the course of its life cycle. Most assessment techniques are primarily concerned with operational carbon, but LCA takes a different approach and analyses the embodied carbon, from raw material supply and manufacturing stage to end of life disposal stage."
+            content="A life cycle assessment evaluates the environmental impact of a product/process ."
             nav="/services/BuildingLifeCycle/lifeCycleAssessment"
           />
           <Card
             color="#509e2f"
             title="Whole Life Carbon Assessment"
-            content="A WLC assessment is concerned with emissions from all life-cycle phases (A1-C4), encompassing both embodied and operational carbon together, unlike building LCA which only focuses on embodied carbon."
+            content="A WLC assessment is concerned with emissions from all life-cycle phases (A1-C4)"
             image="../Images/Fotolia_33265_M.jpg"
             nav="/services/BuildingLifeCycle/wholeLifeCarbonAssessment"
           />

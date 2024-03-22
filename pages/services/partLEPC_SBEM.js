@@ -20,19 +20,19 @@ export default function partLEPC_SBEM() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-8 mt-28 p-4 xxm:gap-60">
+        <div className="flex flex-row justify-center flex-wrap gap-28 md:gap-24 mt-28 p-4 xxm:gap-32">
           <Card
             color="#509e2f"
             title="SBEM For Commercial New Builds"
             image="../Images/SAP/NewBuild.png"
-            content="New build commercial properties have to adhere to building regulations Part L2A, which focuses on the properties carbon emission rates, primary energy consumption, heating + cooling demand, and fabric efficiency."
+            content="New build commercial properties have to adhere to building."
             nav="/services/SapNonDomestic/sbemForCommercialNewBuilds"
           />
           <Card
             color="#509e2f"
             title="SBEM for Commercial Existing Buildings"
             image="../Images/extension.png"
-            content="EPC/SBEM for existing commercial buildings are governed by Part L2B regulations which are much less stringent than Part L2A regulations used for New Builds."
+            content="EPC/SBEM for existing commercial buildings are governed by Part L2B."
             nav="/services/SapNonDomestic/sbemCommercialExistingBuildings"
           />
         </div>
